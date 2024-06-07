@@ -1,0 +1,95 @@
+@import '../../index.scss';
+
+footer {
+    height: 500px;
+    background-color: rgba(210, 180, 140, 0.349);
+    width: 100%;
+    position: relative;
+}
+@media screen and (min-width: 620px) {
+    footer {
+        height: 400px;
+    }
+}
+.footer-stickers {
+    position: absolute;
+    left: 50%;
+    top: -20%;
+    transform: translate(-50%);
+}
+@media screen and (min-width: 620px) {
+    .footer-stickers {
+        top: -25%;
+    }
+}
+.footer-stickers .sleepingMushy {
+    width: 200px;
+}
+.socials {
+    padding-top: 15px;
+    text-align: center;
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 30px;
+}
+@media screen and (min-width: 620px) {
+    .socials {
+        bottom: 20%;
+        left: 50%;
+    }
+}
+.socials ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.socials li {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    border: 2px solid #bc8f8f;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.socials li:hover {
+    background-color: #bc8f8f;
+    color: #fff;
+}
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer-nav a {
+    margin: 5px;
+    font-size: 14px;
+}
+.footer-nav a:not(:last-child)::after {
+    content: "|";
+    cursor: text;
+    margin-left: 5px;
+}
+.credits {
+    background-color: #967373;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.credits h1 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 10px 0;
+    width: 60%;
+}

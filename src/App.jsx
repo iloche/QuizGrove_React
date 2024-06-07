@@ -1,15 +1,16 @@
-import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { onAuthStateChanged } from "firebase/auth";
-import { ProtectedRoute } from "./components/protectedRoute/protectedRoute";
 import { auth } from "./firebase";
-import Login from './pages/login';
-import { Profil } from './pages/profil';
 import { useEffect, useState } from "react";
 import './App.css'; 
 
 import Header from './containers/Header/Header';
 import Footer from './containers/Footer/Footer';
+import Login from './pages/login/login';
+import Profil from './pages/profil/profil';
+import { ProtectedRoute } from "./components/protectedRoute/protectedRoute";
+import Game from './pages/game/game';
+import Support from "./pages/support/support";
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -43,15 +44,22 @@ const App = () => {
         <Header />
         <Routes>
           <Route index path="/" element={<Login user={user} />} />
+          <Route path="/game" element={
+            <ProtectedRoute user={user}>
+              <Game />
+            </ProtectedRoute>
+          } />
           <Route path="/profil" element={
             <ProtectedRoute user={user}>
               <Profil />
             </ProtectedRoute>
           } />
+          <Route path="/support" element={
+            <ProtectedRoute user={user}>
+              <Support />
+            </ProtectedRoute>
+          } />
         </Routes>
-        <section>
-          <h1>fklsdjflksdjflsdf</h1>
-        </section>
         <Footer />
       </BrowserRouter>
     </div>

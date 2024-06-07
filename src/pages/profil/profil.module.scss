@@ -1,0 +1,62 @@
+@import '../../index.scss';
+
+.profile-container {
+    width: 90%;
+    margin: 20px auto;
+    // background-color: rgb(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    // box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@media screen and (min-width: 1024px) {
+    .profile-container {
+        width: 90%;
+    }
+}
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile-header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #bc8f8f;
+    background-color: tan;
+}
+.profile-header h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+.profile-header p {
+    color: #666;
+}
+.profile-details,
+.profile-stats,
+.profile-friends,
+.profile-settings {
+    margin-bottom: 20px;
+}
+.profile-details h2,
+.profile-stats h2,
+.profile-friends h2,
+.profile-settings h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.profile-details p,
+.profile-stats p {
+    margin: 5px 0;
+}
+.profile-settings button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.profile-settings button:hover {
+    background-color: #0056b3;
+}
