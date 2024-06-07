@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/3379e155de.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.min.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <title>QuizGrove</title>
+</head>
+<style>
+    .main-jeu .categories-title {
+  display: block;
+}
+
+.main-jeu .categories-title h2 {
+  text-align: start;
+  width: 100%;
+}
+
+.main-jeu .level,
+.main-jeu .tag {
+  cursor: pointer;
+}
+
+.play {
+  text-align: center;
+}
+
+.play a {
+  display: inline-block;
+  background-color: rosybrown;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.play a:hover {
+  background-color:rgb(150, 115, 115);
+}
+
+</style>
+<body class="chakra-petch-light">
+    <header class="jeu">
+        <div class="topBar">
+            <div class="logo">
+                <a href="index.html"><img src="images/st_small.png" alt="mushy" class="mushy"></a>
+                <h1 class="title"><a href="index.html">QuizGrove</a></h1>
+                <small class="slogan">Fais éclore ton savoir</small>
+            </div>
+            <div class="right-topBar">
+                <div class="game"><a href="jeu.html">Le jeu</a></div>
+                <div class="login"><a href="login.html">Créer un compte</a></div>
+                <div class="account"><a href="profil.html">Mon compte</a></div>
+                <div class="support"><a href="aide.html">Aide</a></div>
+            </div>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+    <main class="main-jeu">
+        <!-- Animation de chargement -->
+        <div id="loading-screen">
+            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzd2b3YxbzdlbmNua25nb21wbmtjamZlYXR2dzN1MmloN3FhM3hnYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/0u3sGL8rZ6c5qACmkv/giphy.gif" alt="Chargement en cours..." class="spinner">
+            <p>Chargement en cours...</p>
+        </div>
+        <div class="top-content">
+            <div class="box">
+                <h1>Prêt à tester tes connaissances ?</h1>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="categories">
+                <div class="categories-title">
+                    <h2>Choisis la catégorie dans laquelle tu veux jouer</h2>
+                </div>
+                <div class="categories-box">
+                    <ul class="categories-content swiper-wrapper">
+                        <li class="tag">Animaux</li>
+                        <li class="tag">Cinéma</li>
+                        <li class="tag">Culture</li>
+                        <li class="tag">Géographie</li>
+                        <li class="tag">Histoire</li>
+                        <li class="tag">Internet</li>
+                        <li class="tag">Loisirs</li>
+                        <li class="tag">Musique</li>
+                        <li class="tag">Sports</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="difficulty">
+                <h2>Choisis le niveau de difficulté</h2>
+                <div class="difficulty-box">
+                    <div class="level">
+                        <h2>Débutant</h2>
+                    </div>
+                    <div class="level">
+                        <h2>Confirmé</h2>
+                    </div>
+                    <div class="level">
+                        <h2>Expert</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="play"><a href="QuizGrove.html">Jouer !</a></div>
+        </div>
+        <div class="cookie">
+            <p class="policy">En cliquant sur « Accepter tous les cookies », vous acceptez le stockage de cookies sur votre appareil pour améliorer la navigation sur le site, analyser son utilisation et contribuer à nos efforts de marketing.</p>
+            <button class="accept">Autoriser tous les cookies</button>
+            <button class="refuse">Tout refuser</button>
+        </div>
+        
+    </main>
+    <div class="newsletter">
+        <h2>Abonne-toi à notre newsletter pour recevoir les nouveautés</h2>
+        <div class="news-box">
+            <input type="email" class="email-box" placeholder="Saisis ton adresse e-mail ">
+            <button class="submit-box">Envoyer</button>
+        </div>
+    </div>
+    <div class="backTop">
+        <button id="backToTopBtn">⬆</button>
+    </div>
+    <footer>
+        <div class="footer-stickers">
+            <img src="images/st_small_507x507-pad_600x600_f8f8f8.u7-removebg-preview (3).png" alt="Mushy" class="sleepingMushy">
+        </div>
+        <div class="socials">
+            <h1>Restez connecté</h1>
+            <ul>
+             <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+             <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+             <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+             <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
+             <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <nav class="footer-nav">
+            <a href="#">Contactez-nous</a>
+            <a href="#">Qui sommes-nous ?</a> 
+            <a href="#">Politique de confidentialité</a> 
+            <a href="#">Mentions légales</a>
+        </nav>
+        <div class="credits">
+            <h1>© 2024 QuizGrove. Tous droits réservés. Mushy et tous stickers associés sont des marques, des marques de service ou des marques déposées de @Rihnlin.</h1>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -7,11 +7,16 @@ import style from '../Header/Header.module.scss';
 const Header = () => {
   const [darkMode, setDarkMode] = useState(false);
   const [headerClass, setHeaderClass] = useState(style.jeu); // État pour la classe du header
+  const [burgerActive, setBurgerActive] = useState(false); // État pour le menu burger
   const location = useLocation(); // Obtenez l'objet location
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
     // Ajoutez ici le code pour activer/désactiver le mode sombre dans votre application
+  };
+
+  const toggleBurgerMenu = () => {
+    setBurgerActive(!burgerActive);
   };
 
   useEffect(() => {
@@ -34,7 +39,7 @@ const Header = () => {
           <h1 className={style.title}><Link to="/">QuizGrove</Link></h1>
           <small className={style.slogan}>Fais éclore ton savoir</small>
         </div>
-        <div className={style['right-topBar']}>
+        <div className={clsx(style['right-topBar'], { [style.active]: burgerActive })}>
           <div className={clsx(style.game, { [style.active]: location.pathname === '/game' })}>
             <Link to="/game">Le jeu</Link>
           </div>
@@ -45,7 +50,7 @@ const Header = () => {
             <Link to="/support">Aide</Link>
           </div>
         </div>
-        <div className={style.burger}>
+        <div className={clsx(style.burger, { [style.active]: burgerActive })} onClick={toggleBurgerMenu}>
           <div></div>
           <div></div>
           <div></div>
