@@ -1,0 +1,40 @@
+@import '../../index.scss';
+
+.support-box{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    translate: -50% 0 0;
+    width: 50%;
+    text-align: center;
+    border: 2px solid #bc8f8f;
+    border-radius: 15px;
+    background-color: rgba(210, 180, 140, 0.8);
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 80%;
+}
+.tutoriel {
+    background: #967373;
+    padding: 0 20px 20px 20px;
+    border-radius: 10px;
+}
+.tutoriel h3 {
+    padding: 15px 0;
+}
+.tuto-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+.tuto-title {
+    position: relative;
+}
+.howMushy {
+    width: 130px;
+    position: absolute;
+    top: 20px;
+    right: -40px;
+    transform: translate(-10%, -50%);
+}

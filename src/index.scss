@@ -1,0 +1,25 @@
+
+
+@mixin transition ($duration : .3s, $effect : ease-in-out){
+    transition: $duration all $effect;
+}
+@mixin absmiddle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50% 0;
+}
+
+$beigeFilter : rgba(210, 180, 140, 0.877);
+$darkerRosy: rgb(150, 115, 115);
+$background: rgba(210, 180, 140, 0.349);
+
+
+
+
+
+
+
+
+
+

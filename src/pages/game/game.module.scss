@@ -1,0 +1,46 @@
+@import '../../index.scss';
+
+.top-content h1 {
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+.game-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% 0 0;
+    width: 50%;
+    text-align: center;
+    border: 2px solid #bc8f8f;
+    border-radius: 15px;
+    background-color: rgba(210, 180, 140, 0.8);
+}
+.top-content .game-box .start {
+    background-color: #bc8f8f;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 2px solid #967373;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+    transition: 0.3s all ease-in-out;
+}
+.start:hover,
+.game-box .start:hover {
+    background-color: #967373;
+}
+.main-jeu .categories-title {
+    display: block;
+    margin-left: 50px;
+}
+.main-jeu .categories-title h2 {
+    text-align: start;
+    width: 100%;
+}
+.main-jeu .level,
+.main-jeu .tag {
+    cursor: pointer;
+}

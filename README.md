@@ -1,8 +1,11 @@
-# React + Vite
+# QuizGrove - Jeu de Quiz en Ligne sur la Culture Générale
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue dans **QuizGrove**, un jeu de quiz en ligne amusant et éducatif qui met à l'épreuve vos connaissances en culture générale ! Testez vos compétences, défiez vos amis et apprenez quelque chose de nouveau chaque jour !
 
-Currently, two official plugins are available:
+## Fonctionnalités
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Quiz aléatoires** : Questions de quiz générées de manière aléatoire à partir d'une base de données.
+- **Catégories variées** : Culture générale, histoire, sciences, divertissement, et plus encore.
+- **Modes de difficultés multiples** : Débutant, Confirmé et Expert.
+- **Scores** : Suivi des scores et déblocage des niveaux suivants.
+- **Interface conviviale** : Design intuitif et réactif adapté à tous les appareils.
