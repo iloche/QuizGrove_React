@@ -2,14 +2,17 @@
 
 .support-box{
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     translate: -50% 0 0;
-    width: 50%;
+    width: 90%;
     text-align: center;
     border: 2px solid #bc8f8f;
     border-radius: 15px;
     background-color: rgba(210, 180, 140, 0.8);
+    @media screen and (min-width: 1024px) {
+       width: 50%;
+    }
 }
 .wrapper {
     margin: 0 auto;
@@ -18,9 +21,11 @@
 .tutoriel {
     background: #967373;
     padding: 0 20px 20px 20px;
+    margin: 20px 0;
     border-radius: 10px;
+    position: relative;
 }
-.tutoriel h3 {
+.tutoriel h2 {
     padding: 15px 0;
 }
 .tuto-box {
@@ -28,13 +33,20 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
 }
-.tuto-title {
-    position: relative;
-}
 .howMushy {
     width: 130px;
-    position: absolute;
-    top: 20px;
-    right: -40px;
-    transform: translate(-10%, -50%);
+    position: fixed;
+    top: 2%;
+    right: -15%;
+    translate: -50% 0 0;
+    @media screen and (min-width: 900px) {
+        position: fixed;
+        right: -5%;
+        top: 5%;
+     }
+    @media screen and (min-width: 1124px) {
+        position: fixed;
+        right: -5%;
+        top: 5%;
+     }
 }

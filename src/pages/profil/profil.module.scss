@@ -3,60 +3,164 @@
 .profile-container {
     width: 90%;
     margin: 20px auto;
-    // background-color: rgb(255, 255, 255, 0.8);
-    padding: 20px;
     border-radius: 10px;
-    // box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-@media screen and (min-width: 1024px) {
-    .profile-container {
-        width: 90%;
+    position: relative;
+    .profile-header {
+        text-align: center;
+        margin-bottom: 20px;
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 1px solid #bc8f8f;
+            background-color: tan;
+            cursor: pointer;
+            @include transition;
+            &:hover{
+                background-color: #967373;
+                @include transition;
+            }
+        }
+        h1 {
+            margin: 10px 0;
+            font-size: 24px;
+        }
+        .wrench{
+            width: 5%;
+            height: 5%;
+            position: absolute;
+            top: 18%;
+            right: 40%;
+            cursor: pointer;
+            @media screen and (min-width: 1024px) {
+               right: 41%;
+            }
+        }
+        p {
+            color: #666;
+        }
+    }
+    .profile-details,
+    .profile-stats,
+    .profile-friends,
+    .profile-settings {
+        margin-bottom: 20px;
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+    }
+    .profile-settings {
+        button {
+            background-color: #bc8f8f;
+            color:  black;
+            font-weight: bold;
+            border: none;
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: #967373;
+            }
+        }
     }
 }
-.profile-header {
-    text-align: center;
-    margin-bottom: 20px;
+.top-content {
+    .box,
+    .profil-box {
+        position: absolute;
+        top: 22%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        text-align: center;
+        border: 2px solid #bc8f8f;
+        border-radius: 15px;
+        background-color: rgba(210, 180, 140, 0.8);
+        @media screen and (min-width: 1024px) {
+            width: 50%;
+        }
+        button {
+            background-color: #bc8f8f;
+            width: 70%;
+            margin: 10px auto;
+            border-radius: 5px;
+            border: 2px solid #967373;
+            cursor: pointer;
+            font-weight: bold;
+            padding: 10px;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+            transition: box-shadow 0.3s ease, all 0.3s ease-in-out;
+        }
+    }
 }
-.profile-header img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 1px solid #bc8f8f;
-    background-color: tan;
-}
-.profile-header h1 {
-    margin: 10px 0;
-    font-size: 24px;
-}
-.profile-header p {
-    color: #666;
-}
-.profile-details,
-.profile-stats,
-.profile-friends,
-.profile-settings {
-    margin-bottom: 20px;
-}
-.profile-details h2,
-.profile-stats h2,
-.profile-friends h2,
-.profile-settings h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-.profile-details p,
-.profile-stats p {
-    margin: 5px 0;
-}
-.profile-settings button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    margin-right: 10px;
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .modal-content {
+    background-color:rgba(210, 180, 140, 0.8);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
     cursor: pointer;
+  }
+  .update-message {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #4caf50;
+    background-color: #d4edda;
+    color: #155724;
     border-radius: 5px;
+    text-align: center;
+  }
+  .avatar-options{
+    img{
+        width: 90px;
+        height: 100px;
+        border-radius: 50%;
+        border: 1px solid #bc8f8f;
+        background-color: white;
+        cursor: pointer;
+        @include transition;
+        &:hover{
+            background-color: #967373;
+            @include transition;
+        }
+    } 
 }
-.profile-settings button:hover {
-    background-color: #0056b3;
+#newPseudoInput {
+    width: 100%;
 }

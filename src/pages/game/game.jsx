@@ -28,7 +28,8 @@ const Game = () => {
     return (
         <main className={style['main-jeu']}>
             <div className={style['top-content']}>
-                <div className={style['game-box']}>
+                <div className={clsx(style['game-box'], { [style['shifted']]: showCategoryPopup || showDifficultyPopup})}>
+
                     {showCategoryPopup ? (
                         <div className={clsx("categories-title", style.popup)}>
                             <h2>Choisis la catégorie dans laquelle tu veux jouer</h2>

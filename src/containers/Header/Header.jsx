@@ -19,6 +19,10 @@ const Header = () => {
     setBurgerActive(!burgerActive);
   };
 
+  const closeBurgerMenu = () => {
+    setBurgerActive(false); // Ferme le menu burger
+  };
+
   useEffect(() => {
     // Mettre à jour la classe du header en fonction de la route actuelle
     const currentPath = location.pathname;
@@ -26,6 +30,8 @@ const Header = () => {
       setHeaderClass(style.profil);
     } else if (currentPath === '/login') {
       setHeaderClass(style.login);
+    } else if (currentPath === '/support') {
+      setHeaderClass(style.aide);
     } else {
       setHeaderClass(style.jeu);
     }
@@ -40,13 +46,13 @@ const Header = () => {
           <small className={style.slogan}>Fais éclore ton savoir</small>
         </div>
         <div className={clsx(style['right-topBar'], { [style.active]: burgerActive })}>
-          <div className={clsx(style.game, { [style.active]: location.pathname === '/game' })}>
+          <div className={clsx(style.game, { [style.active]: location.pathname === '/game' })} onClick={closeBurgerMenu}>
             <Link to="/game">Le jeu</Link>
           </div>
-          <div className={clsx(style.login, { [style.active]: location.pathname === '/profil' })}>
+          <div className={clsx(style.login, { [style.active]: location.pathname === '/profil' })} onClick={closeBurgerMenu}>
             <Link to="/profil">Mon compte</Link>
           </div>
-          <div className={clsx(style.support, { [style.active]: location.pathname === '/support' })}>
+          <div className={clsx(style.support, { [style.active]: location.pathname === '/support' })} onClick={closeBurgerMenu}>
             <Link to="/support">Aide</Link>
           </div>
         </div>

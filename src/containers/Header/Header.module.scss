@@ -2,7 +2,6 @@
 
 header{
     background: url(https://i.pinimg.com/originals/52/a2/cc/52a2cca14d2b8e510876507aaa0c5b13.jpg) top / cover;
-    // width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -115,21 +114,46 @@ header{
        
     }
 }
+.notification {
+    background-color: #ffcccb; // Couleur de fond pour le message
+    color: #333; // Couleur du texte
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
 .room {
     background: url(https://cdna.artstation.com/p/assets/images/images/033/484/282/medium/siti-maisyarah-background.jpg?1609753948) top/cover;
     height: 100vh;
     background-repeat: no-repeat;
     overflow: hidden;
+    @media screen and (min-width: 1024px) {
+        height: 100vh;
+    }
 }
 .profil {
     background: url(https://cdn.80.lv/api/upload/content/aa/images/62a8747598895/widen_1840x0.jpg) top/cover;
     height: 120vh;
     background-repeat: no-repeat;
     overflow: hidden;
+    
 }
 .jeu {
     background: url(https://i.pinimg.com/originals/38/67/cb/3867cb48a41331229bbeacd8f7714e8a.jpg) center/cover;
     height: 110vh;
     background-repeat: no-repeat;
     overflow: hidden;
+    @media screen and (min-width: 1024px) {
+        height: 100vh;
+    }
+}
+.aide {
+    background: url(https://i.pinimg.com/originals/9f/2e/20/9f2e20b7595ac5a873ddd17a22b9b934.jpg) center/cover;
+    height: 135vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    @media screen and (min-width: 1024px) {
+        height: 100vh;
+    }
 }
