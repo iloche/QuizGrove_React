@@ -7,8 +7,11 @@ header{
     overflow: hidden;
     h1{
         cursor: pointer;
-        font-size: 40px;
+        font-size:30px;
         margin: 5px;
+        @media screen and (min-width: 1024px) {
+            font-size: 40px;;
+        }
     }
     small{
         font-style: italic;
@@ -29,8 +32,9 @@ header{
         left: 50%;
         translate: -50% 0 0;
         z-index: 111111;
+      }
         .logo{
-            margin: 15px 100px;
+            margin: 15px 80px;
             position: relative;
             .mushy{
                 width: 40%;
@@ -49,7 +53,7 @@ header{
             justify-content: center;
             background-color: $beigeFilter;
             position: absolute;
-            width: 100vw;
+            width: 110vw;
             height: 110vh;
             top: -60%; 
             left: -20%;
@@ -93,7 +97,7 @@ header{
                 align-items: center;
                 justify-content: space-between;
                 position: absolute;
-                top: 40%;
+                top: 25%;
                 left: 60%;
                 transform: translate(-50%, -50%);
                 height: auto;
@@ -113,7 +117,7 @@ header{
         }
        
     }
-}
+
 .notification {
     background-color: #ffcccb; // Couleur de fond pour le message
     color: #333; // Couleur du texte
@@ -157,3 +161,14 @@ header{
         height: 100vh;
     }
 }
+.dark-mode {
+    color: #fff;
+    background-color: $backgroundGreen;
+}
+.darkModeToggle {
+    cursor: pointer;
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }

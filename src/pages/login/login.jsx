@@ -94,6 +94,13 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
 
                         <label htmlFor="email">Adresse e-mail</label>
                         <input type="email" id="email" name="email" placeholder="mushy@quizgrove.com" required onChange={handleEmailChange} value={email} />
+
+                        {isSignUpActive && (
+                            <>
+                                <label htmlFor="username">Nom d'utilisateur</label>
+                                <input type="text" id="username" name="username" placeholder="Nom d'utilisateur" required onChange={handleUsernameChange} />
+                            </>
+                        )}
                         
                         <label htmlFor="password">Mot de passe</label>
                         <input type="password" id="password" name="password" placeholder="Mot de passe" required onChange={handlePasswordChange} />
@@ -105,13 +112,6 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
                             </div>
                         )}
                         
-                        {isSignUpActive && (
-                            <>
-                                <label htmlFor="username">Nom d'utilisateur</label>
-                                <input type="text" id="username" name="username" placeholder="Nom d'utilisateur" required onChange={handleUsernameChange} />
-                            </>
-                        )}
-
                         {isSignUpActive && (
                             <>
                                 <label htmlFor="confirm-password">Confirmer le mot de passe</label>

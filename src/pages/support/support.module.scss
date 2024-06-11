@@ -34,12 +34,13 @@
     gap: 1rem;
 }
 .howMushy {
-    width: 130px;
+    width: 100px;
     position: fixed;
-    top: 2%;
-    right: -15%;
+    top: 0%;
+    right: -2%;
     translate: -50% 0 0;
     @media screen and (min-width: 900px) {
+        width:130px;
         position: fixed;
         right: -5%;
         top: 5%;

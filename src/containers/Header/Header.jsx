@@ -1,18 +1,28 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../../../doc/logo.png';
+import mushroom from '../../../doc/theme_mushroom.png'; // Image for light mode
+import frog from '../../../doc/theme_frog.png'; // Image for dark mode
 import clsx from 'clsx';
 import style from '../Header/Header.module.scss';
 
 const Header = () => {
-  const [darkMode, setDarkMode] = useState(false);
-  const [headerClass, setHeaderClass] = useState(style.jeu); // État pour la classe du header
-  const [burgerActive, setBurgerActive] = useState(false); // État pour le menu burger
-  const location = useLocation(); // Obtenez l'objet location
+  const [darkMode, setDarkMode] = useState(() => {
+    // Vérifie si une préférence est stockée dans localStorage
+    const savedMode = localStorage.getItem('darkMode');
+    return savedMode ? JSON.parse(savedMode) : false;
+  });
+
+  const [headerClass, setHeaderClass] = useState(style.jeu);
+  const [burgerActive, setBurgerActive] = useState(false);
+  const location = useLocation();
 
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    // Ajoutez ici le code pour activer/désactiver le mode sombre dans votre application
+    setDarkMode((prevMode) => {
+      const newMode = !prevMode;
+      localStorage.setItem('darkMode', JSON.stringify(newMode)); // Stocke la préférence
+      return newMode;
+    });
   };
 
   const toggleBurgerMenu = () => {
@@ -20,7 +30,7 @@ const Header = () => {
   };
 
   const closeBurgerMenu = () => {
-    setBurgerActive(false); // Ferme le menu burger
+    setBurgerActive(false);
   };
 
   useEffect(() => {
@@ -35,7 +45,16 @@ const Header = () => {
     } else {
       setHeaderClass(style.jeu);
     }
-  }, [location.pathname]); // Exécutez cet effet à chaque changement de location.pathname
+  }, [location.pathname]);
+
+  useEffect(() => {
+    // Applique ou retire la classe dark-mode sur le body
+    if (darkMode) {
+      document.body.classList.add(style['dark-mode']);
+    } else {
+      document.body.classList.remove(style['dark-mode']);
+    }
+  }, [darkMode]);
 
   return (
     <header className={clsx(headerClass, { [style['dark-mode']]: darkMode })}>
@@ -54,6 +73,9 @@ const Header = () => {
           </div>
           <div className={clsx(style.support, { [style.active]: location.pathname === '/support' })} onClick={closeBurgerMenu}>
             <Link to="/support">Aide</Link>
+          </div>
+          <div className={style.darkModeToggle} onClick={toggleDarkMode}>
+            <img src={darkMode ? frog : mushroom} alt={darkMode ? "Mode sombre" : "Mode clair"} />
           </div>
         </div>
         <div className={clsx(style.burger, { [style.active]: burgerActive })} onClick={toggleBurgerMenu}>
