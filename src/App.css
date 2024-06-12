@@ -429,13 +429,3 @@ li {
     margin: 10px 0;
     cursor: pointer;
 }
-#progressBar {
-    width: 100%;
-    background-color: #f3f3f3;
-    margin-top: 20px;
-}
-#progress {
-    width: 0;
-    height: 30px;
-    background-color: #4caf50;
-}
