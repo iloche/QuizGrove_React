@@ -116,11 +116,11 @@ const Profil = () => {
   <p>Email : <span id="email">{userEmail}</span></p>
   <p>Date d'inscription : <span id="registration-date">{creationDate}</span></p>
 </div>
-<div className={style['profile-stats']}>
+{/* <div className={style['profile-stats']}>
   <h2>Statistiques de jeu</h2>
   <p>Niveau : <span id="level">42</span></p>
   <p>XP : <span id="xp">12345</span></p>
-</div>
+</div> */}
 <div className={style['profile-settings']}>
   <button onClick={handleSignOut}>Se déconnecter</button>
 </div>

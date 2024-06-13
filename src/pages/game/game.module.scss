@@ -73,7 +73,7 @@
     }
   }
   .tag{
-    margin-left: 40px;
+    margin-left: 12%;
   }
   .difficulty-box {
     display: grid;
@@ -91,11 +91,11 @@
     }
   }
 }
-.arrow{
+.arrow, .congrats, .music, .refresh, .return{
   width: 20%;
-}
-.congrats{
-  width: 20%;
+  @media screen and (min-width: 1024px) {
+    width: 10%;
+  }
 }
 .correct {
   background-color: rgb(96, 199, 96);
@@ -127,4 +127,13 @@
 }
 .lock{
   width: 15%;
+}
+.buttons{
+  display: flex;
+  margin-top: 10px;
+}
+.button{
+  background: none;
+  border: none;
+  cursor: pointer;
 }

@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import clsx from 'clsx';
+import { auth } from "../../firebase"; // Assurez-vous que cela est correctement configuré
 import style from './game.module.scss';
 import quizData from '../../data/quizz.json';
 
@@ -12,14 +13,43 @@ const Game = () => {
     const [showQuestionPopup, setShowQuestionPopup] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState(null);
     const [selectedDifficulty, setSelectedDifficulty] = useState(null);
-    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // État pour suivre l'index de la question actuelle
-    const [showAnecdote, setShowAnecdote] = useState(false); // État pour afficher l'anecdote
-    const [selectedAnswer, setSelectedAnswer] = useState(null); // État pour la réponse sélectionnée
-    const [isAnswerCorrect, setIsAnswerCorrect] = useState(null); // État pour savoir si la réponse est correcte ou non
-    const [score, setScore] = useState(0); // État pour le score de l'utilisateur
-    const [showCongratulations, setShowCongratulations] = useState(false); 
-    const [expertUnlocked, setExpertUnlocked] = useState(false); // État pour vérifier si le niveau expert est déverrouillé
-    const [answered, setAnswered] = useState(false); // État pour suivre si l'utilisateur a répondu à la question
+    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+    const [showAnecdote, setShowAnecdote] = useState(false);
+    const [selectedAnswer, setSelectedAnswer] = useState(null);
+    const [isAnswerCorrect, setIsAnswerCorrect] = useState(null);
+    const [score, setScore] = useState(0);
+    const [showCongratulations, setShowCongratulations] = useState(false);
+    const [expertUnlocked, setExpertUnlocked] = useState(false);
+    const [answered, setAnswered] = useState(false);
+
+    const [userId, setUserId] = useState(null);
+
+    useEffect(() => {
+        const user = auth.currentUser;
+        if (user) {
+            setUserId(user.uid);
+
+            const savedProgress = JSON.parse(localStorage.getItem(`quizProgress_${user.uid}`));
+            if (savedProgress) {
+                setCurrentQuestionIndex(savedProgress.currentQuestionIndex || 0);
+                setScore(savedProgress.score || 0);
+                setExpertUnlocked(savedProgress.expertUnlocked || false);
+                console.log('Progress loaded from localStorage:', savedProgress);
+            }
+        }
+    }, []);
+
+    useEffect(() => {
+        if (userId) {
+            const progressToSave = {
+                currentQuestionIndex,
+                score,
+                expertUnlocked
+            };
+            localStorage.setItem(`quizProgress_${userId}`, JSON.stringify(progressToSave));
+            console.log('Progress saved to localStorage:', progressToSave);
+        }
+    }, [currentQuestionIndex, score, expertUnlocked, userId]);
 
     const questions = quizData.quizz[selectedDifficulty?.toLowerCase()] || [];
     const currentQuestion = questions[currentQuestionIndex];
@@ -43,44 +73,40 @@ const Game = () => {
 
     const handleDifficultyClick = (difficulty) => {
         if (difficulty === "Expert" && !expertUnlocked) {
-            return; // Empêche le changement de difficulté si le niveau Expert n'est pas déverrouillé
+            return;
         }
 
         setSelectedDifficulty(difficulty);
         setShowDifficultyPopup(false);
-        setShowQuestionPopup(true); 
+        setShowQuestionPopup(true);
     };
-    
+
     const handleAnswerClick = (selectedChoice) => {
-        // Vérifie si la question a déjà été répondue
         if (!answered) {
-          // Vérifie si la réponse sélectionnée correspond à la réponse correcte de la question actuelle
-          const isCorrect = selectedChoice === currentQuestion.reponse;
-          setIsAnswerCorrect(isCorrect);
-          setSelectedAnswer(selectedChoice);
-    
-          if (isCorrect) {
-            setScore(score + 1);
-            setShowAnecdote(true);
-          }
-          setAnswered(true); // Marque la question comme ayant été répondue
+            const isCorrect = selectedChoice === currentQuestion.reponse;
+            setIsAnswerCorrect(isCorrect);
+            setSelectedAnswer(selectedChoice);
+
+            if (isCorrect) {
+                setScore(score + 1);
+                setShowAnecdote(true);
+            }
+            setAnswered(true);
         }
-      };
+    };
 
     const handleNextQuestionClick = () => {
-        // Passe à la question suivante et réinitialise les états
         setCurrentQuestionIndex(currentQuestionIndex + 1);
         setShowAnecdote(false);
         setSelectedAnswer(null);
         setIsAnswerCorrect(null);
-        setAnswered(false); 
+        setAnswered(false);
 
-        // Vérifie si l'utilisateur a terminé toutes les questions du niveau
         if (currentQuestionIndex === totalQuestions - 1) {
-            setShowCongratulations(true); // Affiche les félicitations
+            setShowCongratulations(true);
         }
     };
-    
+
     const handleRestartButtonClick = () => {
         setShowCategoryPopup(true);
         setShowDifficultyPopup(false);
@@ -93,11 +119,42 @@ const Game = () => {
         setShowCongratulations(false);
     };
 
+    const handleQuitGame = () => {
+        setShowCategoryPopup(true); // Affiche à nouveau le popup des catégories
+        setShowDifficultyPopup(false); // Assure que le popup de la difficulté est caché
+        setShowQuestionPopup(false); // Assure que le popup des questions est caché
+        setShowAnecdote(false); // Assure que l'anecdote est cachée
+        setSelectedAnswer(null); // Réinitialise la réponse sélectionnée
+        setIsAnswerCorrect(null); // Réinitialise la vérification de la réponse
+        setAnswered(false); // Réinitialise l'état de réponse
+    };  
+    
+    const [musicPlaying, setMusicPlaying] = useState(false);
+
+    const toggleMusic = () => {
+        setMusicPlaying(prevState => !prevState);
+    };
+    
     return (
         <main className={style['main-jeu']}>
             <div className={style['top-content']}>
                 <div className={clsx(style['game-box'], { [style['shifted']]: showCategoryPopup || showDifficultyPopup || showQuestionPopup })}>
-
+                <div className={style.buttons}>
+                    <button title='Lancer la musique' className={style.button} onClick={toggleMusic}>
+                        <img className={style.music} src='../../../doc/music.png' />
+                    </button>
+                    <button title='Relancer le niveau' className={style.button} onClick={handleRestartButtonClick}>
+                        <img className={style.refresh} src='../../../doc/refresh.png' />
+                    </button>
+                    <button title='Retour' className={style.button} onClick={handleQuitGame}>
+                        <img className={style.return} src='../../../doc/return.png' />
+                    </button>
+                </div>
+                {musicPlaying && (
+                        <audio autoPlay loop>
+                            <source src="../../../doc/Joel McNeely-Tinkering.mp3" type="audio/mp3" />
+                        </audio>
+                    )}
                     {showCategoryPopup ? (
                         <div className={clsx("categories-title", style.popup)}>
                             <h2>Choisis la catégorie dans laquelle tu veux jouer</h2>
@@ -119,7 +176,7 @@ const Game = () => {
                                     {difficultyLevels.map((difficulty, index) => (
                                         <div className={style.level} key={index} onClick={() => handleDifficultyClick(difficulty)}>
                                             <h2>{difficulty}</h2>
-                                            {difficulty === "Expert" && !expertUnlocked && ( // Affiche le cadenas si le niveau expert est verrouillé
+                                            {difficulty === "Expert" && !expertUnlocked && (
                                                 <img className={style.lock} src="../../../doc/locked.png" alt="Cadenas" />
                                             )}
                                         </div>
@@ -138,8 +195,8 @@ const Game = () => {
                                         <h3>{currentQuestion.question}</h3>
                                         <ul>
                                             {currentQuestion.propositions.map((choice, index) => (
-                                                <li 
-                                                    key={index} 
+                                                <li
+                                                    key={index}
                                                     className={clsx({
                                                         [style.correct]: selectedAnswer === choice && isAnswerCorrect,
                                                         [style.incorrect]: selectedAnswer === choice && !isAnswerCorrect
@@ -155,7 +212,7 @@ const Game = () => {
                                 {showAnecdote && isAnswerCorrect && (
                                     <div>
                                         <p>{currentQuestion.anecdote}</p>
-                                        <button className={style.start} onClick={handleNextQuestionClick}><img className={style.arrow} src='../../../doc/arrow.png' /></button>
+                                        <button title='Suivant' className={style.start} onClick={handleNextQuestionClick}><img className={style.arrow} src='../../../doc/arrow.png' /></button>
                                     </div>
                                 )}
                             </div>
@@ -165,7 +222,7 @@ const Game = () => {
                             <div className={style.score}>
                                 Score: {score}
                             </div>
-                            {expertUnlocked && ( // Affiche le niveau expert déverrouillé si déverrouillé
+                            {expertUnlocked && (
                                 <div className={style.unlocked}>
                                     <h2>Niveau Expert</h2>
                                 </div>
@@ -179,15 +236,15 @@ const Game = () => {
                     )}
 
                     {showCongratulations && (
-                    <>
-                    <div className={style.congratulations}>
-                        <h2>Félicitations!</h2>
-                        <p>Vous avez terminé le niveau avec succès.</p>
-                        <img className={style.congrats} src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnFqYnpqM3A4aGJ4Z3N3azZqOXFvb3p6dG9wMWR2ZzV2M3p2dzZ2cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Vf8UeyP351aaaVj6wR/giphy.gif" alt="Félicitations" />
-                    </div>
-                    <button className={style.start} onClick={handleRestartButtonClick}>Retour</button>
-                    </>
-                )}
+                       <>
+                       <div className={style.congratulations}>
+                           <h2>Félicitations!</h2>
+                           <p>Vous avez terminé le niveau avec succès.</p>
+                           <img className={style.congrats} src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnFqYnpqM3A4aGJ4Z3N3azZqOXFvb3p6dG9wMWR2ZzV2M3p2dzZ2cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Vf8UeyP351aaaVj6wR/giphy.gif" alt="Félicitations" />
+                       </div>
+                       <button className={style.start} onClick={handleRestartButtonClick}>Retour</button>
+                       </>
+                    )}
                 </div>
             </div>
         </main>
