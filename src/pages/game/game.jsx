@@ -191,7 +191,7 @@ const Game = () => {
                     </div>
                 )}
                 {musicPlaying && (
-                        <audio autoPlay loop>
+                        <audio autoPlay loop volume={50}>
                             <source src="../../../doc/Joel McNeely-Tinkering.mp3" type="audio/mp3" />
                         </audio>
                     )}

@@ -4,6 +4,7 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'fire
 import { auth } from '../../firebase';
 import style from '../login/login.module.scss'; 
 
+
 const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à jour l'état de connexion
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -11,6 +12,11 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
     const [isSignUpActive, setIsSignUpActive] = useState(true);
     const [rememberMe, setRememberMe] = useState(false); // Nouvel état pour se souvenir de l'utilisateur
     const [errorMessage, setErrorMessage] = useState(""); // Nouvel état pour le message d'erreur
+    const [showPassword, setShowPassword] = useState(false);
+
+    const togglePasswordVisibility = () => {
+        setShowPassword(!showPassword);
+    };
 
     useEffect(() => {
         const savedEmail = localStorage.getItem('rememberedEmail');
@@ -62,8 +68,23 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
                 setErrorMessage(""); // Réinitialiser le message d'erreur en cas de succès
             })
             .catch((error) => {
+                let errorMessage = "Une erreur s'est produite. Veuillez réessayer plus tard.";
+            
+                // Vous pouvez personnaliser le message d'erreur en fonction du code d'erreur
                 const errorCode = error.code;
-                const errorMessage = error.message;
+                switch (errorCode) {
+                    case "auth/invalid-credential":
+                        errorMessage = "Le mot de passe est incorrect.";
+                        break;
+                    case "auth/user-not-found":
+                        errorMessage = "Utilisateur non trouvé. Veuillez vérifier vos informations.";
+                        break;
+                    // Ajoutez d'autres cas selon les besoins pour d'autres codes d'erreur
+                    default:
+                        errorMessage = "Une erreur s'est produite. Veuillez réessayer plus tard.";
+                        break;
+                }
+            
                 setErrorMessage(errorMessage);
                 console.log(errorCode, errorMessage);
             });
@@ -103,7 +124,22 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
                         )}
                         
                         <label htmlFor="password">Mot de passe</label>
-                        <input type="password" id="password" name="password" placeholder="Mot de passe" required onChange={handlePasswordChange} />
+                        <input
+                    type={showPassword ? 'text' : 'password'}
+                    id="password"
+                    name="password"
+                    placeholder="Mot de passe"
+                    required
+                    value={password}
+                    onChange={handlePasswordChange}
+                    className={style['password-input']}
+                />
+                <img
+                    src={showPassword ? '../../../doc/openEye.png' : '../../../doc/closedEye.png'}
+                    alt={showPassword ? 'Cacher le mot de passe' : 'Afficher le mot de passe'}
+                    onClick={togglePasswordVisibility}
+                    className={style['eye-icon']}
+                />
 
                         {!isSignUpActive && (
                             <div className={style['checkbox-container']}>
@@ -135,10 +171,10 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
 
                         {errorMessage && <p className={style['error-message']}>{errorMessage}</p>}
 
-                        {isSignUpActive && <button type="button" onClick={handleSignUp}>S'inscrire</button>}
-                        {!isSignUpActive && <button type="button" onClick={handleSignIn}>Se connecter</button>}
+                        {isSignUpActive && <button type="button" className={style.bold} onClick={handleSignUp}>S'inscrire</button>}
+                        {!isSignUpActive && <button type="button" className={style.bold} onClick={handleSignIn}>Se connecter</button>}
 
-                        {isSignUpActive && <button type="button" onClick={handleMethodChange}>Se connecter</button>}
+                        {isSignUpActive && <button type="button"  onClick={handleMethodChange}>Se connecter</button>}
                         {!isSignUpActive && <button type="button" onClick={handleMethodChange}>Créer un compte</button>}
 
                     </form>

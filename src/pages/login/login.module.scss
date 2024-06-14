@@ -54,3 +54,26 @@
     font-weight: bold;
     margin-top: 10px;
   }
+
+.bold{
+    font-weight: bold;
+}
+.password-input-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-input {
+    width: calc(100% - 30px); /* Ajustez la largeur de l'input selon votre design */
+    padding-right: 30px; /* Assurez-vous de laisser de l'espace pour l'icône */
+}
+
+.eye-icon {
+    width: 35px;
+    position: absolute;
+    top: 250px;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1; /* Assurez-vous que l'icône est au-dessus de l'input */
+}

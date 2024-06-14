@@ -21,7 +21,7 @@ const Support = () => {
                                     <h2>✨ Des points d'expérience te seront attribués en fonction de la difficulté de la question en cours</h2>
                                 </div>
                                 <div className="step">
-                                    <h2>🆕 Avances dans les niveaux pour débloquer de nouveaux paliers</h2>
+                                    <h2>🆕 Avances dans les niveaux pour débloquer le niveau Expert !</h2>
                                 </div>
                                 <div className="step">
                                     <h2>À toi de jouer !</h2>
