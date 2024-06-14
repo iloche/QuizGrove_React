@@ -1,3 +1,5 @@
+{"monde" : [
+
 {
     "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (www.openquizzdb.org)",
     "rédacteur": "Philippe Bresoux",
@@ -371,4 +373,3016 @@
         }
       ]
     }
+  }],
+  "animaux" : [
+    {
+      "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+      "rédacteur": "Philippe Bresoux",
+      
+      "quizz": {
+          "thème": "Animaux en tout genre (Les animaux sont les anges de cette terre)",
+      "difficulté": 2,
+          "débutant": [
+          {
+            "id": 1,
+            "question": "Pourquoi les ours polaires se couchent-ils dans la neige lorsqu'ils courent ?",
+            "propositions": [
+              "Manger",
+              "Dormir",
+              "Se rafraîchir",
+              "Se reposer"
+            ],
+            "reponse": "Se rafraîchir",
+            "anecdote": "Les ours polaires peuvent rapidement avoir trop chaud sous leur fourrure très épaisse et leur couche de graisse isolante."
+          },
+          {
+            "id": 2,
+            "question": "Quelle partie du corps permet aux hippocampes de nager ?",
+            "propositions": [
+              "Queue",
+              "Tête",
+              "Nageoire dorsale",
+              "Nageoire ventrale"
+            ],
+            "reponse": "Nageoire dorsale",
+            "anecdote": "Malgré qu'ils soient des poissons, les hippocampes ne nagent que très lentement en effectuant des mouvements onduleux."
+          },
+          {
+            "id": 3,
+            "question": "Pour quelle raison ne pouvons-nous pas entendre les cris de la chauve-souris ?",
+            "propositions": [
+              "Trop grave",
+              "Trop fort",
+              "Trop faible",
+              "Trop aigu"
+            ],
+            "reponse": "Trop aigu",
+            "anecdote": "Les chauves-souris émettent et reçoivent des ultrasons que notre oreille ne peux percevoir (max 20 000 hertz)."
+          },
+          {
+            "id": 4,
+            "question": "À quoi servait la coquille du tridacne géant dans de nombreuses églises ?",
+            "propositions": [
+              "Bénitier",
+              "Tronc",
+              "Chandelier",
+              "Corbeille à pain"
+            ],
+            "reponse": "Bénitier",
+            "anecdote": "Il y a 300 ans, les coquilles étaient considérées comme des objets précieux et servaient de bénitier à l'entrée des églises."
+          },
+          {
+            "id": 5,
+            "question": "Quelle lourde et pénible tâche incombe à la reine des fourmis ?",
+            "propositions": [
+              "Chercher à manger",
+              "Pondre des ufs",
+              "Défendre le nid",
+              "Tuer les mâles"
+            ],
+            "reponse": "Pondre des ufs",
+            "anecdote": "La reine est la seule fourmi du nid à pondre des ufs qui sont en réalité des larves écloses dont naîtront les futures fourmis."
+          },
+          {
+            "id": 6,
+            "question": "Qu'est-ce que les coccinelles aiment tout particulièrement manger ?",
+            "propositions": [
+              "Écorces",
+              "Pétales",
+              "Pucerons",
+              "Éxcréments"
+            ],
+            "reponse": "Pucerons",
+            "anecdote": "Considérées comme animaux utiles, on élève les coccinelles puis on les utilise pour combattre écologiquement les parasites."
+          },
+          {
+            "id": 7,
+            "question": "Pour quelle raison les nécrophores se battent-ils entre eux ?",
+            "propositions": [
+              "Des cadavres",
+              "Des femelles",
+              "Un territoire",
+              "De l'or"
+            ],
+            "reponse": "Des cadavres",
+            "anecdote": "Un couple de nécrophores enterre un animal mort dans le sol et y pond ses ufs dont les larves sont nourries."
+          },
+          {
+            "id": 8,
+            "question": "De quel type d'environnement un acarien a-t-il besoin pour vivre ?",
+            "propositions": [
+              "Humide",
+              "Ensoleillé",
+              "Sec",
+              "Gras"
+            ],
+            "reponse": "Humide",
+            "anecdote": "Sans les acariens, qui nichent dans nos matelas mais surtout dans les endroits humides, les forêts seraient submergées de feuilles mortes."
+          },
+          {
+            "id": 9,
+            "question": "Quelle partie du corps de la limace lui permet-elle de découper les plantes ?",
+            "propositions": [
+              "Bras",
+              "Dents",
+              "Langue",
+              "Palais"
+            ],
+            "reponse": "Langue",
+            "anecdote": "Telle une lime, la langue rêche de la limace râpe les plantes tendres en petits morceaux et dépouille ainsi les jeunes salades."
+          },
+          {
+            "id": 10,
+            "question": "Que montre le loup le plus faible après une lutte pour la hiérarchie ?",
+            "propositions": [
+              "Sa langue",
+              "Son ventre",
+              "Sa queue",
+              "Ses dents"
+            ],
+            "reponse": "Son ventre",
+            "anecdote": "Le loup inférieur n'est ainsi pas blessé mais devra à l'avenir se soumettre au mâle dominant, selon leur hiérarchie prononcée."
+          }
+        ],
+        "confirmé": [
+          {
+            "id": 11,
+            "question": "Quelle est la cause de mortalité la plus fréquente chez les éléphants en liberté ?",
+            "propositions": [
+              "Morsure de serpents",
+              "Usure des dents",
+              "Trompe cassée",
+              "Maladie"
+            ],
+            "reponse": "Usure des dents",
+            "anecdote": "Lorsque la dernière molaire est usée par la mastication, l'éléphant ne peut plus de nourrir suffisamment et meurt tristement de faim."
+          },
+          {
+            "id": 12,
+            "question": "Grâce à quelle partie de son corps la taupe s'oriente-t-elle sous terre ?",
+            "propositions": [
+              "Yeux",
+              "Vibrisses",
+              "Museau",
+              "Oreilles"
+            ],
+            "reponse": "Vibrisses",
+            "anecdote": "Les taupes s'orientent presque exclusivement en utilisant une sorte de moustaches et tâtent leur nourriture de cette manière."
+          },
+          {
+            "id": 13,
+            "question": "À part le cheval, à quel autre animal le tapir est-il apparenté ?",
+            "propositions": [
+              "Hamster",
+              "Éléphant",
+              "Cochon",
+              "Rhinocéros"
+            ],
+            "reponse": "Rhinocéros",
+            "anecdote": "Les tapirs, de la famille des ongulés, utilisent leur trompe comme main et peuvent ainsi la rétracter lorsque celle-ci les gêne."
+          },
+          {
+            "id": 14,
+            "question": "Comment les mille-pattes se protègent-ils de leurs prédateurs ?",
+            "propositions": [
+              "En mordant",
+              "Par leurs sécrétions",
+              "En criant",
+              "Par camouflage"
+            ],
+            "reponse": "Par leurs sécrétions",
+            "anecdote": "En cas de danger, les mille-pattes émettent une substance rouge caustique à l'odeur nauséabonde via des glandes sur leurs anneaux."
+          },
+          {
+            "id": 15,
+            "question": "Quels animaux volent souvent aux hyènes la proie qu'elles ont chassée ?",
+            "propositions": [
+              "Buffles",
+              "Guépards",
+              "Gnous",
+              "Lions"
+            ],
+            "reponse": "Lions",
+            "anecdote": "Les hyènes chassent généralement en meute d'environ quarante individus des animaux tels que les zèbres ou les gnous."
+          },
+          {
+            "id": 16,
+            "question": "Combien pèse environ la plus petite espèce de musaraigne connue ?",
+            "propositions": [
+              "20 grammes",
+              "70 grammes",
+              "130 grammes",
+              "2 grammes"
+            ],
+            "reponse": "2 grammes",
+            "anecdote": "Notre musaraigne pygmée locale est, quant à elle, deux fois plus grande et plus lourde que ce pachyure étrusque."
+          },
+          {
+            "id": 17,
+            "question": "De quelle manière le lynx a-t-il l'habitude de marquer son territoire ?",
+            "propositions": [
+              "Poils",
+              "Excréments",
+              "Éraflures",
+              "Souris mortes"
+            ],
+            "reponse": "Éraflures",
+            "anecdote": "Outre des éraflures, les lynx utilisent parfois également leur urine comme marque odorante afin de délimiter leur domaine."
+          },
+          {
+            "id": 18,
+            "question": "Taillé pour la course, jusqu'à quelle vitesse un guépard peut-il courir ?",
+            "propositions": [
+              "90 km/h",
+              "120 km/h",
+              "150 km/h",
+              "60 km/h"
+            ],
+            "reponse": "120 km/h",
+            "anecdote": "Le plus rapide des animaux ne peut maintenir cette vitesse que sur quelques centaines de mètres, laissant une chance aux gazelles."
+          },
+          {
+            "id": 19,
+            "question": "Comment les cloportes se protègent-ils des attaques ?",
+            "propositions": [
+              "En s'enroulant",
+              "En s'enterrant",
+              "En s'envolant",
+              "En s'enfuyant"
+            ],
+            "reponse": "En s'enroulant",
+            "anecdote": "Le corps d'un cloporte, dans ce cas immobile, est composé de plusieurs anneaux solides qui rappellent une armure de chevalier."
+          },
+          {
+            "id": 20,
+            "question": "Quel animal est le plus grand ennemi connu de la buse variable ?",
+            "propositions": [
+              "Aigle",
+              "Renard",
+              "Ours brun",
+              "Homme"
+            ],
+            "reponse": "Homme",
+            "anecdote": "De nombreuses buses sont écrasées par l'homme lorsqu'elles tentent de récupérer des cadavres d'animaux sur les autoroutes."
+          }
+        ],
+        "expert": [
+          {
+            "id": 21,
+            "question": "Après combien de temps un bébé tigre reçoit-il de la viande pour la première fois ?",
+            "propositions": [
+              "Six ans",
+              "Un mois",
+              "Un an",
+              "Six mois"
+            ],
+            "reponse": "Six mois",
+            "anecdote": "Au cours des six premiers mois, les bébés tigres qui ne connaissent pas leur père sont allaités par leur mère."
+          },
+          {
+            "id": 22,
+            "question": "Combien de litres de lait une vache performante produit-elle chaque jour ?",
+            "propositions": [
+              "35 l",
+              "5 l",
+              "15 l",
+              "25 l"
+            ],
+            "reponse": "35 l",
+            "anecdote": "Ces vaches fortement exploitées souffrent le plus souvent d'une inflammation des pis et nécessitent beaucoup de médicaments."
+          },
+          {
+            "id": 23,
+            "question": "De quelle fonction vitale le fennec peut-il étonnamment se passer ?",
+            "propositions": [
+              "Manger",
+              "Boire",
+              "Dormir",
+              "Voir"
+            ],
+            "reponse": "Boire",
+            "anecdote": "Le liquide que le fennec absorbe grâce à son alimentation lui suffit et est donc admirablement adapté à la vie dans le désert."
+          },
+          {
+            "id": 24,
+            "question": "Quel est le plus grand des aras parmi les perroquets connus à ce jour ?",
+            "propositions": [
+              "Chloroptère",
+              "Ararauna",
+              "Hyacinthe",
+              "Macao"
+            ],
+            "reponse": "Hyacinthe",
+            "anecdote": "Ce perroquet d'environ 150 cm, queue comprise, possède un plumage bleu clair uni et vit principalement en Bolivie et au Brésil."
+          },
+          {
+            "id": 25,
+            "question": "De manière générale, combien d'heures par jour un panda géant est-il occupé à manger ?",
+            "propositions": [
+              "Huit",
+              "Douze",
+              "Seize",
+              "Quatre"
+            ],
+            "reponse": "Seize",
+            "anecdote": "Le panda géant mange uniquement des jeunes pousses de bambou mais celles-ci ne sont toutefois pas très nourrissantes."
+          },
+          {
+            "id": 26,
+            "question": "Combien de temps un bébé morse est-il allaité par sa mère ?",
+            "propositions": [
+              "1 an",
+              "1 mois",
+              "18 mois",
+              "6 mois"
+            ],
+            "reponse": "18 mois",
+            "anecdote": "Après une période de 12 mois de gestation, le bébé morse pèse plus de 50 kg et sait déjà nager au bout de deux semaines seulement."
+          },
+          {
+            "id": 27,
+            "question": "Pour quelle raison les martres tuent-elles parfois les poules ?",
+            "propositions": [
+              "Pattes",
+              "Cuisses",
+              "Sang",
+              "Foie"
+            ],
+            "reponse": "Sang",
+            "anecdote": "Les martres boivent uniquement le sang et laissent le reste, préférant manger des lapins, des ufs, des lézards ou des insectes."
+          },
+          {
+            "id": 28,
+            "question": "De quoi est constituée la sonnette du serpent à sonnette ?",
+            "propositions": [
+              "Corne",
+              "Bois",
+              "Pierres",
+              "Calcaire"
+            ],
+            "reponse": "Corne",
+            "anecdote": "Les six à dix anneaux de corne situés à l'extrémité de la queue du serpent à sonnette proviennent des mues précédentes."
+          },
+          {
+            "id": 29,
+            "question": "Durant quelle saison de l'année peut-on entendre le hibou crier ?",
+            "propositions": [
+              "Été",
+              "Automne",
+              "Printemps",
+              "Hiver"
+            ],
+            "reponse": "Printemps",
+            "anecdote": "Le hibou mâle crie en avril et en mai pour attirer l'attention d'une femelle qui restera alors toute sa vie fidèlement à ses côtés."
+          },
+          {
+            "id": 30,
+            "question": "De combien de piquants est composée la fourrure du hérisson mâle ?",
+            "propositions": [
+              "4 000",
+              "8 000",
+              "16 000",
+              "12 000"
+            ],
+            "reponse": "16 000",
+            "anecdote": "En cas de danger, le hérisson peut ainsi dresser ses nombreux piquants et s'enrouler sur lui-même pour se protéger des ennemis."
+          }
+          ]
+          }
+        
+          }  
+  ],
+  "sports" : [
+    {
+      "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (www.openquizzdb.org)",
+      "rédacteur": "Philippe Bresoux",
+      "thème": "Sports pour tous",
+      "difficulté": 3,
+      "quizz": {
+        "débutant": [
+          {
+            "id": 1,
+            "question": "De quel petit objet se munit le golfeur pour surélever sa balle avant de la frapper ?",
+            "propositions": [
+              "Un tee",
+              "Un caddie",
+              "Un putter",
+              "Un pitch"
+            ],
+            "reponse": "Un tee",
+            "anecdote": "Le joueur peut poser sa balle sur une cheville de bois ou de plastique qui ne peut pas être utilisée en dehors des départs."
+          },
+          {
+            "id": 2,
+            "question": "Quel sport de raquette porte le nom de la ville anglaise où il fut inventé ?",
+            "propositions": [
+              "Le padel",
+              "Le tennis",
+              "Le badminton",
+              "Le squash"
+            ],
+            "reponse": "Le badminton",
+            "anecdote": "Le badminton est toujours pratiqué en intérieur car avec le vent, en extérieur, le volant peut changer de direction."
+          },
+          {
+            "id": 3,
+            "question": "Combien y a-t-il de joueurs sur le terrain dans une équipe de football ?",
+            "propositions": [
+              "Onze",
+              "Dix",
+              "Quatorze",
+              "Neuf"
+            ],
+            "reponse": "Onze",
+            "anecdote": "Codifié par les Britanniques à la fin du XIXe siècle, le football s'est doté en 1904 d'une fédération internationale, la FIFA."
+          },
+          {
+            "id": 4,
+            "question": "Quel tapis à ressorts sert au gymnaste à faire toutes sortes de figures ?",
+            "propositions": [
+              "Le cheval d'arçons",
+              "L'espalier",
+              "Le ruban",
+              "Le trampoline"
+            ],
+            "reponse": "Le trampoline",
+            "anecdote": "Le terme générique de « trampoline » englobe trois disciplines : le trampoline, le tumbling et le double mini trampoline."
+          },
+          {
+            "id": 5,
+            "question": "Que réussit une équipe de rugby qui remporte les quatre matches du Tournoi des Six Nations ?",
+            "propositions": [
+              "Le chardon",
+              "Les trois plumes",
+              "La rose rouge",
+              "Le grand chelem"
+            ],
+            "reponse": "Le grand chelem",
+            "anecdote": "Pour des raisons de sponsoring, ce tournoi est officiellement appelé « RBS Six Nations » (RBS pour Royal Bank of Scotland)."
+          },
+          {
+            "id": 6,
+            "question": "Que signale le drapeau à damiers noir et jaune dans une station de sports d'hiver ?",
+            "propositions": [
+              "Télésiège en panne",
+              "Ouverture des pistes",
+              "Risque d'avalanche",
+              "Fin de journée"
+            ],
+            "reponse": "Risque d'avalanche",
+            "anecdote": "La puissance des avalanches est telle qu'elles emportent facilement tout élément mobile rencontré (hommes, animaux, rochers)."
+          },
+          {
+            "id": 7,
+            "question": "Au golf, au milieu de quoi le trou est-il généralement placé ?",
+            "propositions": [
+              "Le gin",
+              "Le spin",
+              "Le spleen",
+              "Le green"
+            ],
+            "reponse": "Le green",
+            "anecdote": "Le golf est un sport moins pratiqué par les femmes que par les hommes qui souffre d'un traitement médiatique et financier inégal."
+          },
+          {
+            "id": 8,
+            "question": "Laquelle de ces propositions ne retrouve-t-on pas sur un vélo de sprinter sur piste ?",
+            "propositions": [
+              "Des freins",
+              "Une selle",
+              "Un guidon",
+              "Un cadre"
+            ],
+            "reponse": "Des freins",
+            "anecdote": "Le pratiquant de ce sport est donc obligé de pédaler en permanence jusqu'à l'arrêt complet de son vélo (pignons fixes)."
+          },
+          {
+            "id": 9,
+            "question": "Comment appelle-t-on une descente rapide en ski alpin  ?",
+            "propositions": [
+              "Un schuss",
+              "Un combiné",
+              "Un slalom",
+              "Un freestyle"
+            ],
+            "reponse": "Un schuss",
+            "anecdote": "En compétition, durant les épreuves de vitesse, le bâton est profilé pour épouser la forme du corps du skieur lors du schuss."
+          },
+          {
+            "id": 10,
+            "question": "Quel nombre de jeux chaque set de tennis comporte-t-il ?",
+            "propositions": [
+              "Sept",
+              "Cinq",
+              "Au moins six",
+              "Onze"
+            ],
+            "reponse": "Au moins six",
+            "anecdote": "Le mot « tennis » provient du français « tenez », mot que l'on adressait à l'adversaire au moment de servir."
+          }
+        ],
+        "confirmé": [
+          {
+            "id": 11,
+            "question": "Dans une épreuve de saut en longueur, à combien d'essais chaque concurrent a-t-il droit ?",
+            "propositions": [
+              "Cinq",
+              "Quatre",
+              "Deux",
+              "Trois"
+            ],
+            "reponse": "Trois",
+            "anecdote": "Le record du monde masculin de saut en longueur est détenu depuis 1991 par Mike Powell avec un saut à 8,95 mètres."
+          },
+          {
+            "id": 12,
+            "question": "En kayak, de quel type de pagaie se sert-on pour avancer ou reculer ?",
+            "propositions": [
+              "Simple",
+              "Triple",
+              "Double",
+              "Quadruple"
+            ],
+            "reponse": "Double",
+            "anecdote": "Le kayak est parfois confondu avec le canoë, la pratique sportive étant désignée par le terme général « canoë-kayak »."
+          },
+          {
+            "id": 13,
+            "question": "Quel était le nom de la navigatrice en solitaire française, skipper du Biotherm ?",
+            "propositions": [
+              "Isabelle Autissier",
+              "Florence Artaud",
+              "Maud Fontenoy",
+              "Mathilde Géron"
+            ],
+            "reponse": "Florence Artaud",
+            "anecdote": "Elle a perdu la vie dans un accident d'hélicoptère alors qu'elle participait au tournage de l'émission 'Dropped' de TF1."
+          },
+          {
+            "id": 14,
+            "question": "Dans le jargon de l'alpinisme, que fait un alpiniste qui « dévisse » ?",
+            "propositions": [
+              "Il ôte un piton",
+              "Il mange",
+              "Il tombe",
+              "Il dort"
+            ],
+            "reponse": "Il tombe",
+            "anecdote": "L'alpinisme est une pratique sportive d'ascension en haute montagne qui repose sur différentes techniques de progression."
+          },
+          {
+            "id": 15,
+            "question": "En escrime, quelle est la troisième arme blanche avec l'épée et le fleuret ?",
+            "propositions": [
+              "Le poignard",
+              "Le couteau",
+              "Le sabre",
+              "La hache"
+            ],
+            "reponse": "Le sabre",
+            "anecdote": "Ces trois armes sont sexuées : épée féminine et masculine, fleuret féminin et masculin et sabre féminin et masculin."
+          },
+          {
+            "id": 16,
+            "question": "À quelle grande gymnaste roumaine Ecaterina Szabo e-t-elle succédé ?",
+            "propositions": [
+              "Larissa Latynina",
+              "Yelena Davydova",
+              "Nadia Comaneci",
+              "Vera Caslavska"
+            ],
+            "reponse": "Nadia Comaneci",
+            "anecdote": "Nadia Comaneci est souvent présentée, à tort, comme la première gymnaste de tous les temps à obtenir la note parfaite de 10."
+          },
+          {
+            "id": 17,
+            "question": "Avec quel entraîneur la France a-t-elle remporté la Coupe d'Europe de football de 1984 ?",
+            "propositions": [
+              "Luis Fernandez",
+              "Guy Roux",
+              "Michel Hidalgo",
+              "Aimé Jacquet"
+            ],
+            "reponse": "Michel Hidalgo",
+            "anecdote": "En 1986, Michel Hidalgo a rejoint Bernard Tapie à l'Olympique de Marseille pour en devenir le manager général jusqu'en 1991."
+          },
+          {
+            "id": 18,
+            "question": "Dans quel sport est-il préférable d'avoir un bon « coup de pelle » ?",
+            "propositions": [
+              "L'escrime",
+              "Le cricket",
+              "Le golf",
+              "L'aviron"
+            ],
+            "reponse": "L'aviron",
+            "anecdote": "L'aviron est un sport olympique depuis la création des JO modernes en 1896 sous l'impulsion du Baron Pierre de Coubertin."
+          },
+          {
+            "id": 19,
+            "question": "Quel sport reste à ce jour le sport préféré des collégiens anglais ?",
+            "propositions": [
+              "Le tennis",
+              "Le football",
+              "Le cricket",
+              "Le hanball"
+            ],
+            "reponse": "Le cricket",
+            "anecdote": "Plus de cent pays sont affiliés à l'International Cricket Council, qui organise notamment la Coupe du monde de cricket."
+          },
+          {
+            "id": 20,
+            "question": "Comment le barreur dirige-t-il ses coéquipiers en aviron ?",
+            "propositions": [
+              "En musique",
+              "Au porte-voix",
+              "Au sifflet",
+              "Au tambour"
+            ],
+            "reponse": "Au porte-voix",
+            "anecdote": "Dans un équipage d'aviron, le barreur est le membre qui s'assoit sur la poupe, se mettant face à la proue."
+          }
+        ],
+        "expert": [
+          {
+            "id": 21,
+            "question": "En baseball, combien de joueurs se trouvent sur le terrain en défense ?",
+            "propositions": [
+              "Sept",
+              "Neuf",
+              "Onze",
+              "Treize"
+            ],
+            "reponse": "Neuf",
+            "anecdote": "La première référence au rounders est faite dans un livre anglais de John Newbery en 1744 : 'A Little Pretty Pocket-Book'."
+          },
+          {
+            "id": 22,
+            "question": "En ski, le christiana est une technique permettant d'effectuer quelle manuvre ?",
+            "propositions": [
+              "Un freinage",
+              "Un virage",
+              "Un arrêt",
+              "Un saut"
+            ],
+            "reponse": "Un virage",
+            "anecdote": "Cette technique est née à la Belle Époque sur les longues pistes de ski très fréquentées de la ville de Christiania."
+          },
+          {
+            "id": 23,
+            "question": "Combien les Américains ont-ils gagné de médailles aux JO d'été de 1984 ?",
+            "propositions": [
+              "61",
+              "174",
+              "83",
+              "30"
+            ],
+            "reponse": "174",
+            "anecdote": "En l'absence de grandes nations sportives comme l'URSS et la RDA, les États-Unis ont dominé ces jeux de Los Angeles."
+          },
+          {
+            "id": 24,
+            "question": "Quelle équipe de rugby possède comme emblème une antilope sur maillot vert et sombre ?",
+            "propositions": [
+              "Nouvelle-Zélande",
+              "Écosse",
+              "Irlande",
+              "Afrique du Sud"
+            ],
+            "reponse": "Afrique du Sud",
+            "anecdote": "En raison de son palmarès, cette équipe est considérée comme l'une des meilleures sélections nationales au monde."
+          },
+          {
+            "id": 25,
+            "question": "Quelle moto possède la cylindrée la plus adaptée au trial ?",
+            "propositions": [
+              "200 cm³",
+              "150 cm³",
+              "100 cm³",
+              "250 cm³"
+            ],
+            "reponse": "250 cm³",
+            "anecdote": "Le trial, qui consiste à franchir des obstacles naturels ou artificiels, est un sport où la notion de vitesse n'intervient pas."
+          },
+          {
+            "id": 26,
+            "question": "Combien d'heures la course cycliste des Six Jours de Paris durait-elle ?",
+            "propositions": [
+              "144 heures",
+              "124 heures",
+              "84 heures",
+              "104 heures"
+            ],
+            "reponse": "144 heures",
+            "anecdote": "Richement dotée, elle était très populaire avant la Seconde Guerre mondiale et était la principale compétition de ce type en France."
+          },
+          {
+            "id": 27,
+            "question": "En croquet, que devient une boule qui franchit tous les arceaux sans toucher le piquet ?",
+            "propositions": [
+              "Capitaine",
+              "Pirate",
+              "Matelot",
+              "Corsaire"
+            ],
+            "reponse": "Corsaire",
+            "anecdote": "Une fois le dernier anneau passé, un joueur peut empêcher ses adversaires de gagner en prenant soin de ne pas toucher le piquet."
+          },
+          {
+            "id": 28,
+            "question": "Quelle course de fond suédoise emprunte le piste des Dalécarliens ?",
+            "propositions": [
+              "Tartu Maraton",
+              "Vasaloppet",
+              "Dolomitenlauf",
+              "Marcialonga"
+            ],
+            "reponse": "Vasaloppet",
+            "anecdote": "La course se tient le premier dimanche de mars et près de 15 000 skieurs prennent le départ en 10 vagues successives."
+          },
+          {
+            "id": 29,
+            "question": "Quelle planche de surf pour grosses vagues permet de démarrer très tôt sur la vague ?",
+            "propositions": [
+              "Malibu",
+              "Fishes",
+              "Eggs",
+              "Gun"
+            ],
+            "reponse": "Gun",
+            "anecdote": "En fonction du temps, des préférences et de la manière de surfer, il existe différentes type de planches (appelées shape)."
+          },
+          {
+            "id": 30,
+            "question": "Où les premiers jeux Olympiques d'hiver ont-ils eu lieu en 1924 ?",
+            "propositions": [
+              "Grenoble",
+              "Chamonix",
+              "Oslo",
+              "Innsbruck"
+            ],
+            "reponse": "Chamonix",
+            "anecdote": "La compétition rassembla 258 athlètes de 16 pays qui disputèrent un total de 16 épreuves dans 6 sports différents."
+          }
+        ]
+      }
+    }
+  ],
+  "littérature" : [
+    {
+      "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (www.openquizzdb.org)",
+      "rédacteur": "Philippe Bresoux",
+      "thème": "Citations littéraires",
+      "difficulté": 4,
+      "quizz": {
+        "débutant": [
+          {
+            "id": 1,
+            "question": "Complétez cette citation de Raymond Queneau : « Il faut de tout pour faire... »",
+            "propositions": [
+              "Rougir",
+              "Un monde",
+              "Son pain",
+              "Affaire"
+            ],
+            "reponse": "Un monde",
+            "anecdote": "Raymond Queneau était un lecteur assidu et attentif de l'uvre de René Guénon, qu'il avait découvert en 1921."
+          },
+          {
+            "id": 2,
+            "question": "Quel poète romantique a écrit : « Un seul être vous manque et tout est dépeuplé » ?",
+            "propositions": [
+              "Chateaubriand",
+              "Prosper Mérimée",
+              "Victor Hugo",
+              "Lamartine"
+            ],
+            "reponse": "Lamartine",
+            "anecdote": "Admiré et salué par toute la génération romantique, Lamartine est parfois jugé plus sévèrement par les générations suivantes."
+          },
+          {
+            "id": 3,
+            "question": "Complétez ces vers de Charles Baudelaire : « Là, tout n'est qu'ordre et beauté, luxe, calme et... »",
+            "propositions": [
+              "Volupté",
+              "Tranquillité",
+              "Nudité",
+              "Sensualité"
+            ],
+            "reponse": "Volupté",
+            "anecdote": "Baudelaire détache la poésie de la morale, la proclame tout entière destinée au Beau et non à la Vérité."
+          },
+          {
+            "id": 4,
+            "question": "Quel écrivain et mathématicien a dit : « Je pense, donc je suis » ?",
+            "propositions": [
+              "Isaac Newton",
+              "René Descartes",
+              "Thomas Harriot",
+              "Nicolaus Mercator"
+            ],
+            "reponse": "René Descartes",
+            "anecdote": "Le « cogito » de Descartes fonde ainsi le système des sciences sur le sujet connaissant face au monde qu'il se représente."
+          },
+          {
+            "id": 5,
+            "question": "Quel poète a dit dans 'Spleen' : « J'ai plus de souvenirs que si j'avais mille ans » ?",
+            "propositions": [
+              "Charles Baudelaire",
+              "Arthur Rimbaud",
+              "Victor Hugo",
+              "Jean Giraudoux"
+            ],
+            "reponse": "Charles Baudelaire",
+            "anecdote": "Le spleen baudelairien désigne une profonde tristesse née du mal de vivre, que Charles Baudelaire exprime dans plusieurs poèmes."
+          },
+          {
+            "id": 6,
+            "question": "Qui a dit à sa femme dans 'Le Petit Poucet' : « Je sens la chair fraîche » ?",
+            "propositions": [
+              "Le roi",
+              "Le loup",
+              "LOgre",
+              "Le bûcheron"
+            ],
+            "reponse": "LOgre",
+            "anecdote": "'Le Petit Poucet' est un conte appartenant à la tradition orale, retranscrit et transformé par Charles Perrault en France."
+          },
+          {
+            "id": 7,
+            "question": "Complétez ces paroles d'Hamlet : « Être ou ne pas être, là est... »",
+            "propositions": [
+              "La question",
+              "Le destin",
+              "La vérité",
+              "Le dilemme"
+            ],
+            "reponse": "La question",
+            "anecdote": "'Hamlet' a fait l'objet d'analyses critiques extrêmement nombreuses et variées : thématiques, stylistiques, historiques et psychologiques."
+          },
+          {
+            "id": 8,
+            "question": "Quel personnage de Molière dit : « Je me sens un cur à aimer toute la terre » ?",
+            "propositions": [
+              "Dom Juan",
+              "Gargantua",
+              "Tartuffe",
+              "Sganarelle"
+            ],
+            "reponse": "Dom Juan",
+            "anecdote": "Provocateur impénitent, Dom Juan n'échappera pas à la vengeance du Ciel, qui le châtiera par le bras d'une statue de pierre."
+          },
+          {
+            "id": 9,
+            "question": "Qu'est-ce que La Fontaine appelle « la machine ronde » ?",
+            "propositions": [
+              "Largent",
+              "La royauté",
+              "La supercherie",
+              "La terre"
+            ],
+            "reponse": "La terre",
+            "anecdote": "Ses Fables constituent la principale uvre poétique de la période classique et l'un des chefs-d'uvre de la littérature française."
+          },
+          {
+            "id": 10,
+            "question": "À qui Cyrano dit-il : « Non, non mon cher amour, je ne vous aimais pas » ?",
+            "propositions": [
+              "Bellerose",
+              "Ragueneau",
+              "Brissaille",
+              "Roxane"
+            ],
+            "reponse": "Roxane",
+            "anecdote": "Le succès de la pièce ne s'est jamais démenti, en France (où elle est la pièce la plus jouée) comme à l'étranger."
+          }
+        ],
+        "confirmé": [
+          {
+            "id": 11,
+            "question": "Qui a écrit dans 'Intermezzo' : « L'Humanité est une entreprise surhumaine » ?",
+            "propositions": [
+              "Jean Giraudoux",
+              "Jean Anouilh",
+              "Jean Cocteau",
+              "Jean Genet"
+            ],
+            "reponse": "Jean Giraudoux",
+            "anecdote": "'Intermezzo' est une pièce de théâtre en trois actes de Jean Giraudoux, à l'humour décalé, parue en 1933."
+          },
+          {
+            "id": 12,
+            "question": "À qui Aragon a-t-il écrit : « Ma vie en vérité commence le soir où je t'ai rencontré » ?",
+            "propositions": [
+              "Rose Guérin",
+              "Joséphine Baker",
+              "Agnès Humbert",
+              "Elsa Triolet"
+            ],
+            "reponse": "Elsa Triolet",
+            "anecdote": "Ce recueil inaugure le long cycle consacré par l'auteur à sa compagne Elsa Triolet, avec qui il formera un couple mythique."
+          },
+          {
+            "id": 13,
+            "question": "Dans quelle pièce Sartre a-t-il écrit : « Tous les moyens sont bons quand ils sont efficaces » ?",
+            "propositions": [
+              "Huis clos",
+              "L'Engrenage",
+              "Les Mouches",
+              "Les Mains sales"
+            ],
+            "reponse": "Les Mains sales",
+            "anecdote": "Intransigeant et fidèle à ses idées, Jean-Paul Sartre a toujours rejeté tant les honneurs que toute forme de censure."
+          },
+          {
+            "id": 14,
+            "question": "Quelle héroïne de Zola « la poitrine en avant, saluait avec un fin sourire » ?",
+            "propositions": [
+              "Nana",
+              "Anna",
+              "Elsa",
+              "Sophia"
+            ],
+            "reponse": "Nana",
+            "anecdote": "Ses adversaires l'accuseront d'être un écrivain « pornographique » de par son « goût du sordide et du détail cru »."
+          },
+          {
+            "id": 15,
+            "question": "Complétez cette citation de Lord Byron : « Le meilleur prophète de l'avenir est le... »",
+            "propositions": [
+              "Pouvoir",
+              "Destin",
+              "Passé",
+              "Mensonge"
+            ],
+            "reponse": "Passé",
+            "anecdote": "Grand défenseur de la liberté, révolté contre la société de son temps, il s'est engagé dans toutes les luttes contre l'oppression."
+          },
+          {
+            "id": 16,
+            "question": "Quel héros de Shakespeare dit devant une tombe : « J'aimais Ophélia » ?",
+            "propositions": [
+              "Horatio",
+              "Hamlet",
+              "Polonius",
+              "Claudius"
+            ],
+            "reponse": "Hamlet",
+            "anecdote": "À la fin de la tragédie, Hamlet a causé la mort de Polonius, de Laërte, de Claudius et de deux connaissances de Wittenberg."
+          },
+          {
+            "id": 17,
+            "question": "Complétez cette citation : « L'important n'est pas qu'une histoire soit véritable, mais quelle soit... »",
+            "propositions": [
+              "Juste",
+              "Vraie",
+              "Sensée",
+              "Plausible"
+            ],
+            "reponse": "Vraie",
+            "anecdote": "L'ensemble des écrits de Victor Hugo représente un peu moins de quarante millions de caractères réunis en 53 volumes."
+          },
+          {
+            "id": 18,
+            "question": "Dans quel livre Rabelais a-t-il écrit cette devise : « Fais ce que tu voudras » ?",
+            "propositions": [
+              "Tiers Livre",
+              "Gargantua",
+              "Le Quart Livre",
+              "Pantagruel"
+            ],
+            "reponse": "Gargantua",
+            "anecdote": "Ses uvres majeures, comme 'Pantagruel' et 'Gargantua', sont considérées comme une des premières formes du roman moderne."
+          },
+          {
+            "id": 19,
+            "question": "Qui a écrit : « Si Dieu nous a fait à son image, nous le lui avons bien rendu » ?",
+            "propositions": [
+              "Napoléon",
+              "Lamartine",
+              "Chateaubriand",
+              "Voltaire"
+            ],
+            "reponse": "Voltaire",
+            "anecdote": "Son nom est resté attaché à son combat contre le fanatisme religieux, pour la tolérance et la liberté de pensée."
+          },
+          {
+            "id": 20,
+            "question": "Quel héros de Pagnol dit que « pour gagner de l'argent, il faut bien en prendre à quelqu'un » ?",
+            "propositions": [
+              "Topaze",
+              "Tamise",
+              "Castel-Bénac",
+              "Muche"
+            ],
+            "reponse": "Topaze",
+            "anecdote": "'Topaze' est une pièce de théâtre de Marcel Pagnol, représentée pour la première fois à Paris le 9 octobre 1928."
+          }
+        ],
+        "expert": [
+          {
+            "id": 21,
+            "question": "Qui a dédicacé son livre « à ceux qui nourris de grec et de latin sont morts de faim » ?",
+            "propositions": [
+              "Horace Bertin",
+              "Jules Vallès",
+              "Paul Avenel",
+              "Gustave Aimard"
+            ],
+            "reponse": "Jules Vallès",
+            "anecdote": "Plus que le récit de sa vie, c'est la description de l'esprit dans lequel il a vécu, un esprit enthousiaste et naïf, qu'il offre au lecteur."
+          },
+          {
+            "id": 22,
+            "question": "Complétez cette citation de Victor Hugo : « Quand je vous parle de moi, je vous parle de... »",
+            "propositions": [
+              "Vous",
+              "Nous",
+              "Vie",
+              "Dieu"
+            ],
+            "reponse": "Vous",
+            "anecdote": "Ses romans rencontrent un grand succès populaire, avec 'Notre-Dame de Paris' et plus encore avec 'Les Misérables'."
+          },
+          {
+            "id": 23,
+            "question": "Quel poète du XIXe siècle a écrit : « Ne mattends pas. Ce soir, le nuit sera noire et blanche » ?",
+            "propositions": [
+              "Auguste Arnould",
+              "Jules Breton",
+              "Émile Carré",
+              "Gérard de Nerval"
+            ],
+            "reponse": "Gérard de Nerval",
+            "anecdote": "Le 26 janvier 1855, on le retrouva pendu aux barreaux d'une grille qui fermait un égout de la rue de la Vieille-Lanterne."
+          },
+          {
+            "id": 24,
+            "question": "Qui a écrit : « Les femmes ont toujours aimé le navire mieux que le pilote » ?",
+            "propositions": [
+              "Arthur Rimbaud",
+              "Jean Giraudoux",
+              "Charles Baudelaire",
+              "Victor Hugo"
+            ],
+            "reponse": "Jean Giraudoux",
+            "anecdote": "Peu de temps après la création de la pièce, Giraudoux sera victime d'un empoisonnement alimentaire et décédera le 31 janvier 1944."
+          },
+          {
+            "id": 25,
+            "question": "Quel jeune poète a écrit dans 'Le Bateau ivre' : « J'ai rêvé la nuit verte aux neiges éblouies » ?",
+            "propositions": [
+              "Charles Baudelaire",
+              "Jean Giraudoux",
+              "Arthur Rimbaud",
+              "René Descartes"
+            ],
+            "reponse": "Arthur Rimbaud",
+            "anecdote": "Des vers comme ceux du 'Bateau ivre', du 'Dormeur du val' ou de 'Voyelles' comptent parmi les plus célèbres de la poésie française."
+          },
+          {
+            "id": 26,
+            "question": "Qui a écrit : « Le bon sens est la chose du monde la mieux partagée » ?",
+            "propositions": [
+              "Gérard de Nerval",
+              "Arthur Rimbaud",
+              "René Descartes",
+              "Jean Giraudoux"
+            ],
+            "reponse": "René Descartes",
+            "anecdote": "Le 'Discours de la méthode' est le premier texte philosophique publié par René Descartes à La Haye le 8 juin 1637."
+          },
+          {
+            "id": 27,
+            "question": "Quel dramaturge a dit qu'au théâtre « le vrai public ne comprend pas, il ressent » ?",
+            "propositions": [
+              "Jean Genet",
+              "Félicien Marceau",
+              "Francis Joffo",
+              "Jean Giraudoux"
+            ],
+            "reponse": "Jean Giraudoux",
+            "anecdote": "Jean Giraudoux a participé comme d'autres dramaturges des années 1930-1940 à la réécriture des mythes antiques."
+          },
+          {
+            "id": 28,
+            "question": "Qui a écrit : « Il ne faut pas laisser les intellectuels jouer avec les allumettes » ?",
+            "propositions": [
+              "Boris Vian",
+              "Ken Russell",
+              "Jacques Prévert",
+              "Luis Bunuel"
+            ],
+            "reponse": "Jacques Prévert",
+            "anecdote": "Les poèmes de Jacques Prévert sont célèbres dans le monde francophone et massivement appris dans les écoles françaises."
+          },
+          {
+            "id": 29,
+            "question": "Qui a dit à Las Cases : « L'homme doit avoir plusieurs femmes » ?",
+            "propositions": [
+              "Napoléon",
+              "Henri III",
+              "Louis XVI",
+              "Charles X"
+            ],
+            "reponse": "Napoléon",
+            "anecdote": "Une tradition romantique fait de Napoléon l'archétype du « grand homme » appelé à bouleverser le monde."
+          },
+          {
+            "id": 30,
+            "question": "Qui a écrit, au XVIIe siècle : « Le monde, chère Agnès, est une étrange chose » ?",
+            "propositions": [
+              "Corneille",
+              "Rousseau",
+              "Molière",
+              "Racine"
+            ],
+            "reponse": "Molière",
+            "anecdote": "Interprète du rôle principal de la plupart de ses pièces, Molière est le plus grand créateur de formes de l'histoire du théâtre français."
+          }
+        ]
+      }
+    }
+  ],
+  "culture" : [
+    {
+      "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (www.openquizzdb.org)",
+      "rédacteur": "Philippe Bresoux",
+      "thème": "Culture générale",
+      "difficulté": 4,
+      "quizz": {
+        "débutant": [
+          {
+            "id": 1,
+            "question": "Quel arbre est connu pour atteindre les volumes les plus importants ?",
+            "propositions": [
+              "Le hêtre",
+              "Le pin",
+              "Le chêne",
+              "Le séquoia"
+            ],
+            "reponse": "Le séquoia",
+            "anecdote": "Le séquoia géant a une croissance rapide annuelle moyenne de cinquante cm dans ses premières années, puis un mètre par an."
+          },
+          {
+            "id": 2,
+            "question": "Quelles sont les trois couleurs fondamentales pour le peintre ?",
+            "propositions": [
+              "Blanc, bleu et rouge",
+              "Rouge, bleu et jaune",
+              "Vert, rouge et jaune",
+              "Rouge, bleu et vert"
+            ],
+            "reponse": "Rouge, bleu et jaune",
+            "anecdote": "La couleur et la tonalité sont l'essence même de la peinture, comme le sont la hauteur et le rythme pour la musique."
+          },
+          {
+            "id": 3,
+            "question": "Dans quelle ville peut-on admirer le très touristique pont des Soupirs ?",
+            "propositions": [
+              "Prague",
+              "Avignon",
+              "Londres",
+              "Venise"
+            ],
+            "reponse": "Venise",
+            "anecdote": "Le pont des Soupirs, suggérant le soupir des prisonniers, est l'un des lieux touristiques les plus célèbres de Venise."
+          },
+          {
+            "id": 4,
+            "question": "Quel métier exerçait le sportif argentin Juan Manuel Fangio ?",
+            "propositions": [
+              "Boxeur",
+              "Pilote",
+              "Coureur",
+              "Nageur"
+            ],
+            "reponse": "Pilote",
+            "anecdote": "Juan Manuel Fangio a littéralement dominé la discipline reine du sport automobile dans les années cinquante."
+          },
+          {
+            "id": 5,
+            "question": "Quelle personne a pour mission principale de gérer un site internet ?",
+            "propositions": [
+              "Un websiter",
+              "Un webcleaner",
+              "Un webcontroler",
+              "Un webmaster"
+            ],
+            "reponse": "Un webmaster",
+            "anecdote": "Un webmaster est un professionnel d'internet entendu comme responsable d'un site web, de sa conception à sa maintenance."
+          },
+          {
+            "id": 6,
+            "question": "Avant de devenir chevalier, quel est le rang pour un apprenti Jedi ?",
+            "propositions": [
+              "Jawas",
+              "Hutts",
+              "Padawan",
+              "Novice"
+            ],
+            "reponse": "Padawan",
+            "anecdote": "Les chevaliers Jedi du monde de la saga 'Star Wars' forment un ordre d'individus qui maîtrisent la « Force »."
+          },
+          {
+            "id": 7,
+            "question": "Dans quelle aventure Tintin se retrouve-t-il face à un impressionnant Yeti ?",
+            "propositions": [
+              "Tintin au Congo",
+              "Coke en Stock",
+              "Tintin au Tibet",
+              "Le Lotus bleu"
+            ],
+            "reponse": "Tintin au Tibet",
+            "anecdote": "Le film 'La Neige en deuil', d'Edward Dmytryk, comporte des séquences qui ont probablement dû marquer la mémoire d'Hergé."
+          },
+          {
+            "id": 8,
+            "question": "Comment se prénomment les frères de William et Averell Dalton dans 'Lucky Luke' ?",
+            "propositions": [
+              "Jack et Jim",
+              "John et Joe",
+              "Joe et Jack",
+              "Jim et John"
+            ],
+            "reponse": "Joe et Jack",
+            "anecdote": "Les frères Dalton ont inspiré maintes histoires, dont la bande dessinée 'Lucky Luke' de Morris et de René Goscinny."
+          },
+          {
+            "id": 9,
+            "question": "Dans quel sport Rocco Francis Marchegiano dit « Rocky Marciano » était-il imbattable ?",
+            "propositions": [
+              "La boxe",
+              "Le catch",
+              "La natation",
+              "Le tennis"
+            ],
+            "reponse": "La boxe",
+            "anecdote": "Rocky Marciano est le premier boxeur blanc à avoir repris la couronne des poids lourds aux afro-américains en 1952."
+          },
+          {
+            "id": 10,
+            "question": "Quels muscles du corps humain peuvent être qualifiés de « tablettes de chocolat » ?",
+            "propositions": [
+              "Les triceps",
+              "Les adducteurs",
+              "Les biceps",
+              "Les abdominaux"
+            ],
+            "reponse": "Les abdominaux",
+            "anecdote": "Au nombre de cinq paires, les abdominaux sont des muscles qui s'étendent du thorax au bord supérieur du bassin."
+          }
+        ],
+        "confirmé": [
+          {
+            "id": 11,
+            "question": "Durant quelle période Philippe Pétain assura-t-il le gouvernement de la France ?",
+            "propositions": [
+              "De 1941 à 1944",
+              "De 1941 à 1945",
+              "De 1939 à 1945",
+              "De 1940 à 1944"
+            ],
+            "reponse": "De 1940 à 1944",
+            "anecdote": "Militaire de carrière, le maréchal Pétain est généralement présenté comme le « vainqueur de la bataille de Verdun »."
+          },
+          {
+            "id": 12,
+            "question": "Quel est le prénom de Kate Winslet dans le film 'Titanic' de James Cameron ?",
+            "propositions": [
+              "Carla",
+              "Liz",
+              "Rose",
+              "Jeanne"
+            ],
+            "reponse": "Rose",
+            "anecdote": "'Titanic' est le second plus grand succès de l'histoire du cinéma après 'Avatar' (également réalisé par James Cameron)."
+          },
+          {
+            "id": 13,
+            "question": "Sur quelle espérance de vie moyenne une girafe peut-elle compter ?",
+            "propositions": [
+              "15 ans",
+              "75 ans",
+              "55 ans",
+              "25 ans"
+            ],
+            "reponse": "25 ans",
+            "anecdote": "Les Grecs pensaient que la girafe résultait de l'union du chameau et du léopard, d'où le nom scientifique 'camelopardalis'."
+          },
+          {
+            "id": 14,
+            "question": "Quel célèbre Claude a réalisé en 1985 le film 'Poulet au vinaigre' ?",
+            "propositions": [
+              "Claude Pieplu",
+              "Claude Berri",
+              "Claude Miller",
+              "Claude Chabrol"
+            ],
+            "reponse": "Claude Chabrol",
+            "anecdote": "Le film 'Poulet au vinaigre' a été tourné en quelques semaines seulement à Forges-les-Eaux avec un budget très réduit."
+          },
+          {
+            "id": 15,
+            "question": "Quel archipel appartenant au Portugal est constitué de neuf îles et de plusieurs îlots ?",
+            "propositions": [
+              "Les îles Caïman",
+              "Les Canaries",
+              "Les Açores",
+              "Les Baléares"
+            ],
+            "reponse": "Les Açores",
+            "anecdote": "L'origine volcanique de toutes les îles des Açores est démontrée par l'existence de très nombreux cônes de scories."
+          },
+          {
+            "id": 16,
+            "question": "En combien de provinces le Canada est-il divisé en plus des trois territoires fédéraux ?",
+            "propositions": [
+              "50 provinces",
+              "10 provinces",
+              "4 provinces",
+              "6 provinces"
+            ],
+            "reponse": "10 provinces",
+            "anecdote": "Les provinces sont des États fédérés possédant des pouvoirs souverains, indépendamment du gouvernement fédéral."
+          },
+          {
+            "id": 17,
+            "question": "Quelle faille des États-Unis est la cause de nombreux tremblements de terre ?",
+            "propositions": [
+              "San Francisco",
+              "Nouveau Mexique",
+              "Los Angeles",
+              "San Andreas"
+            ],
+            "reponse": "San Andreas",
+            "anecdote": "Le système des failles de San Andreas s'étend sur environ 1 300 kilomètres de long et 140 kilomètres de large."
+          },
+          {
+            "id": 18,
+            "question": "Quel groupe hollandais des années 1990 était composé de Ray et Anita ?",
+            "propositions": [
+              "2 Unlimited",
+              "Ace of base",
+              "Enigma",
+              "Scorpions"
+            ],
+            "reponse": "2 Unlimited",
+            "anecdote": "Le temps de leur contrat, le duo du groupe 2 Unlimited est devenu populaire à travers le monde durant cinq ans."
+          },
+          {
+            "id": 19,
+            "question": "Quel titre donnait-on à Simon Bolivar, général et homme d'État vénézuélien ?",
+            "propositions": [
+              "Conquistador",
+              "Volador",
+              "Dictator",
+              "Libertador"
+            ],
+            "reponse": "Libertador",
+            "anecdote": "Le bolivarisme est un courant politique que l'on retrouve en Amérique du Sud, se revendiquant de certaines idées de Bolivar."
+          },
+          {
+            "id": 20,
+            "question": "Qui a écrit et composé le deuxième album de Vanessa Paradis ?",
+            "propositions": [
+              "Johnny Depp",
+              "Lenny Kravitz",
+              "Serge Gainsbourg",
+              "Alain Bashung"
+            ],
+            "reponse": "Serge Gainsbourg",
+            "anecdote": "Vanessa Paradis, née en France en 1972, est la nièce de Didier Pain et la sur de l'actrice Alysson Paradis."
+          }
+        ],
+        "expert": [
+          {
+            "id": 21,
+            "question": "Quelle est la couleur du cercle figurant sur le drapeau du Laos ?",
+            "propositions": [
+              "Bleue",
+              "Blanche",
+              "Jaune",
+              "Rouge"
+            ],
+            "reponse": "Blanche",
+            "anecdote": "Les montagnes et les plateaux du Laos, confinés au centre de la péninsule indochinoise, occupent plus de 70% de sa superficie."
+          },
+          {
+            "id": 22,
+            "question": "Hô-Chi-Minh-Ville est le nouveau nom de quel poumon économique ?",
+            "propositions": [
+              "Pékin",
+              "Tokyo",
+              "Saigon",
+              "Vientiane"
+            ],
+            "reponse": "Saigon",
+            "anecdote": "Située près du delta du Mékong, Hô-Chi-Minh-Ville est la métropole et la plus grande ville du sud du Viêt Nam."
+          },
+          {
+            "id": 23,
+            "question": "Dans quel pays les falaises de Moher sont-elles une attraction touristique ?",
+            "propositions": [
+              "Irlande",
+              "Grèce",
+              "Australie",
+              "Argentine"
+            ],
+            "reponse": "Irlande",
+            "anecdote": "Les falaises de Moher, qui s'élèvent jusqu'à 214m sur 8km, fascinent par leur beauté et leurs pentes vertigineuses."
+          },
+          {
+            "id": 24,
+            "question": "Qui débute un de ses romans par : « Longtemps, je me suis couché de bonne heure » ?",
+            "propositions": [
+              "Proust",
+              "Gide",
+              "Zola",
+              "Flaubert"
+            ],
+            "reponse": "Proust",
+            "anecdote": "uvre majeure en sept tomes, 'La Recherche' analysa d'une manière souvent impitoyable la société de son temps."
+          },
+          {
+            "id": 25,
+            "question": "Dans quel domaine est utilisé le terme « propylée », apparu bien avant Jésus-Christ ?",
+            "propositions": [
+              "En architecture",
+              "En généalogie",
+              "En littérature",
+              "En botanique"
+            ],
+            "reponse": "En architecture",
+            "anecdote": "À l'origine un vestibule conduisant à un sanctuaire, le plus célèbre exemple de propylée est celui de l'Acropole d'Athènes."
+          },
+          {
+            "id": 26,
+            "question": "De quelle plante de la famille des Liliacées le nom signifie-t-il « turban » en perse ?",
+            "propositions": [
+              "Le renoncule",
+              "La tulipe",
+              "La digitale",
+              "La jonquille"
+            ],
+            "reponse": "La tulipe",
+            "anecdote": "Les tulipes sont des plantes vivaces bulbeuses à tige longues, dures et solitaires, parfois tendues vers le haut."
+          },
+          {
+            "id": 27,
+            "question": "Qui a inspiré à Ian Fleming le nom de James Bond pour son célèbre personnage ?",
+            "propositions": [
+              "Un géologue",
+              "Un ornithologue",
+              "Un sportif",
+              "Un marin"
+            ],
+            "reponse": "Un ornithologue",
+            "anecdote": "Les nombreux romans mettant en scène le séduisant « agent 007 » ont connu un succès mondial, également au cinéma."
+          },
+          {
+            "id": 28,
+            "question": "Quelles festivités étaient célébrées à Sparte en hommage à Apollon ?",
+            "propositions": [
+              "Les Septéries",
+              "Les Thalysies",
+              "Les Karneia",
+              "Les Mounichies"
+            ],
+            "reponse": "Les Karneia",
+            "anecdote": "Ce sont les Karneia qui retardèrent l'arrivée des Spartiates à Marathon, ainsi que celle des renforts aux Thermopyles."
+          },
+          {
+            "id": 29,
+            "question": "Combien existe-t-il de manières différentes de commencer une partie aux échecs ?",
+            "propositions": [
+              "24",
+              "10",
+              "20",
+              "32"
+            ],
+            "reponse": "20",
+            "anecdote": "La composition échiquéenne, la forme artistique du jeu, a produit des milliers de problèmes dans de multiples genres."
+          },
+          {
+            "id": 30,
+            "question": "Quelle girafe en caoutchouc était destinée à être mordillée par les nourrissons en 1961 ?",
+            "propositions": [
+              "Noémie",
+              "Barbie",
+              "Mimie",
+              "Sophie"
+            ],
+            "reponse": "Sophie",
+            "anecdote": "La girafe Sophie connaît toujours un fort succès dans l'hexagone avec déjà plus de 816 000 exemplaires vendus en France."
+          }
+        ]
+      }
+    }
+  ],
+  "histoire" : [
+    {
+      "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (www.openquizzdb.org)",
+      "rédacteur": "Philippe Bresoux",
+      "thème": "Histoire politique",
+      "difficulté": 3,
+      "quizz": {
+        "débutant": [
+          {
+            "id": 1,
+            "question": "Qui a été nommé, pour la troisième fois de sa carrière, président du Conseil italien le 8 mai 2008 ?",
+            "propositions": [
+              "Romano Prodi",
+              "Giuliano Amato",
+              "Lamberto Dini",
+              "Silvio Berlusconi"
+            ],
+            "reponse": "Silvio Berlusconi",
+            "anecdote": "Homme d'affaires et propriétaire du club de football de l'AC Milan, il a été pour la première fois Président de 1994 à 1995."
+          },
+          {
+            "id": 2,
+            "question": "Quelle prisonnière des Farc colombiennes a été libérée le 2 juillet 2008 après six ans de captivité ?",
+            "propositions": [
+              "Clara Rojas",
+              "Ingrid Betancourt",
+              "Gina Parody",
+              "Gloria Polanco"
+            ],
+            "reponse": "Ingrid Betancourt",
+            "anecdote": "Après de longs mois de détention, cette femme politique colombo-française fut délivrée par l'armée national colombienne."
+          },
+          {
+            "id": 3,
+            "question": "De quel État Barrack Obama était-il le sénateur avant d'être élu président des États-Unis ?",
+            "propositions": [
+              "Iowa",
+              "Idaho",
+              "Illinois",
+              "Indiana"
+            ],
+            "reponse": "Illinois",
+            "anecdote": "Les États-Unis élisent pour la première fois de leur histoire un président Afro-Américain à la tête du pays."
+          },
+          {
+            "id": 4,
+            "question": "Quel acteur célèbre est devenu gouverneur de l'État de Californie le 7 octobre 2003 ?",
+            "propositions": [
+              "V. Diesel",
+              "B. Willis",
+              "A. Schwarzenegger",
+              "S. Stallone"
+            ],
+            "reponse": "A. Schwarzenegger",
+            "anecdote": "Donné favori, bien que républicain, « Schwarzy » a dépassé les prévisions les plus optimistes avec 48% des voix."
+          },
+          {
+            "id": 5,
+            "question": "Qui était l'adversaire démocrate de George W. Bush pour la présidentielle américaine de 2004 ?",
+            "propositions": [
+              "James Baker",
+              "Joe Biden",
+              "John Kerry",
+              "Colin Powell"
+            ],
+            "reponse": "John Kerry",
+            "anecdote": "Le sénateur du Massachusetts l'avait emporté dans neuf États sur dix lors du supermardi des primaires démocrates."
+          },
+          {
+            "id": 6,
+            "question": "Qui fut la première « first Lady » à être élue sénateur de New York le 8 novembre 2000 ?",
+            "propositions": [
+              "Hilary Clinton",
+              "Michelle Obama",
+              "Barbara Bush",
+              "Melania Trump"
+            ],
+            "reponse": "Hilary Clinton",
+            "anecdote": "Nombreux sont ceux dans son camp démocrate ou chez les Républicains à lui prêter une plus haute ambition."
+          },
+          {
+            "id": 7,
+            "question": "Sous quel nom le prince Albert a-t-il accédé au trône de Monaco ?",
+            "propositions": [
+              "Albert II",
+              "Honoré V",
+              "Louis II",
+              "Rainier III"
+            ],
+            "reponse": "Albert II",
+            "anecdote": "Le nouveau souverain entend rompre avec l'autocratisme de son père et promet une gestion du pays « ouverte au dialogue »."
+          },
+          {
+            "id": 8,
+            "question": "Quel ancien président américain a achevé une visite historique à Cuba le 17 mai 2002 ?",
+            "propositions": [
+              "Jimmy Carter",
+              "Gerald Ford",
+              "Ronald Reagan",
+              "Bill Clinton"
+            ],
+            "reponse": "Jimmy Carter",
+            "anecdote": "Venu à titre privé, mais non sans arrière-pensées, Jimmy Carter était un farouche défenseur des droits de l'homme."
+          },
+          {
+            "id": 9,
+            "question": "Quel homme d'État américain a reçu le prix Nobel de la paix le 9 octobre 2009 ?",
+            "propositions": [
+              "Al Gore",
+              "Donald Trump",
+              "Jimmy Carter",
+              "Barack Obama"
+            ],
+            "reponse": "Barack Obama",
+            "anecdote": "Barack Obama a reçu ce prix pour ses efforts extraordinaires en faveur du renforcement de la diplomatie internationale."
+          },
+          {
+            "id": 10,
+            "question": "Quel ancien premier ministre mort en 2007 fut surnommé « meilleur économiste de France » ?",
+            "propositions": [
+              "Pierre Mauroy",
+              "Laurent Fabius",
+              "Raymond Barre",
+              "Jacques Chirac"
+            ],
+            "reponse": "Raymond Barre",
+            "anecdote": "Cet universitaire avait été le Premier ministre de Valéry Giscard d'Estaing de 1976 à 1981 et maire de Lyon de 1995 à 2001."
+          }
+        ],
+        "confirmé": [
+          {
+            "id": 11,
+            "question": "Quelle personnalité, décédée le 27 août 2003, a donné son nom au poujadisme ?",
+            "propositions": [
+              "Marc Poujade",
+              "André Poujade",
+              "Jean Poujade",
+              "Pierre Poujade"
+            ],
+            "reponse": "Pierre Poujade",
+            "anecdote": "Son nom est resté le symbole des « petits » écrasés par les « gros ». Il fonda l'Union de défense des commerçants et artisans."
+          },
+          {
+            "id": 12,
+            "question": "Quel ancien président serbe de Bosnie, accusé de crimes de guerre, a terminé sa cavale en 2008 ?",
+            "propositions": [
+              "Radovan Karadzic",
+              "Sandor Pall",
+              "Bajram Omeragic",
+              "Sava Mikic"
+            ],
+            "reponse": "Radovan Karadzic",
+            "anecdote": "Karadzic sera inculpé de génocide, crimes de guerre et crimes contre l'humanité pour sa responsabilité dans le siège de Sarajevo."
+          },
+          {
+            "id": 13,
+            "question": "Quel président a jeté l'éponge à Haïti le 29 février 2004 à la suite d'un coup d'État ?",
+            "propositions": [
+              "Émile Jonassaint",
+              "René Préval",
+              "J.-B. Aristide",
+              "Marc Bazin"
+            ],
+            "reponse": "J.-B. Aristide",
+            "anecdote": "L'ancien prêtre a donné sa démission et quitté le pays dans un avion américain pour une destination secrète."
+          },
+          {
+            "id": 14,
+            "question": "Comment s'appelait le quarantième président des États-Unis ?",
+            "propositions": [
+              "John Kerry",
+              "Ronald Reagan",
+              "Jimmy Carter",
+              "George H. W. Bush"
+            ],
+            "reponse": "Ronald Reagan",
+            "anecdote": "L'ancien acteur d'Hollywood exercera deux mandats successifs à la Maison Blanche (1981-1989)."
+          },
+          {
+            "id": 15,
+            "question": "Quel ancien président de l'Autorité palestinienne a perdu la vie à Paris le 11 novembre 2004 ?",
+            "propositions": [
+              "Mahmoud Abbas",
+              "Rami Hamdallah",
+              "Yasser Arafat",
+              "Nabil Shaath"
+            ],
+            "reponse": "Yasser Arafat",
+            "anecdote": "Le raïs avait été élu à la présidence de l'autorité palestinienne en janvier 1996, deux ans après avoir reçu le prix Nobel de la Paix."
+          },
+          {
+            "id": 16,
+            "question": "Qui a succédé à Yasser Arafat à la tête de l'Autorité palestinienne le 9 janvier 2005 ?",
+            "propositions": [
+              "Mahmoud Abbas",
+              "Ahmed Qoreï",
+              "Salam Fayyad",
+              "Nabil Shaath"
+            ],
+            "reponse": "Mahmoud Abbas",
+            "anecdote": "Partisan d'une négociation avec Israël visant à la création d'un État palestinien, Mahmoud Abbas a recueilli 62% des suffrages."
+          },
+          {
+            "id": 17,
+            "question": "Quel dirigeant syndical a été élu président de la Bolivie le 21 décembre 2005 ?",
+            "propositions": [
+              "Simon Bolivar",
+              "Sebastian Agreda",
+              "Carlos Mesa",
+              "Evo Morales"
+            ],
+            "reponse": "Evo Morales",
+            "anecdote": "Le programme d'Evo Morales repose sur deux piliers : la révision plus équitable des contrats du pays et la défense des agriculteurs."
+          },
+          {
+            "id": 18,
+            "question": "Qui a été élu maire de New York le 6 novembre 2001, remplacé ensuite par Bill de Blasio ?",
+            "propositions": [
+              "Edward Koch",
+              "Rudolph Giuliani",
+              "Michael Bloomberg",
+              "John Hopkins"
+            ],
+            "reponse": "Michael Bloomberg",
+            "anecdote": "Le milliardaire qui commence son premier mandat à la tête de la ville avait le soutien du maire sortant Rudolph Giulani."
+          },
+          {
+            "id": 19,
+            "question": "Quelle jeune étudiante Française fut arrêtée en Iran le 1er juillet 2009 pour « espionnage » ?",
+            "propositions": [
+              "Barbara Pompili",
+              "Johanna Rolland",
+              "Clotilde Reiss",
+              "Noémie Saglio"
+            ],
+            "reponse": "Clotilde Reiss",
+            "anecdote": "Lectrice de français à l'université d'Ispahan, elle aurait pris des photos lors des troubles liés aux élections présidentielles iraniennes."
+          },
+          {
+            "id": 20,
+            "question": "Quel ministre a été jugé pour « injure raciale » le 4 juin 2010 ?",
+            "propositions": [
+              "Éric Woerth",
+              "Brice Hortefeux",
+              "Luc Chatel",
+              "Xavier Bertrand"
+            ],
+            "reponse": "Brice Hortefeux",
+            "anecdote": "Il avait dit : « Y'en a beaucoup qui posent des problèmes » à propos d'un militant UMP."
+          }
+        ],
+        "expert": [
+          {
+            "id": 21,
+            "question": "Qui était surnommé le « père de l'indépendance » tunisienne ?",
+            "propositions": [
+              "Habib Bourguiba",
+              "Moncef Marzouki",
+              "Fouad Mebazaa",
+              "Habib Essid"
+            ],
+            "reponse": "Habib Bourguiba",
+            "anecdote": "Il fut d'abord un précurseur, supprimant la polygamie dès son accession au pouvoir et accordant le droit de vote aux femmes."
+          },
+          {
+            "id": 22,
+            "question": "Quel homme politique autrichien s'est tué dans un accident de voiture le 11 octobre 2008 ?",
+            "propositions": [
+              "Alfred Polgar",
+              "Jörg Haider",
+              "Peter Turrini",
+              "Franz Blei"
+            ],
+            "reponse": "Jörg Haider",
+            "anecdote": "Gouverneur de la Carinthie, ses idées nationalistes et populistes avaient beaucoup inquiété l'Union européenne."
+          },
+          {
+            "id": 23,
+            "question": "De quel homme d'affaires a-t-on pu assister sur Internet à la décapitation le 11 mai 2004 ?",
+            "propositions": [
+              "Nicholas Berg",
+              "David Haines",
+              "Alan Johnston",
+              "Tom Fox"
+            ],
+            "reponse": "Nicholas Berg",
+            "anecdote": "Son assassinat était accompagné d'une déclaration le présentant comme une reponse aux tortures infligées à Abou Ghraib."
+          },
+          {
+            "id": 24,
+            "question": "Qui a prêté serment en tant que Premier ministre de l'Irak le 28 juin 2004 ?",
+            "propositions": [
+              "Ahmed Chalabi",
+              "Jalal Talabani",
+              "Massoud Barzani",
+              "Iyad Allaou"
+            ],
+            "reponse": "Iyad Allaou",
+            "anecdote": "Selon la résolution 1546 du Conseil de Sécurité, l'Irak recouvre une souveraineté pleine et entière."
+          },
+          {
+            "id": 25,
+            "question": "Qui a succédé à Pierre Gadonneix à la tête d'EDF le 25 novembre 2009 ?",
+            "propositions": [
+              "François Roussely",
+              "Gilles Ménage",
+              "Edmond Alphandéry",
+              "Henri Proglio"
+            ],
+            "reponse": "Henri Proglio",
+            "anecdote": "C'est une consécration pour celui qui, depuis 10 ans, dirige Veolia Environnement, où il a fait l'essentiel de sa carrière."
+          },
+          {
+            "id": 26,
+            "question": "Comment s'appelle l'ancien roi afghan, destitué en 1973 ?",
+            "propositions": [
+              "M. Zaher Shah",
+              "M. Daoud Khan",
+              "M. Sedi Khan",
+              "M. Nadir Shah"
+            ],
+            "reponse": "M. Zaher Shah",
+            "anecdote": "En exil en Italie depuis sa destitution, il lance le 21 septembre 2001 un appel pour une assemblée des chefs de tribus dans son pays."
+          },
+          {
+            "id": 27,
+            "question": "Quel français a été inculpé dans les attentats du 11 septembre ?",
+            "propositions": [
+              "Ahmed Ressam",
+              "Djamel Beghal",
+              "Nigel Hamer",
+              "Zacarias Moussaoui"
+            ],
+            "reponse": "Zacarias Moussaoui",
+            "anecdote": "L'homme âgé de 33 ans a été arrêté le 17 août 2001 pour séjour irrégulier dans le Minnesota où il suivait des cours de pilotage."
+          },
+          {
+            "id": 28,
+            "question": "Qui fut élu à la tête de la Banque mondiale le 31 mars 2005 ?",
+            "propositions": [
+              "Jim Yong Kim",
+              "Paul Wolfowitz",
+              "James Wolfensohn",
+              "Robert Zoellick"
+            ],
+            "reponse": "Paul Wolfowitz",
+            "anecdote": "N°2 du Pentagone, il est élu à l'unanimité, malgré les nombreuses réserves émises en Europe et dans les pays du tiers-monde."
+          },
+          {
+            "id": 29,
+            "question": "Quel militaire et président syrien est décédé le 10 juin 2000 à Damas ?",
+            "propositions": [
+              "Nazem Koudsi",
+              "Bachar el-Assad",
+              "Hafez El-Assad",
+              "Ahmed Khatib"
+            ],
+            "reponse": "Hafez El-Assad",
+            "anecdote": "Hafez el-Assad eut pour principale préoccupation l'unité du monde arabe dont il se voulait le leader."
+          },
+          {
+            "id": 30,
+            "question": "Qu'a déclenché Ariel Sharon en se rendant sur l'esplanade des Mosquées le 28 août 2000 ?",
+            "propositions": [
+              "Première Intifada",
+              "Seconde Intifada",
+              "Guerre de Gaza",
+              "Guerre du Kippour"
+            ],
+            "reponse": "Seconde Intifada",
+            "anecdote": "Ariel Sharon, alors chef du Likoud, voulait ainsi affirmer les droits imprescriptibles d'Israël sur ce lieu."
+          }
+        ]
+      }
+    }
+  ],
+  "géographie" : [
+    {                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "rédacteur": "Philippe Bresoux",
+  "thème": "Géographie",         
+  "difficulté": 3,
+  "quizz": {
+
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Dans quel océan se déverse l'Amazone, de loin le plus élevé de tous les fleuves de la planète ?",
+        "propositions": [
+          "Océan Atlantique",
+          "Océan Arctique",
+          "Océan Pacifique",
+          "Océan Indien"
+        ],
+        "reponse": "Océan Atlantique",
+        "anecdote": "La démesure de l'Amazone s'apprécie aussi en constatant qu'aucun pont ni barrage ne le franchit sur des milliers de kilomètres."
+      },
+      {
+        "id": 2,
+        "question": "Où peut-on se rendre dans la plus grande île et le plus petit continent du monde ?",
+        "propositions": [
+          "Asie",
+          "Afrique",
+          "Europe",
+          "Australie"
+        ],
+        "reponse": "Australie",
+        "anecdote": "Sa population est principalement concentrée dans les grandes villes côtières de Sydney, Melbourne, Brisbane, Perth et Adélaïde."
+      },
+      {
+        "id": 3,
+        "question": "Où peut-on marcher sur la place Tian'anmen, au sud de la porte de la Paix céleste ?",
+        "propositions": [
+          "Pékin",
+          "Canton",
+          "Shanghai",
+          "Shenzhen"
+        ],
+        "reponse": "Pékin",
+        "anecdote": "La place Tian'anmen doit notamment sa célébrité aux nombreux événements qui s'y sont déroulés dans l'histoire chinoise."
+      },
+      {
+        "id": 4,
+        "question": "Quelle est la plus grande ville du Grand-Duché de Luxembourg ainsi que sa capitale ?",
+        "propositions": [
+          "Vianden",
+          "Wiltz",
+          "Luxembourg",
+          "Diekirch"
+        ],
+        "reponse": "Luxembourg",
+        "anecdote": "Après avoir été surnommée « la Gibraltar du Nord » en raison de sa forteresse, elle est dite aujourd'hui le « Coeur vert de l'Europe »."
+      },
+      {
+        "id": 5,
+        "question": "Quel pays sans côte océanique partage en toute tranquillité le lac Majeur avec l'Italie ?",
+        "propositions": [
+          "L'Autriche",
+          "La Suisse",
+          "La Pologne",
+          "Le Danemark"
+        ],
+        "reponse": "La Suisse",
+        "anecdote": "Le lac Majeur est célèbre par ses sites touristiques comme les îles Borromées et les îles de Brissago."
+      },
+      {
+        "id": 6,
+        "question": "Où se trouve Ankara, ville nouvelle aux origines pourtant très anciennes ?",
+        "propositions": [
+          "Au Pakistan",
+          "En Turquie",
+          "En Birmanie",
+          "En Inde"
+        ],
+        "reponse": "En Turquie",
+        "anecdote": "Certains vestiges hittites découverts dans la citadelle attestent la présence d'une cité (Ankuva) du temps de l'Empire hittite."
+      },
+      {
+        "id": 7,
+        "question": "Sur quel tropique se trouve Taiwan, connue comme la République de Chine ?",
+        "propositions": [
+          "Sagittaire",
+          "Cancer",
+          "Capricorne",
+          "Taureau"
+        ],
+        "reponse": "Cancer",
+        "anecdote": "Taïwan fut officiellement gouverné par la Chine de 1683 à 1895, puis cédé au Japon par le traité de Shimonoseki en 1895."
+      },
+      {
+        "id": 8,
+        "question": "Quel est le pays entouré par le Lichtenstein, l'Italie, l'Autriche, l'Allemagne et la France ?",
+        "propositions": [
+          "La Hongrie",
+          "Les Pays-Bas",
+          "La Grèce",
+          "La Suisse"
+        ],
+        "reponse": "La Suisse",
+        "anecdote": "La Suisse est un pays sans côte océanique mais dispose d'un accès direct à la mer par le Rhin (Convention de Mannheim)."
+      },
+      {
+        "id": 9,
+        "question": "Dans quel pays allez-vous si vous partez à la recherche du comte Dragul, en Transylvanie ?",
+        "propositions": [
+          "Hongrie",
+          "Bulgarie",
+          "Australie",
+          "Roumanie"
+        ],
+        "reponse": "Roumanie",
+        "anecdote": "Écrit à la fin du XIXe siècle, « Dracula » est un roman épistolaire dont le personnage principal est un vampire."
+      },
+      {
+        "id": 10,
+        "question": "Quel tropique indiqué sur les cartes terrestres passe entre la Floride et Cuba ?",
+        "propositions": [
+          "Tropique du Cancer",
+          "Tropique du Loup",
+          "Tropique du Chat",
+          "Tropique du Lion"
+        ],
+        "reponse": "Tropique du Cancer",
+        "anecdote": "Le tropique du Cancer porte ce nom car, il y a environ 2000 ans, le Soleil entrait dans la constellation du Cancer lors du solstice de juin."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel archipel du Pacifique est constitué de plus de 7 100 îles et îlots formant un état ?",
+        "propositions": [
+          "Malaisie",
+          "Indonésie",
+          "Birmanie",
+          "Philippines"
+        ],
+        "reponse": "Philippines",
+        "anecdote": "Un peu plus de 2 000 seulement sont habitées, alors qu'environ 2 400 îles n'ont même pas encore reçu de nom."
+      },
+      {
+        "id": 12,
+        "question": "Quel fleuve et importante voie fluviale bleuit selon la météo dans la capitale de la Hongrie ?",
+        "propositions": [
+          "Elbe",
+          "Rhin",
+          "Danube",
+          "Rhône"
+        ],
+        "reponse": "Danube",
+        "anecdote": "En suivant le Danube qui forme alors la frontière entre la Hongrie et la Slovaquie, la première ville importante rencontrée est Gyor."
+      },
+      {
+        "id": 13,
+        "question": "Quelle mer du bassin Indo-Pacifique est reliée à la Méditerranée par le canal de Suez ?",
+        "propositions": [
+          "Mer Ionienne",
+          "Mer Rouge",
+          "Mer de Java",
+          "Mer Noire"
+        ],
+        "reponse": "Mer Rouge",
+        "anecdote": "Il arrive que ses eaux soient peuplées d'algues qui, lorsqu'elles meurent, donnent à l'eau une couleur rougeâtre."
+      },
+      {
+        "id": 14,
+        "question": "Sachant que les Apennins se trouvent en Italie, où sont principalement situées les Appalaches ?",
+        "propositions": [
+          "Au Brésil",
+          "Aux États-Unis",
+          "En Russie",
+          "En Inde"
+        ],
+        "reponse": "Aux États-Unis",
+        "anecdote": "Les Appalaches séparent la plaine côtière atlantique (à l'est) du bassin du fleuve Mississippi et des Grands Lacs (à l'ouest)."
+      },
+      {
+        "id": 15,
+        "question": "Quel fleuve d'Afrique occidentale, portant le nom d'un pays, borde le Sahel ?",
+        "propositions": [
+          "Le Niger",
+          "Le Congo",
+          "Le Sénégal",
+          "Le Zambèze"
+        ],
+        "reponse": "Le Niger",
+        "anecdote": "Le fleuve Niger fait partie de ces fleuves (tout comme le Sénégal) qui ont été fortement aménagés depuis les années 1980."
+      },
+      {
+        "id": 16,
+        "question": "Vers quel pays allez-vous si vous quittez la ville italienne de Trieste vers l'Est ?",
+        "propositions": [
+          "Suisse",
+          "Grèce",
+          "Espagne",
+          "Slovénie"
+        ],
+        "reponse": "Slovénie",
+        "anecdote": "Géographiquement, Trieste est considérée comme la dernière ville du Nord-Est de l'Italie ou comme la ville de l'extrême Sud."
+      },
+      {
+        "id": 17,
+        "question": "Quel port canadien situé sur le lac Ontario était jadis connu sous le nom de « Fort York » ?",
+        "propositions": [
+          "Toronto",
+          "Windsor",
+          "Oshawa",
+          "Hamilton"
+        ],
+        "reponse": "Toronto",
+        "anecdote": "Fort York fut construit à l'entrée du port naturel de la ville, abrité par un long banc de sable en forme de péninsule."
+      },
+      {
+        "id": 18,
+        "question": "Dans quel État des États-Unis pourrez-vous partir à la rencontre des Séminoles ?",
+        "propositions": [
+          "Floride",
+          "Nevada",
+          "Michigan",
+          "Arkansas"
+        ],
+        "reponse": "Floride",
+        "anecdote": "Les Amérindiens Calusa furent les premiers habitants de ces marais subtropicaux qu'ils baptisèrent « Pa-hay-okee » ou « eaux herbeuses »."
+      },
+      {
+        "id": 19,
+        "question": "Quelle mer dépourvue de poissons et d'algues est partagée entre la Jordanie et Israël ?",
+        "propositions": [
+          "Mer Rouge",
+          "Mer Blanche",
+          "Mer Morte",
+          "Mer Jaune"
+        ],
+        "reponse": "Mer Morte",
+        "anecdote": "Alors que la salinité moyenne de l'eau de mer oscille entre 2 et 4 %, celle de la mer Morte est d'approximativement 27.5 %."
+      },
+      {
+        "id": 20,
+        "question": "Où est Dubrovnik, dont les habitants ainsi que ce qui s'y rapporte s'appellent des ragusains ?",
+        "propositions": [
+          "En Yougoslavie",
+          "En Estonie",
+          "En Sibérie",
+          "En Roumanie"
+        ],
+        "reponse": "En Yougoslavie",
+        "anecdote": "De son ancien nom français Raguse, Dubrovnik a pour devise : « La liberté ne se vend pas même pour tout l'or du monde »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Sur quelle île à 120 km du sud de l'Angleterre se trouvent Grand Havre et Port Soif ?",
+        "propositions": [
+          "Guernesey",
+          "Ortac",
+          "Aurigny",
+          "Herm"
+        ],
+        "reponse": "Guernesey",
+        "anecdote": "Victor Hugo a séjourné à Guernesey et y a écrit « Les Misérables » en 1862 et « Les Travailleurs de la mer » en 1866."
+      },
+      {
+        "id": 22,
+        "question": "Dans quel pays peut-on par exemple passer une nuit à Mandalay et la suivante à Rangoon ?",
+        "propositions": [
+          "En Birmanie",
+          "En Indonésie",
+          "Aux Philippines",
+          "En Malaisie"
+        ],
+        "reponse": "En Birmanie",
+        "anecdote": "Capitale royale entre 1860 et 1885, réputée pour son jade, Mandalay était alors surnommée la « cité des joyaux »."
+      },
+      {
+        "id": 23,
+        "question": "Dans quel État du Midwest des États-Unis se trouvent Mineapolis et sa jumelle St Paul ?",
+        "propositions": [
+          "Montana",
+          "Missouri",
+          "Michigan",
+          "Minnesota"
+        ],
+        "reponse": "Minnesota",
+        "anecdote": "Le mot Minnesota vient de mnisota, nom donné au fleuve Minnesota par les Dakotas, tribu Sioux."
+      },
+      {
+        "id": 24,
+        "question": "Vers quel lac la ville d'Irkoutsk plonge-t-elle son regard à 66 kilomètres à l'ouest ?",
+        "propositions": [
+          "Malawi",
+          "Tanganyika",
+          "Érié",
+          "Baïkal"
+        ],
+        "reponse": "Baïkal",
+        "anecdote": "Irkoutsk se trouve dans une région de collines couvertes de taïga, paysage typique de la Sibérie orientale."
+      },
+      {
+        "id": 25,
+        "question": "Quelle grande ville trouve-t-on sur la mer d'Oman, près de l'embouchure de l'Indus ?",
+        "propositions": [
+          "Islamabad",
+          "Karachi",
+          "Burewala",
+          "Mingora"
+        ],
+        "reponse": "Karachi",
+        "anecdote": "Karachi est l'une des villes les plus peuplées au monde et la plus peuplée du monde musulman."
+      },
+      {
+        "id": 26,
+        "question": "Quelle capitale pakistanaise, située au nord du pays, jouxte la ville de Rawalpindi ?",
+        "propositions": [
+          "Islamabad",
+          "Quetta",
+          "Wah",
+          "Karachi"
+        ],
+        "reponse": "Islamabad",
+        "anecdote": "Devenue en 1967 la capitale du pays, au détriment de Karachi, Islamabad en constitue le coeur administratif et politique."
+      },
+      {
+        "id": 27,
+        "question": "Dans quel État américain du Nord-Est du pays se trouvent Rome, Syracuse et Albany ?",
+        "propositions": [
+          "Idaho",
+          "New York",
+          "Alabama",
+          "Maryland"
+        ],
+        "reponse": "New York",
+        "anecdote": "Si la ville de New York se trouve dans l'État de New York, sa principale agglomération se trouve dans les États voisins."
+      },
+      {
+        "id": 28,
+        "question": "De quel pays situé à environ 200 km au nord de l'équateur Kuala Lumpur est-elle la capitale ?",
+        "propositions": [
+          "Birmanie",
+          "Cambodge",
+          "Malaisie",
+          "Laos"
+        ],
+        "reponse": "Malaisie",
+        "anecdote": "Arrachée à la jungle dans les années 1850, la ville doit sa naissance et sa fortune aux abondants gisements d'étain."
+      },
+      {
+        "id": 29,
+        "question": "Combien de mers baignent la Russie, le plus vaste pays de notre planète ?",
+        "propositions": [
+          "Dix",
+          "Six",
+          "Huit",
+          "Douze"
+        ],
+        "reponse": "Douze",
+        "anecdote": "Bien qu'entourée de mers et de deux océans, la Russie est caractérisée par un climat continental aux milieux froids et hostiles."
+      },
+      {
+        "id": 30,
+        "question": "Sur quelle île se trouve Manille, deuxième ville la plus peuplée des Philippines après Quezon ?",
+        "propositions": [
+          "Visayas",
+          "Guam",
+          "Shikoku",
+          "Luçon"
+        ],
+        "reponse": "Luçon",
+        "anecdote": "La quasi totalité de la ville se trouve sur un sol alluvionnaire déplacé par la rivière Pasig et gagné sur la baie de Manille."
+      }
+    ]
+    }
   }
+  ],
+  "dessins animés" : [
+    {
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "rédacteur": "Philippe Bresoux",
+  "thème": "Jeunesse et dessins animés (Souvenirs, souvenirs)",
+  "difficulté": 3,
+  "quizz": {
+    
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Où sont placés les deux propulseurs d'Astro le petit robot ?",
+        "propositions": [
+          "Dans ses pieds",
+          "Sous ses bras",
+          "Dans le dos",
+          "À la ceinture"
+        ],
+        "reponse": "Dans ses pieds",
+        "anecdote": "Diffusé depuis 1963 sur les écrans Japonais, le manga d'Osamu Tezuka avait déjà été publié pour la première fois en 1952."
+      },
+      {
+        "id": 2,
+        "question": "Qui n'en finit plus de mourir dans les premières saisons de South Park ?",
+        "propositions": [
+          "Stan",
+          "Kenny",
+          "Eric",
+          "Kyle"
+        ],
+        "reponse": "Kenny",
+        "anecdote": "Le petit garçon à la capuche orange est la risée de Cartman, l'un des quatre héros du dessin animé de Trey Parker et Matt Stone."
+      },
+      {
+        "id": 3,
+        "question": "Avec lequel des garçons de sa bande fait habituellement équipe Scoubidou ?",
+        "propositions": [
+          "Sammy",
+          "Logan",
+          "Roger",
+          "Fred"
+        ],
+        "reponse": "Sammy",
+        "anecdote": "Le chien détective a rapidement été de retour, accompagné de guest-stars comme Batman et Robin ou Laurel et Hardy."
+      },
+      {
+        "id": 4,
+        "question": "Qui est le plus âgé des enfants de la famille Simpson ?",
+        "propositions": [
+          "Bart",
+          "Maggie",
+          "Lisa",
+          "Marge"
+        ],
+        "reponse": "Bart",
+        "anecdote": "Depuis sa création en 1989, le dessin animé de Matt Groenig rencontre un succès mondial, traduit sur grand écran en 2007."
+      },
+      {
+        "id": 5,
+        "question": "Quel animal est Capucin, le petit compagnon de Candy ?",
+        "propositions": [
+          "Lapin",
+          "Hamster",
+          "Raton laveur",
+          "Chat"
+        ],
+        "reponse": "Raton laveur",
+        "anecdote": "La jeune fille se retrouve à l'orphelinat tenu par Mademoiselle Pony, et Candy tombe amoureuse du prince des collines."
+      },
+      {
+        "id": 6,
+        "question": "Comment qualifier le manège de Margotte, Zébulon et Pollux ?",
+        "propositions": [
+          "Hanté",
+          "Embrumé",
+          "Encerclé",
+          "Enchanté"
+        ],
+        "reponse": "Enchanté",
+        "anecdote": "La série d'animation de Serge Danot est apparue en 1963 sur la première chaîne de l'ORTF. En 2005, une version 3D a été diffusée."
+      },
+      {
+        "id": 7,
+        "question": "Qui est rond comme un ballon et plus jaune qu'un citron ?",
+        "propositions": [
+          "Pac-Man",
+          "Digger",
+          "Fruity",
+          "Pengo"
+        ],
+        "reponse": "Pac-Man",
+        "anecdote": "Ce héros a été l'une des premières vedettes de jeu vidéo à avoir son propre dessin animé, avant Super Mario Bros et Zelda."
+      },
+      {
+        "id": 8,
+        "question": "Quel pivert possède le rire le plus reconnaissable de la télévision ?",
+        "propositions": [
+          "Oscar Rapace",
+          "Falco Lombardi",
+          "Woody Woodpecker",
+          "Génius"
+        ],
+        "reponse": "Woody Woodpecker",
+        "anecdote": "Le petit oiseau à la houpette rouge, né en 1940 mais diffusé en 1967, a un rire original signé Mel Blanc."
+      },
+      {
+        "id": 9,
+        "question": "De quelle saga cinématographique 'Clone Wars' est-il dérivé ?",
+        "propositions": [
+          "Star Wars",
+          "Star Trek",
+          "Harry Potter",
+          "Voraces"
+        ],
+        "reponse": "Star Wars",
+        "anecdote": "D'après l'histoire signée George Lucas, le dessin animé a été produit à partir de 2003, entre les sorties des épisodes 2 et 3."
+      },
+      {
+        "id": 10,
+        "question": "Qui est le meilleur ami de Tom Sayer à Saint-Petersburg ?",
+        "propositions": [
+          "Muff Potter",
+          "Benjamin Rogers",
+          "Huckleberry Finn",
+          "Jim Hollis"
+        ],
+        "reponse": "Huckleberry Finn",
+        "anecdote": "Véritable vagabond livré à lui-même, il entraîne Tom Sayer avec lui dans de nombreuses aventures sur les bords du Mississippi."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Grâce à quel objet Gigi arrive-t-elle à se transformer en jeune femme ?",
+        "propositions": [
+          "Parapluie",
+          "Chapeau",
+          "Ceinture",
+          "Pendentif"
+        ],
+        "reponse": "Pendentif",
+        "anecdote": "Âgée de 12 ans, Gigi est une princesse envoyée sur Terre par ses parents pour redonner de l'espoir à certains humains."
+      },
+      {
+        "id": 12,
+        "question": "Qu'utilise le lutin Tofffsy pour savoir si on lui dit la vérité ?",
+        "propositions": [
+          "Herbe musicale",
+          "Grimoire",
+          "Diamant bleu",
+          "Clé magique"
+        ],
+        "reponse": "Herbe musicale",
+        "anecdote": "Le petit lutin à la chevelure jaune a toujours d'ingénieuses idées pour aider ses amis qui vivent avec lui au château de la comtesse."
+      },
+      {
+        "id": 13,
+        "question": "Quel jeune héros de série télé âgé de 10 ans utilise l'Omnitrix ?",
+        "propositions": [
+          "Ben 10",
+          "Astro",
+          "Yogi",
+          "Kenny"
+        ],
+        "reponse": "Ben 10",
+        "anecdote": "L'omnitrix est le bracelet qu'il fixe à son poignet et qui lui permet de se métamorphoser en dix héros aux super-pouvoirs."
+      },
+      {
+        "id": 14,
+        "question": "Grâce à quel objet Sophie communique-t-elle avec Finot dans 'Inspecteur Gadget' ?",
+        "propositions": [
+          "Bague",
+          "Montre",
+          "Poupée",
+          "Téléphone"
+        ],
+        "reponse": "Montre",
+        "anecdote": "Ultra-sophistiquée, la montre offre à Sophie la possibilité de parler et de voir son chien pour venir ensemble en aide à Gadget."
+      },
+      {
+        "id": 15,
+        "question": "Que pilotent Satanas et Diabolo pour attraper le messager Zéphyrin ?",
+        "propositions": [
+          "Fusée",
+          "Autobus",
+          "Biplan",
+          "Moto"
+        ],
+        "reponse": "Biplan",
+        "anecdote": "A la suite du succès des 'Fous du volant', Satanas et Diabolo ont en effet poursuivi leurs péripéties dans les airs."
+      },
+      {
+        "id": 16,
+        "question": "Pour quelle raison Calimero est-il le seul poussin de couleur noire autour de lui ?",
+        "propositions": [
+          "Il est brûlé",
+          "Il est sale",
+          "Il est malade",
+          "Il est furieux"
+        ],
+        "reponse": "Il est sale",
+        "anecdote": "En 1961, Calimero était la star d'une publicité pour la lessive italienne où il retrouvait sa couleur d'origine une fois nettoyé."
+      },
+      {
+        "id": 17,
+        "question": "Quelle est la particularité vestimentaire de Yogi l'ours ?",
+        "propositions": [
+          "Cravate et chapeau",
+          "Tee-shirt et tongs",
+          "Casquette et short",
+          "Cape et collants"
+        ],
+        "reponse": "Cravate et chapeau",
+        "anecdote": "Évoluant dans le parc de Jellystone en compagnie de son ami Boubou, il est toujours en quête de nourriture."
+      },
+      {
+        "id": 18,
+        "question": "Quel animal est Saturnin, héros de la série créée par Jean Tourane ?",
+        "propositions": [
+          "Un caneton",
+          "Un zèbre",
+          "Un éléphant",
+          "Un raton laveur"
+        ],
+        "reponse": "Un caneton",
+        "anecdote": "Le petit volatile caractériel, dont le monde miniature est à l'identique celui des humains, a démarré sa carrière en 1965."
+      },
+      {
+        "id": 19,
+        "question": "Par quel procédé d'animation le clown Kiri a-t-il été créé ?",
+        "propositions": [
+          "Papier carton",
+          "Mosaïques",
+          "Marionnettes",
+          "Plasticine"
+        ],
+        "reponse": "Marionnettes",
+        "anecdote": "De ville en ville, sa roulotte entraîne ses compagnons Pip'lett, Laura, Ratibus et Bianca dans de nombreuses aventures."
+      },
+      {
+        "id": 20,
+        "question": "Quelle héroïne de dessin animé a été la star des studios Fleischer avec Popeye ?",
+        "propositions": [
+          "Betty Boop",
+          "Dora Marquez",
+          "Charlotte",
+          "Manny"
+        ],
+        "reponse": "Betty Boop",
+        "anecdote": "Apparue en 1930, la sensuelle brunette est un des personnages animés emblématiques de l'entre-deux-guerres."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quelle est la chaîne jeunesse dont le slogan a été 'La télé qui remue toute la famille' ?",
+        "propositions": [
+          "Gulli",
+          "Cstar",
+          "W9",
+          "HD1"
+        ],
+        "reponse": "Gulli",
+        "anecdote": "Lors du lancement de la TNT en France, en 2005, le groupe Lagardère et France Televisions se sont associés."
+      },
+      {
+        "id": 22,
+        "question": "Quels personnages sautillent en s'engouffrant dans leur poche ?",
+        "propositions": [
+          "Bisounours",
+          "Entrechats",
+          "Tifins",
+          "Popples"
+        ],
+        "reponse": "Popples",
+        "anecdote": "Ces boules de poils adorent s'amuser et possèdent une poche dans le dos qui leur permet de faire sortir des objets insolites."
+      },
+      {
+        "id": 23,
+        "question": "De quelle série télévisée d'animation le jeune Yugo est-il le héros ?",
+        "propositions": [
+          "Code Lyoko",
+          "Wakfu",
+          "Molusco",
+          "Star Butterfly"
+        ],
+        "reponse": "Wakfu",
+        "anecdote": "Accompagné de ses cinq amis, l'enfant va tenter d'arrêter les ambitions du Nox volant l'énergie créatrice du monde."
+      },
+      {
+        "id": 24,
+        "question": "Qui est probablement le plus célèbre shérif de l'espace ?",
+        "propositions": [
+          "Ulysse",
+          "Bioman",
+          "X-Or",
+          "Jiban"
+        ],
+        "reponse": "X-Or",
+        "anecdote": "Cette série japonaise diffusée en 1983 a pour héros Gordan qui se transforme en X-Or en demandant sa transmutation."
+      },
+      {
+        "id": 25,
+        "question": "Comment se nomme le renard et ennemi d'Aglaé et Sidonie ?",
+        "propositions": [
+          "Agénor",
+          "Hugo",
+          "Croquetou",
+          "Saturnin"
+        ],
+        "reponse": "Croquetou",
+        "anecdote": "Dans la ferme, la truie Aglaé et l'oie Sidonie sont aidées par le coq Agénor pour démasquer Craquetou en moins de cinq minutes."
+      },
+      {
+        "id": 26,
+        "question": "Quel animal était Monsieur Ed dans la série éponyme américaine destinée aux enfants ?",
+        "propositions": [
+          "Cheval",
+          "Ane",
+          "Lion",
+          "Hibou"
+        ],
+        "reponse": "Cheval",
+        "anecdote": "Monsieur Ed, le cheval parlant qui appartient à l'architecte Wilbur Post, utilise ce don à foison en disant tout ce qu'il pense."
+      },
+      {
+        "id": 27,
+        "question": "Quel est le métier de Picolo, personnage créé pour Radio-Canada ?",
+        "propositions": [
+          "Peintre",
+          "Banquier",
+          "Plombier",
+          "Boulanger"
+        ],
+        "reponse": "Peintre",
+        "anecdote": "Créé par jean Image en 1963, Picolo parcourt les rues de Paris en compagnie de Picolette, son amoureuse."
+      },
+      {
+        "id": 28,
+        "question": "Combien sont les héros des Petites Canailles apparues en 1962 ?",
+        "propositions": [
+          "Cinq",
+          "Huit",
+          "Sept",
+          "Six"
+        ],
+        "reponse": "Cinq",
+        "anecdote": "Ces sacrés garnements à la personnalité bien différente ont pour nom Alfafa, Buck, Darla, Porky et Spanky."
+      },
+      {
+        "id": 29,
+        "question": "Lequel de ces dessins animés n'a pas été produit par Hanna-Barbera ?",
+        "propositions": [
+          "Les Pierrafeu",
+          "Capitaine Caverne",
+          "Calimero",
+          "Scoubidou"
+        ],
+        "reponse": "Calimero",
+        "anecdote": "La carrière de William Hanna et Joseph Barbera a démarré avec Tom et Jerry pour le cinéma et la MGM en 1940."
+      },
+      {
+        "id": 30,
+        "question": "Quel petit animal est Hamtaro dans le manga créé par Ritsuko Kawai ?",
+        "propositions": [
+          "Raton laveur",
+          "Cheval",
+          "Caneton",
+          "Hamster"
+        ],
+        "reponse": "Hamster",
+        "anecdote": "Le dessin animé est signé Ritsuko Kawai et est apparu sur les écrans de 'Midi les zouzous' de France 5 en 2003."
+      }
+      ] 
+    }}
+  ],
+  "musique" : [
+    {
+      "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (www.openquizzdb.org)",
+      "rédacteur": "Assistant IA",
+      "thème": "Musique",
+      "difficulté": 4,
+      "quizz": {
+        "débutant": [
+          {
+            "id": 1,
+            "question": "Quel instrument de musique est souvent associé à la culture celtique ?",
+            "propositions": [
+              "Sitar",
+              "Bouzouki",
+              "Didgeridoo",
+              "Harpe"
+            ],
+            "reponse": "Harpe",
+            "anecdote": "La harpe celtique, à cordes et sonorités mélodieuses, est un symbole musical fort dans la tradition celtique."
+          },
+          {
+            "id": 2,
+            "question": "Quel est l'instrument principal joué par un saxophoniste ?",
+            "propositions": [
+              "Clarinette",
+              "Trombone",
+              "Trompette",
+              "Saxophone"
+            ],
+            "reponse": "Saxophone",
+            "anecdote": "Inventé par Adolphe Sax au 19e siècle, le saxophone est largement utilisé dans le jazz, le rock et d'autres genres musicaux."
+          },
+          {
+            "id": 3,
+            "question": "Quel est le nom du musicien légendaire surnommé « The King of Pop » ?",
+            "propositions": [
+              "Elvis Presley",
+              "Michael Jackson",
+              "Prince",
+              "David Bowie"
+            ],
+            "reponse": "Michael Jackson",
+            "anecdote": "Michael Jackson a dominé la musique populaire avec des albums comme 'Thriller' et des hits comme 'Billie Jean'."
+          },
+          {
+            "id": 4,
+            "question": "Quel est l'instrument à cordes souvent associé à la musique flamenco ?",
+            "propositions": [
+              "Violon",
+              "Guitare",
+              "Luth",
+              "Cithare"
+            ],
+            "reponse": "Guitare",
+            "anecdote": "La guitare flamenco, avec son style distinctif et ses techniques percussives, est essentielle dans la musique traditionnelle espagnole."
+          },
+          {
+            "id": 5,
+            "question": "Quel genre musical est associé à des artistes comme Louis Armstrong et Miles Davis ?",
+            "propositions": [
+              "Jazz",
+              "Rock",
+              "Reggae",
+              "Hip-hop"
+            ],
+            "reponse": "Jazz",
+            "anecdote": "Le jazz est un genre musical né aux États-Unis au début du 20e siècle, caractérisé par l'improvisation et les rythmes syncopés."
+          },
+          {
+            "id": 6,
+            "question": "Quel célèbre compositeur autrichien est connu pour ses symphonies comme 'Symphonie n°9' et 'Symphonie n°5' ?",
+            "propositions": [
+              "Wolfgang Amadeus Mozart",
+              "Ludwig van Beethoven",
+              "Johann Sebastian Bach",
+              "Franz Schubert"
+            ],
+            "reponse": "Ludwig van Beethoven",
+            "anecdote": "Beethoven, figure majeure du classicisme et du romantisme, a révolutionné la musique avec des symphonies comme la 'Symphonie n°9', célèbre pour son 'Ode à la joie'."
+          },
+          {
+            "id": 7,
+            "question": "Quel est le nom du célèbre groupe de rock britannique formé par Freddie Mercury ?",
+            "propositions": [
+              "Led Zeppelin",
+              "The Rolling Stones",
+              "Queen",
+              "The Beatles"
+            ],
+            "reponse": "Queen",
+            "anecdote": "Queen est connu pour ses hits légendaires tels que 'Bohemian Rhapsody', 'We Will Rock You' et 'Another One Bites the Dust'."
+          },
+          {
+            "id": 8,
+            "question": "Quel célèbre compositeur autrichien est connu pour ses opéras comme 'Le Barbier de Séville' et 'La Cenerentola' ?",
+            "propositions": [
+              "Wolfgang Amadeus Mozart",
+              "Ludwig van Beethoven",
+              "Gioachino Rossini",
+              "Franz Schubert"
+            ],
+            "reponse": "Gioachino Rossini",
+            "anecdote": "Rossini, maître de l'opéra italien, a écrit des œuvres joyeuses et virtuoses qui sont des incontournables du répertoire lyrique."
+          },
+          {
+            "id": 9,
+            "question": "Quel instrument est associé au musicien de jazz américain Louis Armstrong ?",
+            "propositions": [
+              "Trompette",
+              "Saxophone",
+              "Piano",
+              "Batterie"
+            ],
+            "reponse": "Trompette",
+            "anecdote": "Louis Armstrong, surnommé 'Satchmo', a été l'un des plus grands trompettistes et chanteurs de jazz de tous les temps, influençant profondément le genre."
+          },
+          {
+            "id": 10,
+            "question": "Quel célèbre compositeur allemand est connu pour ses concertos pour violon et ses symphonies comme 'Symphonie n°5' et 'Symphonie n°6' ?",
+            "propositions": [
+              "Johann Sebastian Bach",
+              "Ludwig van Beethoven",
+              "Wolfgang Amadeus Mozart",
+              "Johannes Brahms"
+            ],
+            "reponse": "Ludwig van Beethoven",
+            "anecdote": "Beethoven a été une figure pivotale de la période de transition entre le classicisme et le romantisme, influençant profondément la musique occidentale."
+          }
+        ],
+        "confirmé": [
+          {
+            "id": 11,
+            "question": "Quel compositeur autrichien est célèbre pour ses symphonies et ses concertos pour piano ?",
+            "propositions": [
+              "Frédéric Chopin",
+              "Wolfgang Amadeus Mozart",
+              "Ludwig van Beethoven",
+              "Johann Sebastian Bach"
+            ],
+            "reponse": "Wolfgang Amadeus Mozart",
+            "anecdote": "Mozart, prodige musical du 18e siècle, a composé plus de 600 œuvres, y compris 'Les Noces de Figaro' et 'La Flûte enchantée'."
+          },
+          {
+            "id": 12,
+            "question": "Quel est le genre musical principal de Bob Marley et des Wailers ?",
+            "propositions": [
+              "Rock",
+              "Reggae",
+              "Soul",
+              "Blues"
+            ],
+            "reponse": "Reggae",
+            "anecdote": "Bob Marley, figure emblématique du reggae, a popularisé ce genre avec des chansons comme 'No Woman, No Cry' et 'Redemption Song'."
+          },
+          {
+            "id": 13,
+            "question": "Qui est le célèbre compositeur russe connu pour ses ballets comme 'Le Lac des cygnes' ?",
+            "propositions": [
+              "Sergei Rachmaninoff",
+              "Piotr Ilitch Tchaïkovski",
+              "Dmitri Chostakovitch",
+              "Igor Stravinsky"
+            ],
+            "reponse": "Piotr Ilitch Tchaïkovski",
+            "anecdote": "Tchaïkovski, maître de la musique classique russe, a écrit des œuvres inoubliables comme 'Le Casse-noisette' et 'Roméo et Juliette'."
+          },
+          {
+            "id": 14,
+            "question": "Quel célèbre groupe britannique a lancé l'album 'The Dark Side of the Moon' en 1973 ?",
+            "propositions": [
+              "The Beatles",
+              "The Rolling Stones",
+              "Led Zeppelin",
+              "Pink Floyd"
+            ],
+            "reponse": "Pink Floyd",
+            "anecdote": "'The Dark Side of the Moon' est l'un des albums les plus vendus de tous les temps, célèbre pour ses thèmes profonds et son concept innovant."
+          },
+          {
+            "id": 15,
+            "question": "Quel est le nom du célèbre compositeur allemand connu pour ses concertos pour piano et ses symphonies ?",
+            "propositions": [
+              "Ludwig van Beethoven",
+              "Johannes Brahms",
+              "Franz Liszt",
+              "Johann Sebastian Bach"
+            ],
+            "reponse": "Ludwig van Beethoven",
+            "anecdote": "Beethoven, figure majeure de la musique classique, a révolutionné le genre avec des œuvres comme 'Symphonie n°9' et 'Sonate au clair de lune'."
+          },
+          {
+            "id": 16,
+            "question": "Quel célèbre musicien américain est connu pour son album 'Thriller', l'un des albums les plus vendus de tous les temps ?",
+            "propositions": [
+              "Stevie Wonder",
+              "Michael Jackson",
+              "Prince",
+              "Elvis Presley"
+            ],
+            "reponse": "Michael Jackson",
+            "anecdote": "'Thriller' de Michael Jackson est sorti en 1982 et a redéfini les standards de la musique populaire avec des hits comme 'Billie Jean' et 'Beat It'."
+          },
+          {
+            "id": 17,
+            "question": "Quel compositeur russe est connu pour ses ballets comme 'Le Lac des cygnes', 'La Belle au bois dormant' et 'Cascanueces' ?",
+            "propositions": [
+              "Sergei Rachmaninoff",
+              "Dmitri Chostakovitch",
+              "Igor Stravinsky",
+              "Piotr Ilitch Tchaïkovski"
+            ],
+            "reponse": "Piotr Ilitch Tchaïkovski",
+            "anecdote": "Tchaïkovski est l'un des compositeurs les plus aimés et influents de la musique classique, ayant écrit des œuvres qui ont marqué la culture mondiale."
+          },
+          {
+            "id": 18,
+            "question": "Quel célèbre groupe de rock britannique est connu pour des chansons comme 'Stairway to Heaven' et 'Whole Lotta Love' ?",
+            "propositions": [
+              "Led Zeppelin",
+              "The Rolling Stones",
+              "Queen",
+              "The Beatles"
+            ],
+            "reponse": "Led Zeppelin",
+            "anecdote": "Led Zeppelin, formé à la fin des années 1960, est considéré comme l'un des groupes les plus influents de l'histoire du rock."
+          },
+          {
+            "id": 19,
+            "question": "Quel célèbre compositeur allemand est connu pour ses concertos pour piano, ses symphonies et ses sonates pour piano ?",
+            "propositions": [
+              "Johann Sebastian Bach",
+              "Ludwig van Beethoven",
+              "Wolfgang Amadeus Mozart",
+              "Johannes Brahms"
+            ],
+            "reponse": "Ludwig van Beethoven",
+            "anecdote": "Beethoven, compositeur allemand du 18e siècle, a redéfini la musique avec des œuvres telles que la 'Symphonie n°9' et les sonates pour piano."
+          },
+          {
+            "id": 20,
+            "question": "Quel célèbre musicien américain a popularisé le style musical du jazz avec des chansons comme 'What a Wonderful World' ?",
+            "propositions": [
+              "Duke Ellington",
+              "Louis Armstrong",
+              "Charlie Parker",
+              "Miles Davis"
+            ],
+            "reponse": "Louis Armstrong",
+            "anecdote": "Louis Armstrong, surnommé 'Satchmo', a été une figure clé dans l'histoire du jazz, apportant une nouvelle dimension artistique et émotionnelle à ce genre musical."
+          }
+        ],
+        "expert": [
+          {
+            "id": 21,
+            "question": "Quel est le terme utilisé pour décrire l'art de diriger un orchestre ou une chorale ?",
+            "propositions": [
+              "Composition",
+              "Harmonisation",
+              "Direction",
+              "Orchestration"
+            ],
+            "reponse": "Direction",
+            "anecdote": "La direction d'orchestre implique la coordination de tous les musiciens pour interpréter une œuvre musicale avec précision et émotion."
+          },
+          {
+            "id": 22,
+            "question": "Qui est l'auteur-compositeur-interprète canadien célèbre pour des chansons comme 'Hallelujah' ?",
+            "propositions": [
+              "Leonard Cohen",
+              "Neil Young",
+              "Gordon Lightfoot",
+              "Joni Mitchell"
+            ],
+            "reponse": "Leonard Cohen",
+            "anecdote": "Leonard Cohen, artiste reconnu mondialement, a marqué la musique avec ses paroles poétiques et ses mélodies envoûtantes."
+          },
+          {
+            "id": 23,
+            "question": "Quel célèbre groupe britannique a publié l'album 'Abbey Road' en 1969 ?",
+            "propositions": [
+              "The Beach Boys",
+              "The Doors",
+              "The Who",
+              "The Beatles"
+            ],
+            "reponse": "The Beatles",
+            "anecdote": "'Abbey Road' est considéré comme l'un des albums les plus influents de tous les temps, avec des morceaux iconiques comme 'Come Together' et 'Here Comes the Sun'."
+          },
+          {
+            "id": 24,
+            "question": "Quel est le nom du célèbre compositeur italien du Baroque connu pour ses concertos pour violon ?",
+            "propositions": [
+              "Antonio Vivaldi",
+              "Giuseppe Verdi",
+              "Claudio Monteverdi",
+              "Giovanni Palestrina"
+            ],
+            "reponse": "Antonio Vivaldi",
+            "anecdote": "Vivaldi, maître du violon et de la musique orchestrale, a composé des œuvres intemporelles comme 'Les Quatre Saisons' et 'Gloria'."
+          },
+          {
+            "id": 25,
+            "question": "Quelle est la célèbre chanteuse américaine surnommée 'The Queen of Soul' ?",
+            "propositions": [
+              "Diana Ross",
+              "Whitney Houston",
+              "Aretha Franklin",
+              "Tina Turner"
+            ],
+            "reponse": "Aretha Franklin",
+            "anecdote": "Aretha Franklin a dominé la musique soul et a influencé des générations d'artistes avec des hits comme 'Respect' et 'Think'."
+          },
+          {
+            "id": 26,
+            "question": "Quel compositeur autrichien est connu pour ses opéras comme 'La Flûte enchantée' et 'Don Giovanni' ?",
+            "propositions": [
+              "Wolfgang Amadeus Mozart",
+              "Ludwig van Beethoven",
+              "Johann Sebastian Bach",
+              "Franz Schubert"
+            ],
+            "reponse": "Wolfgang Amadeus Mozart",
+            "anecdote": "Mozart, prodige musical du 18e siècle, a révolutionné l'opéra avec ses œuvres emblématiques pleines de mélodies sublimes et de drame."
+          },
+          {
+            "id": 27,
+            "question": "Quel est le nom du célèbre guitariste mexicain connu pour sa virtuosité dans le rock instrumental ?",
+            "propositions": [
+              "Santana",
+              "Carlos Gardel",
+              "Carlos Santana",
+              "Joaquín Rodrigo"
+            ],
+            "reponse": "Carlos Santana",
+            "anecdote": "Carlos Santana a marqué l'histoire du rock avec son style unique mêlant rock, blues, et rythmes latins, notamment avec l'album 'Supernatural'."
+          },
+          {
+            "id": 28,
+            "question": "Quel est le nom du célèbre compositeur russe connu pour son ballet 'Le Lac des cygnes' ?",
+            "propositions": [
+              "Piotr Ilitch Tchaïkovski",
+              "Sergei Rachmaninoff",
+              "Dmitri Chostakovitch",
+              "Igor Stravinsky"
+            ],
+            "reponse": "Piotr Ilitch Tchaïkovski",
+            "anecdote": "Tchaïkovski a créé des œuvres immortelles telles que 'Le Lac des cygnes', 'La Belle au bois dormant' et 'Cascanueces'."
+          },
+          {
+            "id": 29,
+            "question": "Quel célèbre compositeur autrichien est connu pour ses symphonies et ses concertos pour piano ?",
+            "propositions": [
+              "Wolfgang Amadeus Mozart",
+              "Ludwig van Beethoven",
+              "Johann Sebastian Bach",
+              "Franz Schubert"
+            ],
+            "reponse": "Wolfgang Amadeus Mozart",
+            "anecdote": "Mozart, prodige musical du 18e siècle, a révolutionné la musique classique avec ses compositions variées et innovantes."
+          },
+          {
+            "id": 30,
+            "question": "Quel célèbre compositeur allemand a créé des œuvres comme 'La Passion selon Saint Matthieu' et 'Les Variations Goldberg' ?",
+            "propositions": [
+              "Ludwig van Beethoven",
+              "Johann Sebastian Bach",
+              "Wolfgang Amadeus Mozart",
+              "Franz Schubert"
+            ],
+            "reponse": "Johann Sebastian Bach",
+            "anecdote": "Bach, maître de la musique baroque, est célèbre pour sa polyphonie complexe et sa profondeur spirituelle dans ses compositions."
+          }
+        ]
+      }
+    }
+  ]    
+}
