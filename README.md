@@ -5,7 +5,7 @@ Bienvenue dans **QuizGrove**, un jeu de quiz en ligne amusant et éducatif qui m
 ## Fonctionnalités
 
 - **Quiz aléatoires** : Questions de quiz générées de manière aléatoire à partir d'une base de données.
-- **Catégories variées** : Culture générale, histoire, sciences, divertissement, et plus encore.
+- **Catégories variées** : Culture générale, histoire, divertissement, et plus encore.
 - **Modes de difficultés multiples** : Débutant, Confirmé et Expert.
 - **Scores** : Suivi des scores et déblocage des niveaux suivants.
 - **Interface conviviale** : Design intuitif et réactif adapté à tous les appareils.
