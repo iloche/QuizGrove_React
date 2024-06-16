@@ -436,12 +436,12 @@
             "question": "Quelle lourde et pénible tâche incombe à la reine des fourmis ?",
             "propositions": [
               "Chercher à manger",
-              "Pondre des ufs",
+              "Pondre des oeufs",
               "Défendre le nid",
               "Tuer les mâles"
             ],
-            "reponse": "Pondre des ufs",
-            "anecdote": "La reine est la seule fourmi du nid à pondre des ufs qui sont en réalité des larves écloses dont naîtront les futures fourmis."
+            "reponse": "Pondre des oeufs",
+            "anecdote": "La reine est la seule fourmi du nid à pondre des oeufs qui sont en réalité des larves écloses dont naîtront les futures fourmis."
           },
           {
             "id": 6,
@@ -465,7 +465,7 @@
               "De l'or"
             ],
             "reponse": "Des cadavres",
-            "anecdote": "Un couple de nécrophores enterre un animal mort dans le sol et y pond ses ufs dont les larves sont nourries."
+            "anecdote": "Un couple de nécrophores enterre un animal mort dans le sol et y pond ses oeufs dont les larves sont nourries."
           },
           {
             "id": 8,
@@ -709,7 +709,7 @@
               "Foie"
             ],
             "reponse": "Sang",
-            "anecdote": "Les martres boivent uniquement le sang et laissent le reste, préférant manger des lapins, des ufs, des lézards ou des insectes."
+            "anecdote": "Les martres boivent uniquement le sang et laissent le reste, préférant manger des lapins, des oeufs, des lézards ou des insectes."
           },
           {
             "id": 28,
@@ -944,7 +944,7 @@
           },
           {
             "id": 16,
-            "question": "À quelle grande gymnaste roumaine Ecaterina Szabo e-t-elle succédé ?",
+            "question": "À quelle grande gymnaste roumaine Ecaterina Szabo a-t-elle succédé ?",
             "propositions": [
               "Larissa Latynina",
               "Yelena Davydova",
@@ -1018,7 +1018,7 @@
           },
           {
             "id": 22,
-            "question": "En ski, le christiana est une technique permettant d'effectuer quelle manuvre ?",
+            "question": "En ski, le christiana est une technique permettant d'effectuer quelle manoeuvre ?",
             "propositions": [
               "Un freinage",
               "Un virage",
@@ -1146,7 +1146,7 @@
               "Affaire"
             ],
             "reponse": "Un monde",
-            "anecdote": "Raymond Queneau était un lecteur assidu et attentif de l'uvre de René Guénon, qu'il avait découvert en 1921."
+            "anecdote": "Raymond Queneau était un lecteur assidu et attentif de l'oeuvre de René Guénon, qu'il avait découvert en 1921."
           },
           {
             "id": 2,
@@ -1202,10 +1202,10 @@
             "propositions": [
               "Le roi",
               "Le loup",
-              "LOgre",
+              "L'Ogre",
               "Le bûcheron"
             ],
-            "reponse": "LOgre",
+            "reponse": "L'Ogre",
             "anecdote": "'Le Petit Poucet' est un conte appartenant à la tradition orale, retranscrit et transformé par Charles Perrault en France."
           },
           {
@@ -1222,7 +1222,7 @@
           },
           {
             "id": 8,
-            "question": "Quel personnage de Molière dit : « Je me sens un cur à aimer toute la terre » ?",
+            "question": "Quel personnage de Molière dit : « Je me sens un coeur à aimer toute la terre » ?",
             "propositions": [
               "Dom Juan",
               "Gargantua",
@@ -1236,13 +1236,13 @@
             "id": 9,
             "question": "Qu'est-ce que La Fontaine appelle « la machine ronde » ?",
             "propositions": [
-              "Largent",
+              "L'argent",
               "La royauté",
               "La supercherie",
               "La terre"
             ],
             "reponse": "La terre",
-            "anecdote": "Ses Fables constituent la principale uvre poétique de la période classique et l'un des chefs-d'uvre de la littérature française."
+            "anecdote": "Ses Fables constituent la principale oeuvre poétique de la période classique et l'un des chefs-d'oeuvre de la littérature française."
           },
           {
             "id": 10,
@@ -1352,7 +1352,7 @@
               "Pantagruel"
             ],
             "reponse": "Gargantua",
-            "anecdote": "Ses uvres majeures, comme 'Pantagruel' et 'Gargantua', sont considérées comme une des premières formes du roman moderne."
+            "anecdote": "Ses oeuvres majeures, comme 'Pantagruel' et 'Gargantua', sont considérées comme une des premières formes du roman moderne."
           },
           {
             "id": 19,
@@ -1752,7 +1752,7 @@
               "Alain Bashung"
             ],
             "reponse": "Serge Gainsbourg",
-            "anecdote": "Vanessa Paradis, née en France en 1972, est la nièce de Didier Pain et la sur de l'actrice Alysson Paradis."
+            "anecdote": "Vanessa Paradis, née en France en 1972, est la nièce de Didier Pain et la soeur de l'actrice Alysson Paradis."
           }
         ],
         "expert": [

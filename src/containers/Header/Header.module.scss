@@ -148,9 +148,6 @@ header{
     height: 120vh;
     background-repeat: no-repeat;
     overflow: hidden;
-    @media screen and (min-width: 1024px) {
-        height: 100vh;
-    }
 }
 .aide {
     background: url(https://i.pinimg.com/originals/9f/2e/20/9f2e20b7595ac5a873ddd17a22b9b934.jpg) center/cover;
