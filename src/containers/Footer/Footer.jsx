@@ -12,11 +12,11 @@ const Footer = () => (
     <div className={style.socials}>
       <h1>Restez connecté</h1>
       <ul>
-        <li><a href="#"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-        <li><a href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
-        <li><a href="#"><FontAwesomeIcon icon={faInstagram} /></a></li>
-        <li><a href="#"><FontAwesomeIcon icon={faDiscord} /></a></li>
-        <li><a href="#"><FontAwesomeIcon icon={faYoutube} /></a></li>
+        <li><a href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+        <li><a href="https://x.com/"><FontAwesomeIcon icon={faTwitter} /></a></li>
+        <li><a href="https://www.instagram.com/"><FontAwesomeIcon icon={faInstagram} /></a></li>
+        <li><a href="https://discord.com/"><FontAwesomeIcon icon={faDiscord} /></a></li>
+        <li><a href="https://www.youtube.com/"><FontAwesomeIcon icon={faYoutube} /></a></li>
       </ul>
     </div>
     <nav className={style['footer-nav']}>
