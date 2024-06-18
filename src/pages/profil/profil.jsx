@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { signOut, updateProfile } from "firebase/auth";
 import { auth } from "../../firebase";
 import style from "../profil/profil.module.scss";
+import avatar0 from '../../../doc/profil-default.png'
 import avatar1 from "../../../doc/avatar1.png"
 import avatar2 from "../../../doc/avatar2.png"
 import avatar3 from "../../../doc/avatar3.png"
@@ -85,7 +86,7 @@ const Profil = () => {
           <h1>Profil</h1>
           <div className={style['profile-container']}>
             <div className={style['profile-header']}>
-              <img id="avatar" src={selectedAvatar || "/doc/profil-default.png"} alt="Avatar" />
+              <img id="avatar" src={selectedAvatar || avatar0} alt="Avatar" />
               <h2 id="username">{userName} </h2>
                 <span onClick={toggleChangePseudoModal}>
                     <svg className={style.wrench} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
