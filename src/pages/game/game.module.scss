@@ -226,12 +226,12 @@
 }
 .notification {
   position: fixed;
-  top: 20px;
+  top: 25px;
   left: 50%;
-  transform: translateX(-50%);
-  background-color: #4CAF50; /* Couleur de fond verte */
-  color: white; /* Texte blanc */
-  padding: 15px 20px;
+  translate: -50%;
+  background-color: #bc8f8fd9;
+  color: black; 
+  padding: 15px 50px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   z-index: 1000;

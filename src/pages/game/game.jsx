@@ -13,7 +13,6 @@ import volume from '../../../doc/volume-medium-line-icon.png';
 import refresh from '../../../doc/refresh.png';
 import back from '../../../doc/return.png'
 import locked from '../../../doc/locked.png';
-import arrow from '../../../doc/arrow.png'
 
 const categories = ["Animaux", "Culture", "Dessins animés", "Géographie", "Histoire", "Littérature", "Monde", "Musique", "Sports"];
 const difficultyLevels = ["Débutant", "Confirmé", "Expert"];
@@ -110,6 +109,12 @@ const Game = () => {
         setShowButtons(true);
     };
 
+    const difficultyPoints = {
+        "Débutant": 1,
+        "Confirmé": 2,
+        "Expert": 3
+    };
+
     const handleAnswerClick = (selectedChoice) => {
         if (!answered || canRetry) {
             const isCorrect = selectedChoice === currentQuestion.reponse;
@@ -117,12 +122,13 @@ const Game = () => {
             setSelectedAnswer(selectedChoice);
     
             if (isCorrect) {
-                const newScore = score + 1;
+                const points = difficultyPoints[selectedDifficulty];
+                const newScore = score + points;
                 setScore(newScore);
                 setShowAnecdote(true);
                 setCanRetry(false);
     
-                if (newScore >= 100 && !expertUnlockedMessageShown) {
+                if (newScore >= 10 && !expertUnlockedMessageShown) {
                     setExpertUnlocked(true);
                     setShowExpertUnlockedMessage(true);
                 }
@@ -323,7 +329,7 @@ const Game = () => {
                                 {showAnecdote && isAnswerCorrect && (
                                     <div>
                                         <p className={style.anecdote}>{currentQuestion.anecdote}</p>
-                                        <button title='Suivant' className={style.start} onClick={handleNextQuestionClick}><img className={style.arrow} src={arrow} /></button>
+                                        <button title='Suivant' className={style.start} onClick={handleNextQuestionClick}>Question suivante</button>
                                     </div>
                                 )}
                             </div>
@@ -378,4 +384,3 @@ const Game = () => {
 };
 
 export default Game;
-

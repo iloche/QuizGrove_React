@@ -98,11 +98,11 @@ const Profil = () => {
   <div id="changePseudoModal" className={style['modal']}>
     <div className={style['modal-content']}>
       <span className={style['close']} onClick={toggleChangePseudoModal}>&times;</span>
-      <h2>Changer de Pseudo</h2>
+      <h2>Modifier le profil</h2>
       <input
         type="text"
         className={style.newPseudoInput}
-        placeholder="Entrez votre nouveau pseudo..."
+        placeholder="Entrez votre pseudo..."
         value={newUserName}
         onChange={handleNewUserNameChange}
       />
