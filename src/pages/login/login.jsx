@@ -8,7 +8,7 @@ import style from '../login/login.module.scss';
 const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à jour l'état de connexion
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const [username, setUsername] = useState(""); // Nouvel état pour le nom d'utilisateur
+    const [userName, setUserName] = useState(""); // Nouvel état pour le nom d'utilisateur
     const [isSignUpActive, setIsSignUpActive] = useState(true);
     const [rememberMe, setRememberMe] = useState(false); // Nouvel état pour se souvenir de l'utilisateur
     const [errorMessage, setErrorMessage] = useState(""); // Nouvel état pour le message d'erreur
@@ -20,8 +20,10 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
 
     useEffect(() => {
         const savedEmail = localStorage.getItem('rememberedEmail');
-        if (savedEmail) {
+        const storedUserName = localStorage.getItem('username');
+        if (savedEmail, storedUserName) {
             setEmail(savedEmail);
+            setUserName(storedUserName);
             setRememberMe(true);
         }
     }, []);
@@ -32,11 +34,10 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
     }
 
     const handleSignUp = () => {
-        if (!email || !password || !username) return; // Vérification des champs
+        if (!email || !password) return; // Vérification des champs
         createUserWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
                 const user = userCredential.user;
-                user.updateProfile({ displayName: username }); // Mettre à jour le nom d'utilisateur
                 console.log(user);
                 setIsLoggedIn(true); // Mettre à jour l'état de connexion
             })
@@ -60,6 +61,7 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
                 console.log(user);
                 if (rememberMe) {
                     localStorage.setItem('rememberedEmail', email);
+                    localStorage.setItem('username', userName);
                 } else {
                     localStorage.removeItem('rememberedEmail');
                     setEmail('')
@@ -72,16 +74,24 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
             
                 // Vous pouvez personnaliser le message d'erreur en fonction du code d'erreur
                 const errorCode = error.code;
-                switch (errorCode) {
-                    case "auth/invalid-credential":
-                        errorMessage = "Le mot de passe est incorrect.";
+                switch (error.code) {
+                    case 'auth/weak-password':
+                        errorMessage = 'Le mot de passe doit comporter au moins 6 caractères.';
                         break;
-                    case "auth/user-not-found":
-                        errorMessage = "Utilisateur non trouvé. Veuillez vérifier vos informations.";
+                    case 'auth/email-already-in-use':
+                        errorMessage = 'L\'adresse e-mail est déjà utilisée par un autre compte.';
                         break;
-                    // Ajoutez d'autres cas selon les besoins pour d'autres codes d'erreur
+                    case 'auth/invalid-email':
+                        errorMessage = 'L\'adresse e-mail n\'est pas valide.';
+                        break;
+                    case 'auth/user-not-found':
+                        errorMessage = 'Aucun utilisateur ne correspond à cette adresse e-mail.';
+                        break;
+                    case 'auth/wrong-password':
+                        errorMessage = 'Le mot de passe est incorrect.';
+                        break;
                     default:
-                        errorMessage = "Une erreur s'est produite. Veuillez réessayer plus tard.";
+                        errorMessage = 'Une erreur est survenue. Veuillez réessayer.';
                         break;
                 }
             
@@ -92,7 +102,7 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
 
     const handleEmailChange = (event) => setEmail(event.target.value);
     const handlePasswordChange = (event) => setPassword(event.target.value);
-    const handleUsernameChange = (event) => setUsername(event.target.value); // Gérer le changement de nom d'utilisateur
+    const handleUserNameChange = (event) => setUserName(event.target.value); // Gérer le changement de nom d'utilisateur
     const handleRememberMeChange = () => {
         setRememberMe(!rememberMe);
         if (rememberMe) {
@@ -115,31 +125,26 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
 
                         <label htmlFor="email">Adresse e-mail</label>
                         <input type="email" id="email" name="email" placeholder="mushy@quizgrove.com" required onChange={handleEmailChange} value={email} />
-
-                        {isSignUpActive && (
-                            <>
-                                <label htmlFor="username">Nom d'utilisateur</label>
-                                <input type="text" id="username" name="username" placeholder="Nom d'utilisateur" required onChange={handleUsernameChange} />
-                            </>
-                        )}
                         
                         <label htmlFor="password">Mot de passe</label>
-                        <input
-                    type={showPassword ? 'text' : 'password'}
-                    id="password"
-                    name="password"
-                    placeholder="Mot de passe"
-                    required
-                    value={password}
-                    onChange={handlePasswordChange}
-                    className={style['password-input']}
-                />
-                <img
-                    src={showPassword ? '../../../doc/openEye.png' : '../../../doc/closedEye.png'}
-                    alt={showPassword ? 'Cacher le mot de passe' : 'Afficher le mot de passe'}
-                    onClick={togglePasswordVisibility}
-                    className={style['eye-icon']}
-                />
+                        <div className={style['password-container']}>
+                            <input
+                                type={showPassword ? 'text' : 'password'}
+                                id="password"
+                                name="password"
+                                placeholder="Mot de passe"
+                                required
+                                value={password}
+                                onChange={handlePasswordChange}
+                                className={style['password-input']}
+                            />
+                            <img
+                                src={showPassword ? '../../../doc/openEye.png' : '../../../doc/closedEye.png'}
+                                alt={showPassword ? 'Cacher le mot de passe' : 'Afficher le mot de passe'}
+                                onClick={togglePasswordVisibility}
+                                className={style['eye-icon']}
+                            />
+                        </div>
 
                         {!isSignUpActive && (
                             <div className={style['checkbox-container']}>
@@ -151,7 +156,15 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
                         {isSignUpActive && (
                             <>
                                 <label htmlFor="confirm-password">Confirmer le mot de passe</label>
-                                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirmer le mot de passe" required />
+                                <div className={style['password-container']}>
+                                    <input type={showPassword ? 'text' : 'password'} id="confirm-password" name="confirm-password" placeholder="Confirmer le mot de passe" required className={style['password-input']} />
+                                    <img
+                                        src={showPassword ? '../../../doc/openEye.png' : '../../../doc/closedEye.png'}
+                                        alt={showPassword ? 'Cacher le mot de passe' : 'Afficher le mot de passe'}
+                                        onClick={togglePasswordVisibility}
+                                        className={style['eye-icon']}
+                                    />
+                                </div>
                             </>
                         )}
                         

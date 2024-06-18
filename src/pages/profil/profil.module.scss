@@ -8,6 +8,7 @@
     .profile-header {
         text-align: center;
         margin-bottom: 20px;
+        position: relative;
         img {
             width: 100px;
             height: 100px;
@@ -26,31 +27,25 @@
             font-size: 24px;
         }
         .wrench{
-            width: 5%;
-            height: 5%;
-            position: absolute;
-            top: 18%;
-            right: 40%;
-            cursor: pointer;
-            @media screen and (min-width: 1024px) {
-               right: 41%;
-            }
+            position: fixed;
+            top: 40%; 
+            left: 57%; 
+            transform: translate(-50%, -50%);
+            width: 20px; 
+            height: 20px;
         }
         p {
             color: #666;
         }
+        
     }
     .profile-details,
-    .profile-stats,
-    .profile-friends,
     .profile-settings {
         margin-bottom: 20px;
-
         h2 {
             font-size: 20px;
             margin-bottom: 10px;
         }
-
         p {
             margin: 5px 0;
         }
@@ -66,7 +61,6 @@
             cursor: pointer;
             border-radius: 5px;
             transition: background-color 0.3s ease;
-
             &:hover {
                 background-color: #967373;
             }
@@ -119,15 +113,14 @@
   .modal-content {
     background-color:rgba(210, 180, 140, 0.8);
     margin: auto;
-    padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 90%;
     max-width: 500px;
     border-radius: 10px;
   }
   .close {
-    color: #aaa;
     float: right;
+    margin-right: 15px;
     font-size: 28px;
     font-weight: bold;
   }
@@ -138,29 +131,33 @@
     cursor: pointer;
   }
   .update-message {
-    margin: 10px 0;
-    padding: 10px;
     border: 1px solid #4caf50;
     background-color: #d4edda;
     color: #155724;
     border-radius: 5px;
     text-align: center;
+    position: absolute;
+    padding: 2px;
+    top: -8%;
+    left: 5%;
   }
   .avatar-options{
     img{
         width: 90px;
         height: 100px;
         border-radius: 50%;
-        border: 1px solid #bc8f8f;
+        border: 2px solid #967373;
         background-color: white;
+        margin: 3px;
         cursor: pointer;
         @include transition;
         &:hover{
-            background-color: #967373;
+            background-color: #bc8f8f;
             @include transition;
         }
     } 
 }
-#newPseudoInput {
-    width: 100%;
+.newPseudoInput {
+    width: 80%;
+    margin-bottom: 10px;
 }
