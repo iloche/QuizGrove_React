@@ -3,6 +3,8 @@ import { Navigate } from "react-router-dom";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../firebase';
 import style from '../login/login.module.scss'; 
+import openEye from '../../../doc/openEye.png';
+import closedEye from '../../../doc/closedEye.png'
 
 
 const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à jour l'état de connexion
@@ -102,7 +104,6 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
 
     const handleEmailChange = (event) => setEmail(event.target.value);
     const handlePasswordChange = (event) => setPassword(event.target.value);
-    const handleUserNameChange = (event) => setUserName(event.target.value); // Gérer le changement de nom d'utilisateur
     const handleRememberMeChange = () => {
         setRememberMe(!rememberMe);
         if (rememberMe) {
@@ -139,7 +140,7 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
                                 className={style['password-input']}
                             />
                             <img
-                                src={showPassword ? '../../../doc/openEye.png' : '../../../doc/closedEye.png'}
+                                src={showPassword ? openEye : closedEye}
                                 alt={showPassword ? 'Cacher le mot de passe' : 'Afficher le mot de passe'}
                                 onClick={togglePasswordVisibility}
                                 className={style['eye-icon']}
@@ -159,7 +160,7 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
                                 <div className={style['password-container']}>
                                     <input type={showPassword ? 'text' : 'password'} id="confirm-password" name="confirm-password" placeholder="Confirmer le mot de passe" required className={style['password-input']} />
                                     <img
-                                        src={showPassword ? '../../../doc/openEye.png' : '../../../doc/closedEye.png'}
+                                        src={showPassword ? openEye : closedEye}
                                         alt={showPassword ? 'Cacher le mot de passe' : 'Afficher le mot de passe'}
                                         onClick={togglePasswordVisibility}
                                         className={style['eye-icon']}
