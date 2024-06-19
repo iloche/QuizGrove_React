@@ -115,6 +115,12 @@ const Game = () => {
         "Expert": 3
     };
 
+    const difficultyPoints = {
+        "Débutant": 1,
+        "Confirmé": 2,
+        "Expert": 3
+    };
+
     const handleAnswerClick = (selectedChoice) => {
         if (!answered || canRetry) {
             const isCorrect = selectedChoice === currentQuestion.reponse;
@@ -124,10 +130,13 @@ const Game = () => {
             if (isCorrect) {
                 const points = difficultyPoints[selectedDifficulty];
                 const newScore = score + points;
+                const points = difficultyPoints[selectedDifficulty];
+                const newScore = score + points;
                 setScore(newScore);
                 setShowAnecdote(true);
                 setCanRetry(false);
     
+                if (newScore >= 10 && !expertUnlockedMessageShown) {
                 if (newScore >= 10 && !expertUnlockedMessageShown) {
                     setExpertUnlocked(true);
                     setShowExpertUnlockedMessage(true);
@@ -195,16 +204,24 @@ const Game = () => {
     const [currentAudio, setCurrentAudio] = useState(null);
     const [buttonImage, setButtonImage] = useState(null); // Initialisez avec null ou volume/silent par défaut
     
+    const [buttonImage, setButtonImage] = useState(null); // Initialisez avec null ou volume/silent par défaut
+    
     const toggleMusic = () => {
         if (!musicPlaying) {
+        const randomIndex = Math.floor(Math.random() * audioFiles.length);
+        setCurrentAudio(audioFiles[randomIndex]);
+        setButtonImage(volume); // Met à jour avec la variable directe, pas un objet
         const randomIndex = Math.floor(Math.random() * audioFiles.length);
         setCurrentAudio(audioFiles[randomIndex]);
         setButtonImage(volume); // Met à jour avec la variable directe, pas un objet
         } else {
         setCurrentAudio(null);
         setButtonImage(silent); // Met à jour avec la variable directe, pas un objet
+        setCurrentAudio(null);
+        setButtonImage(silent); // Met à jour avec la variable directe, pas un objet
         }
         setMusicPlaying(prevState => !prevState);
+    }; 
     }; 
 
     const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -251,11 +268,14 @@ const Game = () => {
                         <div className={style.buttons}>
                             <button title='Lancer la musique' className={style.button} onClick={toggleMusic}>
                                 <img className={style.music} src={buttonImage ? buttonImage : silent} />
+                                <img className={style.music} src={buttonImage ? buttonImage : silent} />
                             </button>
                             <button title='Relancer le niveau' className={style.button} onClick={handleRestartButtonClick}>
                                 <img className={style.refresh} src={refresh} />
+                                <img className={style.refresh} src={refresh} />
                             </button>
                             <button title='Retour' className={style.button} onClick={handleQuitGame}>
+                                <img className={style.return} src={back} />
                                 <img className={style.return} src={back} />
                             </button>
                         </div>
@@ -291,6 +311,7 @@ const Game = () => {
                                             {difficulty === "Expert" && !expertUnlocked && (
                                                 <img
                                                     className={style.lock}
+                                                    src={locked}
                                                     src={locked}
                                                     alt="Cadenas"
                                                 />
@@ -329,6 +350,7 @@ const Game = () => {
                                 {showAnecdote && isAnswerCorrect && (
                                     <div>
                                         <p className={style.anecdote}>{currentQuestion.anecdote}</p>
+                                        <button title='Suivant' className={style.start} onClick={handleNextQuestionClick}>Question suivante</button>
                                         <button title='Suivant' className={style.start} onClick={handleNextQuestionClick}>Question suivante</button>
                                     </div>
                                 )}

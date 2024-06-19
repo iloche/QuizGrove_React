@@ -29,8 +29,11 @@ const Profil = () => {
         setSelectedAvatar(storedAvatar);
       }
 
+      const storedUserName = localStorage.getItem('username');
+      if (storedUserName) {
+          setUserName(storedUserName);
+      }
       setUserEmail(user.email);
-      setUserName(user.displayName || 'Nom d\'utilisateur');
       const creationTimestamp = user.metadata.creationTime;
       const creationDate = new Date(creationTimestamp).toLocaleDateString('fr-FR');
       setCreationDate(creationDate);
@@ -65,12 +68,14 @@ const Profil = () => {
         .then(() => {
           setUserName(newUserName);
           setUpdateMessage('Le profil a été mis à jour avec succès.');
+          setUpdateMessage('Le profil a été mis à jour avec succès.');
           setTimeout(() => {
             setUpdateMessage('');
           }, 3000); // Cache le message après 3 secondes
         })
         .catch((error) => {
           console.log(error);
+          setUpdateMessage('Erreur lors de la mise à jour du profil.');
           setUpdateMessage('Erreur lors de la mise à jour du profil.');
         });
     }
@@ -99,14 +104,20 @@ const Profil = () => {
     <div className={style['modal-content']}>
       <span className={style['close']} onClick={toggleChangePseudoModal}>&times;</span>
       <h2>Modifier le profil</h2>
+      <h2>Modifier le profil</h2>
       <input
         type="text"
+        className={style.newPseudoInput}
+        placeholder="Entrez votre pseudo..."
         className={style.newPseudoInput}
         placeholder="Entrez votre pseudo..."
         value={newUserName}
         onChange={handleNewUserNameChange}
       />
       <div className={style['avatar-options']}>
+        <img src={avatar1} alt="Avatar 1" onClick={() => handleAvatarChange(avatar1)} />
+        <img src={avatar2} alt="Avatar 2" onClick={() => handleAvatarChange(avatar2)} />
+        <img src={avatar3} alt="Avatar 3" onClick={() => handleAvatarChange(avatar3)} />
         <img src={avatar1} alt="Avatar 1" onClick={() => handleAvatarChange(avatar1)} />
         <img src={avatar2} alt="Avatar 2" onClick={() => handleAvatarChange(avatar2)} />
         <img src={avatar3} alt="Avatar 3" onClick={() => handleAvatarChange(avatar3)} />
