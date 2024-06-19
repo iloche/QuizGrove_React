@@ -116,9 +116,6 @@ const Profil = () => {
         <img src={avatar1} alt="Avatar 1" onClick={() => handleAvatarChange(avatar1)} />
         <img src={avatar2} alt="Avatar 2" onClick={() => handleAvatarChange(avatar2)} />
         <img src={avatar3} alt="Avatar 3" onClick={() => handleAvatarChange(avatar3)} />
-        <img src={avatar1} alt="Avatar 1" onClick={() => handleAvatarChange(avatar1)} />
-        <img src={avatar2} alt="Avatar 2" onClick={() => handleAvatarChange(avatar2)} />
-        <img src={avatar3} alt="Avatar 3" onClick={() => handleAvatarChange(avatar3)} />
       </div>
       <button onClick={handleUpdateProfile} className={style.validate}>Valider</button>
     </div>

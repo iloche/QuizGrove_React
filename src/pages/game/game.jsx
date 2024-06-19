@@ -129,7 +129,6 @@ const Game = () => {
                 setCanRetry(false);
     
                 if (newScore >= 10 && !expertUnlockedMessageShown) {
-                if (newScore >= 10 && !expertUnlockedMessageShown) {
                     setExpertUnlocked(true);
                     setShowExpertUnlockedMessage(true);
                 }
@@ -196,7 +195,6 @@ const Game = () => {
     const [currentAudio, setCurrentAudio] = useState(null);
     const [buttonImage, setButtonImage] = useState(null); // Initialisez avec null ou volume/silent par défaut
     
-    
     const toggleMusic = () => {
         if (!musicPlaying) {
         const randomIndex = Math.floor(Math.random() * audioFiles.length);
@@ -205,11 +203,8 @@ const Game = () => {
         } else {
         setCurrentAudio(null);
         setButtonImage(silent); // Met à jour avec la variable directe, pas un objet
-        setCurrentAudio(null);
-        setButtonImage(silent); // Met à jour avec la variable directe, pas un objet
         }
         setMusicPlaying(prevState => !prevState);
-    }; 
     }; 
 
     const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -256,14 +251,11 @@ const Game = () => {
                         <div className={style.buttons}>
                             <button title='Lancer la musique' className={style.button} onClick={toggleMusic}>
                                 <img className={style.music} src={buttonImage ? buttonImage : silent} />
-                                <img className={style.music} src={buttonImage ? buttonImage : silent} />
                             </button>
                             <button title='Relancer le niveau' className={style.button} onClick={handleRestartButtonClick}>
                                 <img className={style.refresh} src={refresh} />
-                                <img className={style.refresh} src={refresh} />
                             </button>
                             <button title='Retour' className={style.button} onClick={handleQuitGame}>
-                                <img className={style.return} src={back} />
                                 <img className={style.return} src={back} />
                             </button>
                         </div>
@@ -337,7 +329,6 @@ const Game = () => {
                                 {showAnecdote && isAnswerCorrect && (
                                     <div>
                                         <p className={style.anecdote}>{currentQuestion.anecdote}</p>
-                                        <button title='Suivant' className={style.start} onClick={handleNextQuestionClick}>Question suivante</button>
                                         <button title='Suivant' className={style.start} onClick={handleNextQuestionClick}>Question suivante</button>
                                     </div>
                                 )}
