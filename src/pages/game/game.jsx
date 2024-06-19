@@ -1,8 +1,19 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import clsx from 'clsx';
 import style from './game.module.scss';
 import { auth } from "../../firebase";
 import quizData from '../../data/quizz.json';
+import { ScoreContext } from '../../contexts/scoreContext';
+import song1 from  '../../../doc/bossin over.mp3';
+import song2 from'../../../doc/happy tears.mp3';
+import song3 from'../../../doc/nobonoko - My Heart is a Machine.mp3';
+import song4 from'../../../doc/Orange Lounge - MOBO MOGA (HQ).mp3';
+import song5 from'../../../doc/Stargaze.mp3';
+import silent from '../../../doc/volume-silent-line-icon.png';
+import volume from '../../../doc/volume-medium-line-icon.png';
+import refresh from '../../../doc/refresh.png';
+import back from '../../../doc/return.png'
+import locked from '../../../doc/locked.png';
 
 const categories = ["Animaux", "Culture", "Dessins animés", "Géographie", "Histoire", "Littérature", "Monde", "Musique", "Sports"];
 const difficultyLevels = ["Débutant", "Confirmé", "Expert"];
@@ -17,7 +28,6 @@ const Game = () => {
     const [showAnecdote, setShowAnecdote] = useState(false);
     const [selectedAnswer, setSelectedAnswer] = useState(null);
     const [isAnswerCorrect, setIsAnswerCorrect] = useState(null);
-    const [score, setScore] = useState(0);
     const [showCongratulations, setShowCongratulations] = useState(false);
     const [expertUnlocked, setExpertUnlocked] = useState(false);
     const [answered, setAnswered] = useState(false);
@@ -26,7 +36,7 @@ const Game = () => {
     const [userId, setUserId] = useState(null);
     const [showButtons, setShowButtons] = useState(false);
     const [expertUnlockedMessageShown, setExpertUnlockedMessageShown] = useState(false);
-    
+    const { score, setScore } = useContext(ScoreContext);
 
     useEffect(() => {
         const user = auth.currentUser;
@@ -99,6 +109,12 @@ const Game = () => {
         setShowButtons(true);
     };
 
+    const difficultyPoints = {
+        "Débutant": 1,
+        "Confirmé": 2,
+        "Expert": 3
+    };
+
     const handleAnswerClick = (selectedChoice) => {
         if (!answered || canRetry) {
             const isCorrect = selectedChoice === currentQuestion.reponse;
@@ -106,12 +122,13 @@ const Game = () => {
             setSelectedAnswer(selectedChoice);
     
             if (isCorrect) {
-                const newScore = score + 1;
+                const points = difficultyPoints[selectedDifficulty];
+                const newScore = score + points;
                 setScore(newScore);
                 setShowAnecdote(true);
                 setCanRetry(false);
     
-                if (newScore >= 100 && !expertUnlockedMessageShown) {
+                if (newScore >= 10 && !expertUnlockedMessageShown) {
                     setExpertUnlocked(true);
                     setShowExpertUnlockedMessage(true);
                 }
@@ -172,30 +189,23 @@ const Game = () => {
         setShowButtons(false);
     };
 
+    const audioFiles = [song1, song2, song3, song4, song5];
+    
     const [musicPlaying, setMusicPlaying] = useState(false);
     const [currentAudio, setCurrentAudio] = useState(null);
-
-    const audioFiles = [
-        '../../../doc/bossin over.mp3',
-        '../../../doc/happy tears.mp3',
-        '../../../doc/nobonoko - My Heart is a Machine.mp3',
-        '../../../doc/Orange Lounge - MOBO MOGA (HQ).mp3',
-        '../../../doc/Stargaze.mp3'
-    ];
-
-    const [buttonImage, setButtonImage] = useState('../../../doc/volume-silent-line-icon.png');
-
+    const [buttonImage, setButtonImage] = useState(null); // Initialisez avec null ou volume/silent par défaut
+    
     const toggleMusic = () => {
         if (!musicPlaying) {
-            const randomIndex = Math.floor(Math.random() * audioFiles.length);
-            setCurrentAudio(audioFiles[randomIndex]);
-            setButtonImage('../../../doc/volume-medium-line-icon.png'); 
+        const randomIndex = Math.floor(Math.random() * audioFiles.length);
+        setCurrentAudio(audioFiles[randomIndex]);
+        setButtonImage(volume); // Met à jour avec la variable directe, pas un objet
         } else {
-            setCurrentAudio(null);
-            setButtonImage('../../../doc/volume-silent-line-icon.png'); 
+        setCurrentAudio(null);
+        setButtonImage(silent); // Met à jour avec la variable directe, pas un objet
         }
         setMusicPlaying(prevState => !prevState);
-    };
+    }; 
 
     const [position, setPosition] = useState({ x: 0, y: 0 });
     const [visible, setVisible] = useState(false); // Définissez initialement à false
@@ -240,13 +250,13 @@ const Game = () => {
                     {showButtons && (
                         <div className={style.buttons}>
                             <button title='Lancer la musique' className={style.button} onClick={toggleMusic}>
-                                <img className={style.music} src={buttonImage} />
+                                <img className={style.music} src={buttonImage ? buttonImage : silent} />
                             </button>
                             <button title='Relancer le niveau' className={style.button} onClick={handleRestartButtonClick}>
-                                <img className={style.refresh} src='../../../doc/refresh.png' />
+                                <img className={style.refresh} src={refresh} />
                             </button>
                             <button title='Retour' className={style.button} onClick={handleQuitGame}>
-                                <img className={style.return} src='../../../doc/return.png' />
+                                <img className={style.return} src={back} />
                             </button>
                         </div>
                     )}
@@ -281,7 +291,7 @@ const Game = () => {
                                             {difficulty === "Expert" && !expertUnlocked && (
                                                 <img
                                                     className={style.lock}
-                                                    src="../../../doc/locked.png"
+                                                    src={locked}
                                                     alt="Cadenas"
                                                 />
                                             )}
@@ -319,7 +329,7 @@ const Game = () => {
                                 {showAnecdote && isAnswerCorrect && (
                                     <div>
                                         <p className={style.anecdote}>{currentQuestion.anecdote}</p>
-                                        <button title='Suivant' className={style.start} onClick={handleNextQuestionClick}><img className={style.arrow} src='../../../doc/arrow.png' /></button>
+                                        <button title='Suivant' className={style.start} onClick={handleNextQuestionClick}>Question suivante</button>
                                     </div>
                                 )}
                             </div>
@@ -374,4 +384,3 @@ const Game = () => {
 };
 
 export default Game;
-

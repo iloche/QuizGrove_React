@@ -4,6 +4,7 @@ import { auth } from "./firebase";
 import { useEffect, useState } from "react";
 import './App.css'; 
 
+import { ScoreProvider } from './contexts/scoreContext';
 import Header from './containers/Header/Header';
 import Footer from './containers/Footer/Footer';
 import Login from './pages/login/login';
@@ -39,6 +40,7 @@ const App = () => {
   }
 
   return (
+    <ScoreProvider>
     <div className="chakra-petch-light">
       <BrowserRouter>
         <Header />
@@ -63,6 +65,7 @@ const App = () => {
         <Footer />
       </BrowserRouter>
     </div>
+    </ScoreProvider>
   );
 }
 
