@@ -115,12 +115,6 @@ const Game = () => {
         "Expert": 3
     };
 
-    const difficultyPoints = {
-        "Débutant": 1,
-        "Confirmé": 2,
-        "Expert": 3
-    };
-
     const handleAnswerClick = (selectedChoice) => {
         if (!answered || canRetry) {
             const isCorrect = selectedChoice === currentQuestion.reponse;
@@ -128,8 +122,6 @@ const Game = () => {
             setSelectedAnswer(selectedChoice);
     
             if (isCorrect) {
-                const points = difficultyPoints[selectedDifficulty];
-                const newScore = score + points;
                 const points = difficultyPoints[selectedDifficulty];
                 const newScore = score + points;
                 setScore(newScore);
@@ -204,13 +196,9 @@ const Game = () => {
     const [currentAudio, setCurrentAudio] = useState(null);
     const [buttonImage, setButtonImage] = useState(null); // Initialisez avec null ou volume/silent par défaut
     
-    const [buttonImage, setButtonImage] = useState(null); // Initialisez avec null ou volume/silent par défaut
     
     const toggleMusic = () => {
         if (!musicPlaying) {
-        const randomIndex = Math.floor(Math.random() * audioFiles.length);
-        setCurrentAudio(audioFiles[randomIndex]);
-        setButtonImage(volume); // Met à jour avec la variable directe, pas un objet
         const randomIndex = Math.floor(Math.random() * audioFiles.length);
         setCurrentAudio(audioFiles[randomIndex]);
         setButtonImage(volume); // Met à jour avec la variable directe, pas un objet
@@ -311,7 +299,6 @@ const Game = () => {
                                             {difficulty === "Expert" && !expertUnlocked && (
                                                 <img
                                                     className={style.lock}
-                                                    src={locked}
                                                     src={locked}
                                                     alt="Cadenas"
                                                 />

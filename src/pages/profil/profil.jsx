@@ -109,8 +109,6 @@ const Profil = () => {
         type="text"
         className={style.newPseudoInput}
         placeholder="Entrez votre pseudo..."
-        className={style.newPseudoInput}
-        placeholder="Entrez votre pseudo..."
         value={newUserName}
         onChange={handleNewUserNameChange}
       />
