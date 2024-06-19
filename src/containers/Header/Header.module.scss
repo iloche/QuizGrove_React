@@ -143,6 +143,12 @@ header{
     overflow: hidden;
     
 }
+.connexion{
+    background: url(../../../doc/62a8747cc0a65.jpg) center / cover;
+    height: 120vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
 .jeu {
     background: url(https://i.pinimg.com/originals/38/67/cb/3867cb48a41331229bbeacd8f7714e8a.jpg) center/cover;
     height: 120vh;
@@ -158,14 +164,27 @@ header{
         height: 100vh;
     }
 }
-.dark-mode {
-    color: #fff;
-    background-color: $backgroundGreen;
-}
 .darkModeToggle {
     cursor: pointer;
     img {
       width: 60px;
       height: 60px;
     }
+  }
+  .header {
+    background-color: $beigeFilter;
+    color: $darkerRosy;
+  }
+  
+  .top-bar {
+    background-color: $background;
+  }
+  
+  .dark-mode .header {
+    background-color: $greenFilter;
+    color: $darkerGreeny;
+  }
+  
+  .dark-mode .top-bar {
+    background-color: $backgroundGreen;
   }

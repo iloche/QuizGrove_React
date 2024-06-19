@@ -49,6 +49,12 @@ const Game = () => {
                 setScore(savedProgress.score || 0);
                 setExpertUnlocked(savedProgress.expertUnlocked || false);
             }
+
+             // Vérifiez si le niveau Expert est déjà débloqué dans le localStorage
+            const expertUnlockedInLocalStorage = JSON.parse(localStorage.getItem(`expertUnlocked_${user.uid}`));
+            if (expertUnlockedInLocalStorage) {
+                setExpertUnlocked(true);
+            }
         }
     }, []);
 
@@ -60,6 +66,7 @@ const Game = () => {
                 expertUnlocked
             };
             localStorage.setItem(`quizProgress_${userId}`, JSON.stringify(progressToSave));
+            localStorage.setItem(`expertUnlocked_${userId}`, JSON.stringify(expertUnlocked));
         }
     }, [currentQuestionIndex, score, expertUnlocked, userId]);
 
@@ -128,9 +135,11 @@ const Game = () => {
                 setShowAnecdote(true);
                 setCanRetry(false);
     
-                if (newScore >= 10 && !expertUnlockedMessageShown) {
+                if (newScore >= 100 && !expertUnlockedMessageShown) {
                     setExpertUnlocked(true);
                     setShowExpertUnlockedMessage(true);
+                    setExpertUnlockedMessageShown(true);
+                    localStorage.setItem(`expertUnlocked_${userId}`, JSON.stringify(true));
                 }
             } else {
                 setCanRetry(true);
@@ -163,18 +172,8 @@ const Game = () => {
         setScore(0);
         setShowCongratulations(false);
         setShowButtons(true);
+        setExpertUnlockedMessageShown(false);
     };
-
-    const handleQuitGame = () => {
-        setShowCategoryPopup(true); // Affiche à nouveau le popup des catégories
-        setShowDifficultyPopup(false); // Assure que le popup de la difficulté est caché
-        setShowQuestionPopup(false); // Assure que le popup des questions est caché
-        setShowAnecdote(false); // Assure que l'anecdote est cachée
-        setSelectedAnswer(null); // Réinitialise la réponse sélectionnée
-        setIsAnswerCorrect(null); // Réinitialise la vérification de la réponse
-        setAnswered(false); // Réinitialise l'état de réponse
-        setShowButtons(false);
-    };  
 
     const handleBackToCategorySelection = () => {
         setShowCategoryPopup(true);
@@ -255,7 +254,7 @@ const Game = () => {
                             <button title='Relancer le niveau' className={style.button} onClick={handleRestartButtonClick}>
                                 <img className={style.refresh} src={refresh} />
                             </button>
-                            <button title='Retour' className={style.button} onClick={handleQuitGame}>
+                            <button title='Retour' className={style.button} onClick={handleBackToCategorySelection}>
                                 <img className={style.return} src={back} />
                             </button>
                         </div>

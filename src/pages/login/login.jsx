@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { Navigate } from "react-router-dom";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../firebase';
@@ -10,7 +10,7 @@ import closedEye from '../../../doc/closedEye.png'
 const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à jour l'état de connexion
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const [userName, setUserName] = useState(""); // Nouvel état pour le nom d'utilisateur
+    const [username, setUsername] = useState('');
     const [isSignUpActive, setIsSignUpActive] = useState(true);
     const [rememberMe, setRememberMe] = useState(false); // Nouvel état pour se souvenir de l'utilisateur
     const [errorMessage, setErrorMessage] = useState(""); // Nouvel état pour le message d'erreur
@@ -123,6 +123,20 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
 
                         {isSignUpActive && <h1>S'inscrire</h1>}
                         {!isSignUpActive && <h1>Se connecter</h1>}
+                        
+                        {isSignUpActive && (
+                            <>
+                        <label htmlFor="username">Nom d'utilisateur</label>
+                        <input
+                            type="text"
+                            id='username'
+                            placeholder="Nom d'utilisateur"
+                            value={username}
+                            onChange={(e) => setUsername(e.target.value)}
+                            required
+                         />
+                         </>
+                        )}
 
                         <label htmlFor="email">Adresse e-mail</label>
                         <input type="email" id="email" name="email" placeholder="mushy@quizgrove.com" required onChange={handleEmailChange} value={email} />

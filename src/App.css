@@ -177,12 +177,11 @@ a {
         transform: rotate(360deg);
     }
 }
-
-
 .chakra-petch-light {
     font-family: "Chakra Petch", sans-serif;
     font-weight: 300;
     font-style: normal;
+    overflow: hidden;
 }
 main {
     background-color: rgba(210, 180, 140, 0.349);

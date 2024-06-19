@@ -28,11 +28,12 @@
         }
         .wrench{
             position: absolute;
-            top: 60%; 
-            left: 60%; 
+            top: 50%; 
+            left: 55%; 
             transform: translate(-50%, -50%);
             width: 20px; 
             height: 20px;
+            cursor: pointer;
         }
     }
     .profile-details,

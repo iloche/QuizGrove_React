@@ -42,8 +42,10 @@ const Header = () => {
       setHeaderClass(style.login);
     } else if (currentPath === '/support') {
       setHeaderClass(style.aide);
-    } else {
+    } else if (currentPath === '/game') {
       setHeaderClass(style.jeu);
+    } else {
+      setHeaderClass(style.connexion);
     }
   }, [location.pathname]);
 

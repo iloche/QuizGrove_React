@@ -8,11 +8,21 @@
     translate: -50% -50% 0;
 }
 
-$beigeFilter : #d2b48ce0;
+// Variables pour le thème clair
+$beigeFilter: #d2b48ce0;
 $darkerRosy: rgb(150, 115, 115);
 $background: rgba(211, 181, 141, 0.349);
 
-$greenfilter: #b2e799c4;
+// Variables pour le thème sombre
+$greenFilter: #b2e799c4;
 $darkerGreeny: #4f7c3a9f;
 $backgroundGreen: rgba(18, 85, 1, 0.349);
+
+// Sélecteur pour le thème sombre
+.dark-mode {
+  // Remplace les variables par celles du thème sombre
+  $beigeFilter: $greenFilter;
+  $darkerRosy: $darkerGreeny;
+  $background: $backgroundGreen;
+}
 
