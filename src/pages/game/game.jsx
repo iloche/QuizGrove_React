@@ -14,6 +14,7 @@ import volume from '../../../doc/volume-medium-line-icon.png';
 import refresh from '../../../doc/refresh.png';
 import back from '../../../doc/return.png'
 import locked from '../../../doc/locked.png';
+import Tippy from '@tippyjs/react';
 
 const categories = ["Animaux", "Culture", "Dessins animés", "Géographie", "Histoire", "Littérature", "Monde", "Musique", "Sports"];
 const difficultyLevels = ["Débutant", "Confirmé", "Expert"];
@@ -242,6 +243,19 @@ const Game = () => {
         setVisible(false);
     };
 
+    const TippyContentExpert = (
+        <div className="info-box" style={{ backgroundColor: '#bc8f8f', borderRadius: '5px', padding: "5px", border: "2px solid #967373" }}>
+            <p>🍄 Obtiens un score total de 100 points pour débloquer le niveau Expert !</p>
+        </div>
+    );
+
+    const TippyContentFrog = (
+        <div className="info-box" style={{ backgroundColor: '#bc8f8f', borderRadius: '5px', padding: "5px", border: "2px solid #967373" }}>
+            <p>🍄 Clique sur la grenouille volante rapidement pour gagner un point !</p>
+            <p>🍄 Les points te sont attribués en fonction de la difficulté de la question</p>
+        </div>
+    );
+
     return (
         <main className={style['main-jeu']}>
             <div className={style['top-content']}>
@@ -279,6 +293,14 @@ const Game = () => {
                         </div>
                     ) : showDifficultyPopup ? (
                         <div className={clsx("difficulty-title", style.popup)}>
+                            <Tippy
+                                content={TippyContentExpert}
+                                animation="scale"
+                                allowHTML={true}
+                                placement='bottom'
+                            >
+                                <p className="question-mark" style={{ backgroundColor: '#bc8f8f', borderRadius: '15px', padding: "3px", border: "2px solid #967373", boxShadow: "0 0 10px 0 rgba(0, 0, 0, 0.5)", width:"5%", margin:"0 auto", fontWeight:"bold", position:'absolute', bottom:"-5%", right:"1%" }}>?</p>
+                            </Tippy>
                             <h2>Choisis le niveau de difficulté</h2>
                             {showDifficultyPopup && (
                                 <div className={style["difficulty-box"]}>
@@ -338,6 +360,14 @@ const Game = () => {
                             <div className={style.score}>
                                 Score total: {score}
                             </div>
+                            <Tippy
+                                content={TippyContentFrog}
+                                animation="scale"
+                                allowHTML={true}
+                                placement='bottom'
+                            >
+                                <p className="question-mark" style={{ backgroundColor: '#bc8f8f', borderRadius: '15px', padding: "3px", border: "4px solid #967373", boxShadow: "0 0 10px 0 rgba(0, 0, 0, 0.5)", width:"7%", fontWeight:"bold", position:'absolute', bottom:"-5%", right:"5%" }}>?</p>
+                            </Tippy>
                         </div>
                     ) : (
                         <>

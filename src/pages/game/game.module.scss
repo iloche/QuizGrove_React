@@ -85,9 +85,9 @@
     border-radius: 10px;
     gap: 1rem;
     margin: 0 0 25px 75px;
-    @media screen and (min-width: 1024px) {
-      justify-items: center;
-    }
+    // @media screen and (min-width: 1024px) {
+    //   justify-items: center;
+    // }
     .level {
       h2 {
         font-size: 16px;
@@ -99,14 +99,14 @@
   width: 15%;
 }
 .congratulations {
-  background-color: #bc8f8f90; /* Fond blanc */
+  background-color: #bc8f8f90;
   padding: 20px;
   border-radius: 8px;
   border: 1px solid #967373;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
   max-width: 400px;
-  margin: 0 auto 20px; /* Centré horizontalement avec une marge en bas */
+  margin: 0 auto 20px;
 }
 .congratulations h2 {
   font-size: 24px;
@@ -251,4 +251,8 @@
           opacity: 1;
       }
   }
+}
+
+.popup {
+  position: relative;
 }
