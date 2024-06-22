@@ -123,20 +123,6 @@ const Login = ({ user, setIsLoggedIn }) => { // Ajoutez une prop pour mettre à 
 
                         {isSignUpActive && <h1>S'inscrire</h1>}
                         {!isSignUpActive && <h1>Se connecter</h1>}
-                        
-                        {isSignUpActive && (
-                            <>
-                        <label htmlFor="username">Nom d'utilisateur</label>
-                        <input
-                            type="text"
-                            id='username'
-                            placeholder="Nom d'utilisateur"
-                            value={username}
-                            onChange={(e) => setUsername(e.target.value)}
-                            required
-                         />
-                         </>
-                        )}
 
                         <label htmlFor="email">Adresse e-mail</label>
                         <input type="email" id="email" name="email" placeholder="mushy@quizgrove.com" required onChange={handleEmailChange} value={email} />

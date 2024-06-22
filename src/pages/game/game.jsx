@@ -9,6 +9,10 @@ import song2 from'../../../doc/happy tears.mp3';
 import song3 from'../../../doc/nobonoko - My Heart is a Machine.mp3';
 import song4 from'../../../doc/Orange Lounge - MOBO MOGA (HQ).mp3';
 import song5 from'../../../doc/Stargaze.mp3';
+import song6 from '../../../doc/Joel McNeely-Tinkering.mp3';
+import song7 from '../../../doc/Storybook.mp3';
+import song8 from '../../../doc/Kingdom Dance (From TangledScore).mp3';
+import song9 from '../../../doc/Night At The Museum.mp3';
 import silent from '../../../doc/volume-silent-line-icon.png';
 import volume from '../../../doc/volume-medium-line-icon.png';
 import refresh from '../../../doc/refresh.png';
@@ -163,17 +167,29 @@ const Game = () => {
     };
 
     const handleRestartButtonClick = () => {
-        setShowCategoryPopup(true);
-        setShowDifficultyPopup(false);
-        setShowQuestionPopup(true);
-        setCurrentQuestionIndex(0);
-        setShowAnecdote(false);
-        setSelectedAnswer(null);
-        setIsAnswerCorrect(null);
-        setScore(0);
-        setShowCongratulations(false);
-        setShowButtons(true);
-        setExpertUnlockedMessageShown(false);
+        const userConfirmed = window.confirm("Êtes-vous sûr de vouloir réinitialiser toute votre progression ?");
+        
+        if (userConfirmed) {
+            setShowCategoryPopup(true);
+            setShowDifficultyPopup(false);
+            setShowQuestionPopup(true);
+            setCurrentQuestionIndex(0);
+            setShowAnecdote(false);
+            setSelectedAnswer(null);
+            setIsAnswerCorrect(null);
+            setScore(0);
+            setShowCongratulations(false);
+            setShowButtons(true);
+            setExpertUnlockedMessageShown(false);
+            setShowExpertUnlockedMessage(false);
+            showNotification('success', 'Votre progression a été réinitialisée.');
+        } else {
+            showNotification('info', 'La réinitialisation a été annulée.');
+        }
+    };
+
+    const showNotification = (type, message) => {
+        console.log(`Notification: ${type} - ${message}`);
     };
 
     const handleBackToCategorySelection = () => {
@@ -189,7 +205,7 @@ const Game = () => {
         setShowButtons(false);
     };
 
-    const audioFiles = [song1, song2, song3, song4, song5];
+    const audioFiles = [song1, song2, song3, song4, song5, song6, song7, song8, song9];
     
     const [musicPlaying, setMusicPlaying] = useState(false);
     const [currentAudio, setCurrentAudio] = useState(null);
@@ -244,15 +260,16 @@ const Game = () => {
     };
 
     const TippyContentExpert = (
-        <div className="info-box" style={{ backgroundColor: '#bc8f8f', borderRadius: '5px', padding: "5px", border: "2px solid #967373" }}>
+        <div className="info-box chakra-petch-light" style={{ backgroundColor: '#bc8f8f', borderRadius: '5px', padding: "5px", border: "2px solid #967373" }}>
             <p>🍄 Obtiens un score total de 100 points pour débloquer le niveau Expert !</p>
         </div>
     );
 
     const TippyContentFrog = (
-        <div className="info-box" style={{ backgroundColor: '#bc8f8f', borderRadius: '5px', padding: "5px", border: "2px solid #967373" }}>
+        <div className="info-box chakra-petch-light" style={{ backgroundColor: '#bc8f8f', borderRadius: '5px', padding: "5px", border: "2px solid #967373" }}>
             <p>🍄 Clique sur la grenouille volante rapidement pour gagner un point !</p>
             <p>🍄 Les points te sont attribués en fonction de la difficulté de la question</p>
+            <p>🍄 Attention ! Si tu réinitialises la progression totale, tu repars à 0 mais pas d'inquiétude, le niveau Expert reste débloqué</p>
         </div>
     );
 
@@ -265,7 +282,7 @@ const Game = () => {
                             <button title='Lancer la musique' className={style.button} onClick={toggleMusic}>
                                 <img className={style.music} src={buttonImage ? buttonImage : silent} />
                             </button>
-                            <button title='Relancer le niveau' className={style.button} onClick={handleRestartButtonClick}>
+                            <button title='Réinitialiser la progression totale' className={style.button} onClick={handleRestartButtonClick}>
                                 <img className={style.refresh} src={refresh} />
                             </button>
                             <button title='Retour' className={style.button} onClick={handleBackToCategorySelection}>

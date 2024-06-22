@@ -141,7 +141,6 @@ header{
     height: 120vh;
     background-repeat: no-repeat;
     overflow: hidden;
-    
 }
 .connexion{
     background: url(../../../doc/62a8747cc0a65.jpg) center / cover;
@@ -157,11 +156,11 @@ header{
 }
 .aide {
     background: url(https://i.pinimg.com/originals/9f/2e/20/9f2e20b7595ac5a873ddd17a22b9b934.jpg) center/cover;
-    height: 135vh;
+    height: 155vh;
     background-repeat: no-repeat;
     overflow: hidden;
     @media screen and (min-width: 1024px) {
-        height: 100vh;
+        height: 115vh;
     }
 }
 .darkModeToggle {
@@ -170,21 +169,4 @@ header{
       width: 60px;
       height: 60px;
     }
-  }
-  .header {
-    background-color: $beigeFilter;
-    color: $darkerRosy;
-  }
-  
-  .top-bar {
-    background-color: $background;
-  }
-  
-  .dark-mode .header {
-    background-color: $greenFilter;
-    color: $darkerGreeny;
-  }
-  
-  .dark-mode .top-bar {
-    background-color: $backgroundGreen;
   }

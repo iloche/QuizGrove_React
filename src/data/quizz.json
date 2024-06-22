@@ -1887,375 +1887,374 @@
       "thème": "Histoire politique",
       "difficulté": 3,
       "quizz": {
-        "débutant": [
-          {
-            "id": 1,
-            "question": "Qui a été nommé, pour la troisième fois de sa carrière, président du Conseil italien le 8 mai 2008 ?",
-            "propositions": [
-              "Romano Prodi",
-              "Giuliano Amato",
-              "Lamberto Dini",
-              "Silvio Berlusconi"
-            ],
-            "reponse": "Silvio Berlusconi",
-            "anecdote": "Homme d'affaires et propriétaire du club de football de l'AC Milan, il a été pour la première fois Président de 1994 à 1995."
-          },
-          {
-            "id": 2,
-            "question": "Quelle prisonnière des Farc colombiennes a été libérée le 2 juillet 2008 après six ans de captivité ?",
-            "propositions": [
-              "Clara Rojas",
-              "Ingrid Betancourt",
-              "Gina Parody",
-              "Gloria Polanco"
-            ],
-            "reponse": "Ingrid Betancourt",
-            "anecdote": "Après de longs mois de détention, cette femme politique colombo-française fut délivrée par l'armée national colombienne."
-          },
-          {
-            "id": 3,
-            "question": "De quel État Barrack Obama était-il le sénateur avant d'être élu président des États-Unis ?",
-            "propositions": [
-              "Iowa",
-              "Idaho",
-              "Illinois",
-              "Indiana"
-            ],
-            "reponse": "Illinois",
-            "anecdote": "Les États-Unis élisent pour la première fois de leur histoire un président Afro-Américain à la tête du pays."
-          },
-          {
-            "id": 4,
-            "question": "Quel acteur célèbre est devenu gouverneur de l'État de Californie le 7 octobre 2003 ?",
-            "propositions": [
-              "V. Diesel",
-              "B. Willis",
-              "A. Schwarzenegger",
-              "S. Stallone"
-            ],
-            "reponse": "A. Schwarzenegger",
-            "anecdote": "Donné favori, bien que républicain, « Schwarzy » a dépassé les prévisions les plus optimistes avec 48% des voix."
-          },
-          {
-            "id": 5,
-            "question": "Qui était l'adversaire démocrate de George W. Bush pour la présidentielle américaine de 2004 ?",
-            "propositions": [
-              "James Baker",
-              "Joe Biden",
-              "John Kerry",
-              "Colin Powell"
-            ],
-            "reponse": "John Kerry",
-            "anecdote": "Le sénateur du Massachusetts l'avait emporté dans neuf États sur dix lors du supermardi des primaires démocrates."
-          },
-          {
-            "id": 6,
-            "question": "Qui fut la première « first Lady » à être élue sénateur de New York le 8 novembre 2000 ?",
-            "propositions": [
-              "Hilary Clinton",
-              "Michelle Obama",
-              "Barbara Bush",
-              "Melania Trump"
-            ],
-            "reponse": "Hilary Clinton",
-            "anecdote": "Nombreux sont ceux dans son camp démocrate ou chez les Républicains à lui prêter une plus haute ambition."
-          },
-          {
-            "id": 7,
-            "question": "Sous quel nom le prince Albert a-t-il accédé au trône de Monaco ?",
-            "propositions": [
-              "Albert II",
-              "Honoré V",
-              "Louis II",
-              "Rainier III"
-            ],
-            "reponse": "Albert II",
-            "anecdote": "Le nouveau souverain entend rompre avec l'autocratisme de son père et promet une gestion du pays « ouverte au dialogue »."
-          },
-          {
-            "id": 8,
-            "question": "Quel ancien président américain a achevé une visite historique à Cuba le 17 mai 2002 ?",
-            "propositions": [
-              "Jimmy Carter",
-              "Gerald Ford",
-              "Ronald Reagan",
-              "Bill Clinton"
-            ],
-            "reponse": "Jimmy Carter",
-            "anecdote": "Venu à titre privé, mais non sans arrière-pensées, Jimmy Carter était un farouche défenseur des droits de l'homme."
-          },
-          {
-            "id": 9,
-            "question": "Quel homme d'État américain a reçu le prix Nobel de la paix le 9 octobre 2009 ?",
-            "propositions": [
-              "Al Gore",
-              "Donald Trump",
-              "Jimmy Carter",
-              "Barack Obama"
-            ],
-            "reponse": "Barack Obama",
-            "anecdote": "Barack Obama a reçu ce prix pour ses efforts extraordinaires en faveur du renforcement de la diplomatie internationale."
-          },
-          {
-            "id": 10,
-            "question": "Quel ancien premier ministre mort en 2007 fut surnommé « meilleur économiste de France » ?",
-            "propositions": [
-              "Pierre Mauroy",
-              "Laurent Fabius",
-              "Raymond Barre",
-              "Jacques Chirac"
-            ],
-            "reponse": "Raymond Barre",
-            "anecdote": "Cet universitaire avait été le Premier ministre de Valéry Giscard d'Estaing de 1976 à 1981 et maire de Lyon de 1995 à 2001."
+          "débutant": [
+            {
+              "id": 1,
+              "question": "En quelle année a eu lieu la découverte de l'Amérique par Christophe Colomb ?",
+              "propositions": [
+                "1492",
+                "1520",
+                "1607",
+                "1776"
+              ],
+              "reponse": "1492",
+              "anecdote": "Christophe Colomb, navigateur et explorateur génois, a accosté sur une île des Caraïbes le 12 octobre 1492, ouvrant la voie à la colonisation européenne des Amériques."
+            },
+            {
+              "id": 2,
+              "question": "Quelle était la capitale de l'Empire romain ?",
+              "propositions": [
+                "Rome",
+                "Athènes",
+                "Constantinople",
+                "Alexandrie"
+              ],
+              "reponse": "Rome",
+              "anecdote": "Rome, fondée selon la légende en 753 av. J.-C., était le centre politique, économique et culturel de l'Empire romain, qui s'étendait à son apogée sur une grande partie de l'Europe, de l'Asie et de l'Afrique du Nord."
+            },
+            {
+              "id": 3,
+              "question": "Quel événement historique est commémoré le 11 novembre ?",
+              "propositions": [
+                "La Révolution française",
+                "La Fin de la Première Guerre mondiale",
+                "La Fin de la Seconde Guerre mondiale",
+                "La prise de la Bastille"
+              ],
+              "reponse": "La Première Guerre mondiale",
+              "anecdote": "Le 11 novembre 1918, l'armistice a été signé à Rethondes, mettant fin à la Première Guerre mondiale, qui a causé la mort de millions de personnes et bouleversé l'Europe."
+            },
+            {
+              "id": 4,
+              "question": "Quel personnage historique est connu pour avoir dit la phrase 'Je pense, donc je suis' ?",
+              "propositions": [
+                "René Descartes",
+                "Voltaire",
+                "Napoléon Bonaparte",
+                "Louis XIV"
+              ],
+              "reponse": "René Descartes",
+              "anecdote": "René Descartes, philosophe français du XVIIe siècle, est considéré comme le père de la philosophie moderne. Sa célèbre phrase 'Je pense, donc je suis' (cogito, ergo sum) est une affirmation fondamentale de l'existence individuelle et de la connaissance."
+            },
+            {
+              "id": 5,
+              "question": "Dans quel pays a eu lieu la guerre civile américaine ?",
+              "propositions": [
+                "États-Unis",
+                "Canada",
+                "Mexique",
+                "Brésil"
+              ],
+              "reponse": "États-Unis",
+              "anecdote": "La guerre civile américaine (1861-1865) a opposé les États du Nord aux États du Sud, aboutissant à l'abolition de l'esclavage et à la préservation de l'Union."
+            },
+            {
+              "id": 6,
+              "question": "Quelle est la plus haute montagne du monde ?",
+              "propositions": [
+                "Le Mont Everest",
+                "Le K2",
+                "Le Kangchenjunga",
+                "Le Lhotse"
+              ],
+              "reponse": "Le Mont Everest",
+              "anecdote": "Situé dans la chaîne de l'Himalaya, le Mont Everest, culminant à 8 848,86 mètres d'altitude, est le toit du monde et attire chaque année des alpinistes du monde entier."
+            },
+            {
+              "id": 7,
+              "question": "En quelle année a eu lieu la chute du mur de Berlin ?",
+              "propositions": [
+                "1945",
+                "1961",
+                "1989",
+                "2001"
+              ],
+              "reponse": "1989",
+              "anecdote": "Le 9 novembre 1989, la chute du mur de Berlin a marqué la fin de la division de l'Allemagne et symbolisé la fin de la guerre froide."
+            },
+            {
+              "id": 8,
+              "question": "Quel pays est à l'origine de la tradition des Jeux olympiques ?",
+              "propositions": [
+                "Grèce",
+                "Rome",
+                "Chine",
+                "Égypte"
+              ],
+              "reponse": "Grèce",
+              "anecdote": "Les Jeux olympiques antiques, organisés tous les quatre ans à Olympie en Grèce, étaient des compétitions sportives et religieuses qui mettaient en valeur les valeurs de l'excellence humaine et de la paix entre les cités."
+            },
+            {
+              "id": 9,
+              "question": "Quel est le nom du célèbre explorateur norvégien qui a atteint le pôle Sud ?",
+              "propositions": [
+                "Roald Amundsen",
+                "Ernest Shackleton",
+                "Robert Falcon Scott",
+                "Marco Polo"
+              ],
+              "reponse": "Roald Amundsen",
+              "anecdote": "En 1911, Roald Amundsen, explorateur norvégien, devient la première personne à atteindre le pôle Sud, devançant de quelques semaines l'expédition britannique menée par Robert Falcon Scott."
+            },
+            {
+              "id": 10,
+              "question": "Quel événement historique a eu lieu le 7 décembre 1941, marquant l'entrée en guerre des États-Unis pendant la Seconde Guerre mondiale ?",
+              "propositions": [
+                "Le bombardement de Pearl Harbor",
+                "La bataille de Midway",
+                "Le débarquement de Normandie",
+                "La bataille d'Iwo Jima"
+              ],
+              "reponse": "Le bombardement de Pearl Harbor",
+              "anecdote": "L'attaque surprise de la marine japonaise contre la base navale américaine de Pearl Harbor à Hawaï a précipité l'entrée en guerre des États-Unis, marquant un tournant majeur dans la Seconde Guerre mondiale."
+            }
+          ],
+          "confirmé": [
+            {
+              "id": 11,
+              "question": "Quelle bataille a marqué la fin de la guerre de Cent Ans entre la France et l'Angleterre ?",
+              "propositions": [
+                "La bataille de Bouvines (1421)",
+                "La bataille d'Orléans (1428)",
+                "La bataille de Castillon (1453)",
+                "La bataille de Marignan (1515)"
+              ],
+              "reponse": "La bataille de Castillon (1453)",
+              "anecdote": "La bataille de Castillon, qui s'est déroulée le 23 juillet 1453, a marqué la fin de la guerre de Cent Ans et la victoire française sur l'Angleterre."
+            },
+            {
+              "id": 12,
+              "question": "Quel roi français a été surnommé le 'Roi Soleil' ?",
+              "propositions": [
+                "Louis XIV",
+                "Louis XV",
+                "Louis XVI",
+                "Napoléon Bonaparte"
+              ],
+              "reponse": "Louis XIV",
+              "anecdote": "Louis XIV, roi de France de 1643 à 1715, a symbolisé l'apogée de la monarchie absolue en France et a laissé un héritage important en matière d'art, d'architecture et de culture."
+            },
+            {
+              "id": 13,
+              "question": "Quelle invention a révolutionné le transport au 18ème siècle ?",
+              "propositions": [
+                "L'automobile",
+                "L'avion",
+                "La machine à vapeur",
+                "Le train"
+              ],
+              "reponse": "La machine à vapeur",
+              "anecdote": "L'invention de la machine à vapeur par James Watt en 1769 a révolutionné le transport en permettant la construction de locomotives à vapeur et de bateaux à vapeur, transformant ainsi le commerce et les voyages."
+            },
+            {
+              "id": 14,
+              "question": "Quel événement historique est commémoré le 4 juillet aux États-Unis ?",
+              "propositions": [
+                "La guerre de Sécession",
+                "La Déclaration d'indépendance",
+                "La Première Guerre mondiale",
+                "La Seconde Guerre mondiale"
+              ],
+              "reponse": "La Déclaration d'indépendance",
+              "anecdote": "Le 4 juillet 1776, les États-Unis d'Amérique ont adopté la Déclaration d'indépendance, proclamant leur indépendance vis-à-vis de la Grande-Bretagne, marquant ainsi la naissance d'une nouvelle nation."
+            },
+            {
+              "id": 15,
+              "question": "Quelle organisation internationale a été créée après la Seconde Guerre mondiale pour promouvoir la paix et la coopération internationales ?",
+              "propositions": [
+                "L'Union européenne (UE)",
+                "L'OTAN",
+                "Le G7",
+                "L'Organisation des Nations Unies (ONU)"
+              ],
+              "reponse": "L'Organisation des Nations Unies (ONU)",
+              "anecdote": "L'Organisation des Nations Unies (ONU) a été créée en 1945 dans le but de maintenir la paix internationale, de protéger les droits de l'homme et de promouvoir la coopération internationale."
+            },
+            {
+              "id": 16,
+              "question": "Quelle civilisation est considérée comme l'une des plus anciennes du monde et a construit des pyramides et des hiéroglyphes ?",
+              "propositions": [
+                "La Mésopotamie",
+                "L'Égypte ancienne",
+                "La civilisation de la vallée de l'Indus",
+                "La civilisation olmèque"
+              ],
+              "reponse": "L'Égypte ancienne",
+              "anecdote": "L'Égypte ancienne, avec ses pyramides imposantes, ses hiéroglyphes mystérieux et ses pharaons puissants, a laissé un héritage durable et a influencé les civilisations ultérieures."
+            },
+            {
+              "id": 17,
+              "question": "Quel événement historique est commémoré le 9 mai en Europe ?",
+              "propositions": [
+                "La chute du mur de Berlin",
+                "La signature du traité de Maastricht",
+                "La fin de la Seconde Guerre mondiale",
+                "La création de l'Union européenne"
+              ],
+              "reponse": "La fin de la Seconde Guerre mondiale",
+              "anecdote": "Le 9 mai 1945 marque la victoire des Alliés sur l'Allemagne nazie et la fin de la Seconde Guerre mondiale en Europe, un événement célébré comme la Journée de l'Europe."
+            },
+            {
+              "id": 18,
+              "question": "Quel scientifique a formulé la théorie de la relativité et est connu pour son équation E=mc² ?",
+              "propositions": [
+                "Isaac Newton",
+                "Marie Curie",
+                "Stephen Hawking",
+                "Albert Einstein"
+              ],
+              "reponse": "Albert Einstein",
+              "anecdote": "Albert Einstein, physicien théoricien allemand, a révolutionné notre compréhension de l'espace, du temps et de la gravité avec sa théorie de la relativité, et son équation E=mc² est devenue l'une des formules les plus célèbres de l'histoire."
+            },
+            {
+              "id": 19,
+              "question": "Quel mouvement artistique et culturel a émergé en Europe à la fin du 15ème siècle et se caractérise par une célébration de l'humanisme et de la beauté individuelle ?",
+              "propositions": [
+                "Le Baroque",
+                "La Renaissance",
+                "Le Romantisme",
+                "L'Impressionnisme"
+              ],
+              "reponse": "La Renaissance",
+              "anecdote": "La Renaissance, née en Italie et s'étendant à travers l'Europe, a marqué un renouveau des arts, des lettres et des sciences, mettant l'accent sur l'humanisme, la beauté individuelle et la redécouverte de l'Antiquité."
+            },
+            {
+              "id": 20,
+              "question": "Quel explorateur portugais a découvert la route maritime vers l'Inde en contournant l'Afrique ?",
+              "propositions": [
+                "Christophe Colomb",
+                "Vasco da Gama",
+                "Ferdinand Magellan",
+                "Marco Polo"
+              ],
+              "reponse": "Vasco da Gama",
+              "anecdote": "Vasco da Gama, navigateur portugais, a accompli un exploit historique en ouvrant la route maritime vers l'Inde en contournant l'Afrique, bouleversant le commerce mondial et reliant l'Europe à l'Asie."
+            }
+          ],
+            "expert": [
+              {
+                "id": 21,
+                "question": "Quelle bataille navale a marqué le tournant de la guerre du Pacifique pendant la Seconde Guerre mondiale ?",
+                "propositions": [
+                  "La bataille de Guadalcanal (1942-1943)",
+                  "La bataille de Iwo Jima (1945)",
+                  "La bataille de Midway (1942)",
+                  "La bataille d'Okinawa (1945)"
+                ],
+                "reponse": "La bataille de Midway (1942)",
+                "anecdote": "La bataille de Midway, considérée comme un point de basculement majeur dans la guerre du Pacifique, a vu les forces américaines infliger une défaite décisive à la marine japonaise, stoppant son avancée et inversant le cours de la guerre."
+              },
+              {
+                "id": 22, "question": "Quel événement historique a déclenché la Révolution française en 1789 ?",
+                "propositions": [
+                  "La déclaration des droits de l'homme et du citoyen",
+                  "La fuite de Varennes",
+                   "La prise de la Bastille",
+                  "L'exécution de Louis XVI"
+                ],
+                "reponse": "La prise de la Bastille",
+                "anecdote": "La prise de la Bastille le 14 juillet 1789 est un symbole révolutionnaire qui a marqué le début de la Révolution française, remettant en question l'autorité absolue de la monarchie et ouvrant la voie à une nouvelle ère politique."
+              },
+              {
+                "id": 23,
+                "question": "Quel traité a mis fin à la Première Guerre mondiale en 1918 ?",
+                "propositions": [
+                  "Le traité de Rapallo",
+                  "Le pacte Briand-Kellogg",
+                  "Le pacte Molotov-Ribbentrop",
+                  "Le traité de Versailles"
+                ],
+                "reponse": "Le traité de Versailles",
+                "anecdote": "Le traité de Versailles, signé en 1919, a officiellement mis fin à la Première Guerre mondiale, imposant des sanctions à l'Allemagne vaincue et redistribuant les territoires européens, façonnant ainsi le paysage politique d'après-guerre."
+              },
+              {
+                "id": 24,
+                "question": "Quel philosophe grec a fondé l'Académie à Athènes et a contribué de manière significative à l'avancement de la philosophie occidentale ?",
+                "propositions": [
+                  "Aristote",
+                  "Platon",
+                  "Socrate",
+                  "Pythagore"
+                ],
+                "reponse": "Platon",
+                "anecdote": "Platon, disciple de Socrate, a fondé l'Académie à Athènes, une institution éducative influente qui a contribué à l'épanouissement de la philosophie occidentale et a laissé un héritage durable dans les domaines de la métaphysique, de l'éthique et de la politique."
+              },
+              {
+                "id": 25,
+                "question": "Quelle civilisation précolombienne a construit des pyramides imposantes et développé un système d'écriture complexe ?",
+                "propositions": [
+                  "Les Aztèques",
+                  "Les Incas",
+                  "Les Mayas",
+                  "Les Olmèques"
+                ],
+                "reponse": "Les Mayas",
+                "anecdote": "La civilisation maya, connue pour ses pyramides majestueuses, ses cités florissantes et son système d'écriture sophistiqué, a laissé un héritage fascinant qui continue d'intriguer les archéologues et les historiens."
+              },
+              {
+                "id": 26,
+                "question": "Quel événement historique a marqué la fin de la guerre froide et la chute du bloc de l'Est ?",
+                "propositions": [
+                  "L'éclatement de l'Union soviétique (1991)",
+                  "L'adhésion des pays d'Europe de l'Est à l'OTAN",
+                  "L'adoption de l'Acte unique européen (1986)",
+                  "La chute du mur de Berlin (1989)"
+                ],
+                "reponse": "La chute du mur de Berlin (1989)",
+                "anecdote": "Symbole de la division de l'Europe, victoire du peuple sur l'oppression."
+              },  
+              {
+                "id": 27,
+                "question": "Quelle bataille navale a opposé les flottes grecque et perse lors des guerres médiques et a marqué un tournant décisif ?",
+                "propositions": [
+                  "La bataille de Salamine (480 av. J.-C.)",
+                  "La bataille de Marathon (490 av. J.-C.)",
+                  "La bataille de Platées (479 av. J.-C.)",
+                  "La bataille de Mycale (479 av. J.-C.)"
+                ],
+                "reponse": "La bataille de Salamine (480 av. J.-C.)",
+                "anecdote": "La bataille de Salamine, une victoire éclatante des Grecs contre la flotte perse bien plus nombreuse, a marqué un tournant crucial dans les guerres médiques, empêchant l'invasion de l'Europe par les Perses et préservant la démocratie athénienne."
+              },
+              {
+                "id": 28,
+                "question": "Quel traité a mis fin à la guerre de Succession d'Espagne et a redistribué les territoires européens au 18ème siècle ?",
+                "propositions": [
+                  "Le traité de Rastatt (1714)",
+                  "Le traité de Vienne (1735)",
+                  "Le traité de Paris (1763)",
+                  "Le traité d'Utrecht (1713)"
+                ],
+                "reponse": "Le traité d'Utrecht (1713)",
+                "anecdote": "Le traité d'Utrecht, signé en 1713, a mis fin à la guerre de Succession d'Espagne, un conflit majeur du 18ème siècle, et a entraîné une redistribution des territoires européens, influençant l'équilibre des puissances sur le continent."
+              },
+              {
+                "id": 29,
+                "question": "Quelle révolution a marqué la fin de l'Ancien Régime en France et l'instauration d'une nouvelle république ?",
+                "propositions": [
+                  "La Révolution américaine (1775-1783)",
+                  "La Révolution française (1789-1799)",
+                  "La Révolution industrielle (18ème-19ème siècles)",
+                  "La Révolution russe (1917)"
+                ],
+                "reponse": "La Révolution française (1789-1799)",
+                "anecdote": "La Révolution française, une période de bouleversements sociaux et politiques en France, a mis fin à l'Ancien Régime et a conduit à l'instauration d'une république, influencant les mouvements révolutionnaires et les idéologies politiques dans le monde entier."
+              },
+              {
+                "id": 30,
+                "question": "Quel scientifique a formulé la théorie de l'évolution par sélection naturelle et a révolutionné notre compréhension du monde vivant ?",
+                "propositions": [
+                  "Jean-Baptiste Lamarck",
+                  "Thomas Huxley",
+                   "Charles Darwin",
+                  "Gregor Mendel"
+                ],
+                "reponse": "Charles Darwin",
+                "anecdote": "Charles Darwin, naturaliste anglais, a révolutionné notre compréhension du monde vivant avec sa théorie de l'évolution par sélection naturelle, expliquant la diversité des espèces et la complexité de la vie sur Terre."
+              }
+            ]
           }
-        ],
-        "confirmé": [
-          {
-            "id": 11,
-            "question": "Quelle personnalité, décédée le 27 août 2003, a donné son nom au poujadisme ?",
-            "propositions": [
-              "Marc Poujade",
-              "André Poujade",
-              "Jean Poujade",
-              "Pierre Poujade"
-            ],
-            "reponse": "Pierre Poujade",
-            "anecdote": "Son nom est resté le symbole des « petits » écrasés par les « gros ». Il fonda l'Union de défense des commerçants et artisans."
-          },
-          {
-            "id": 12,
-            "question": "Quel ancien président serbe de Bosnie, accusé de crimes de guerre, a terminé sa cavale en 2008 ?",
-            "propositions": [
-              "Radovan Karadzic",
-              "Sandor Pall",
-              "Bajram Omeragic",
-              "Sava Mikic"
-            ],
-            "reponse": "Radovan Karadzic",
-            "anecdote": "Karadzic sera inculpé de génocide, crimes de guerre et crimes contre l'humanité pour sa responsabilité dans le siège de Sarajevo."
-          },
-          {
-            "id": 13,
-            "question": "Quel président a jeté l'éponge à Haïti le 29 février 2004 à la suite d'un coup d'État ?",
-            "propositions": [
-              "Émile Jonassaint",
-              "René Préval",
-              "J.-B. Aristide",
-              "Marc Bazin"
-            ],
-            "reponse": "J.-B. Aristide",
-            "anecdote": "L'ancien prêtre a donné sa démission et quitté le pays dans un avion américain pour une destination secrète."
-          },
-          {
-            "id": 14,
-            "question": "Comment s'appelait le quarantième président des États-Unis ?",
-            "propositions": [
-              "John Kerry",
-              "Ronald Reagan",
-              "Jimmy Carter",
-              "George H. W. Bush"
-            ],
-            "reponse": "Ronald Reagan",
-            "anecdote": "L'ancien acteur d'Hollywood exercera deux mandats successifs à la Maison Blanche (1981-1989)."
-          },
-          {
-            "id": 15,
-            "question": "Quel ancien président de l'Autorité palestinienne a perdu la vie à Paris le 11 novembre 2004 ?",
-            "propositions": [
-              "Mahmoud Abbas",
-              "Rami Hamdallah",
-              "Yasser Arafat",
-              "Nabil Shaath"
-            ],
-            "reponse": "Yasser Arafat",
-            "anecdote": "Le raïs avait été élu à la présidence de l'autorité palestinienne en janvier 1996, deux ans après avoir reçu le prix Nobel de la Paix."
-          },
-          {
-            "id": 16,
-            "question": "Qui a succédé à Yasser Arafat à la tête de l'Autorité palestinienne le 9 janvier 2005 ?",
-            "propositions": [
-              "Mahmoud Abbas",
-              "Ahmed Qoreï",
-              "Salam Fayyad",
-              "Nabil Shaath"
-            ],
-            "reponse": "Mahmoud Abbas",
-            "anecdote": "Partisan d'une négociation avec Israël visant à la création d'un État palestinien, Mahmoud Abbas a recueilli 62% des suffrages."
-          },
-          {
-            "id": 17,
-            "question": "Quel dirigeant syndical a été élu président de la Bolivie le 21 décembre 2005 ?",
-            "propositions": [
-              "Simon Bolivar",
-              "Sebastian Agreda",
-              "Carlos Mesa",
-              "Evo Morales"
-            ],
-            "reponse": "Evo Morales",
-            "anecdote": "Le programme d'Evo Morales repose sur deux piliers : la révision plus équitable des contrats du pays et la défense des agriculteurs."
-          },
-          {
-            "id": 18,
-            "question": "Qui a été élu maire de New York le 6 novembre 2001, remplacé ensuite par Bill de Blasio ?",
-            "propositions": [
-              "Edward Koch",
-              "Rudolph Giuliani",
-              "Michael Bloomberg",
-              "John Hopkins"
-            ],
-            "reponse": "Michael Bloomberg",
-            "anecdote": "Le milliardaire qui commence son premier mandat à la tête de la ville avait le soutien du maire sortant Rudolph Giulani."
-          },
-          {
-            "id": 19,
-            "question": "Quelle jeune étudiante Française fut arrêtée en Iran le 1er juillet 2009 pour « espionnage » ?",
-            "propositions": [
-              "Barbara Pompili",
-              "Johanna Rolland",
-              "Clotilde Reiss",
-              "Noémie Saglio"
-            ],
-            "reponse": "Clotilde Reiss",
-            "anecdote": "Lectrice de français à l'université d'Ispahan, elle aurait pris des photos lors des troubles liés aux élections présidentielles iraniennes."
-          },
-          {
-            "id": 20,
-            "question": "Quel ministre a été jugé pour « injure raciale » le 4 juin 2010 ?",
-            "propositions": [
-              "Éric Woerth",
-              "Brice Hortefeux",
-              "Luc Chatel",
-              "Xavier Bertrand"
-            ],
-            "reponse": "Brice Hortefeux",
-            "anecdote": "Il avait dit : « Y'en a beaucoup qui posent des problèmes » à propos d'un militant UMP."
-          }
-        ],
-        "expert": [
-          {
-            "id": 21,
-            "question": "Qui était surnommé le « père de l'indépendance » tunisienne ?",
-            "propositions": [
-              "Habib Bourguiba",
-              "Moncef Marzouki",
-              "Fouad Mebazaa",
-              "Habib Essid"
-            ],
-            "reponse": "Habib Bourguiba",
-            "anecdote": "Il fut d'abord un précurseur, supprimant la polygamie dès son accession au pouvoir et accordant le droit de vote aux femmes."
-          },
-          {
-            "id": 22,
-            "question": "Quel homme politique autrichien s'est tué dans un accident de voiture le 11 octobre 2008 ?",
-            "propositions": [
-              "Alfred Polgar",
-              "Jörg Haider",
-              "Peter Turrini",
-              "Franz Blei"
-            ],
-            "reponse": "Jörg Haider",
-            "anecdote": "Gouverneur de la Carinthie, ses idées nationalistes et populistes avaient beaucoup inquiété l'Union européenne."
-          },
-          {
-            "id": 23,
-            "question": "De quel homme d'affaires a-t-on pu assister sur Internet à la décapitation le 11 mai 2004 ?",
-            "propositions": [
-              "Nicholas Berg",
-              "David Haines",
-              "Alan Johnston",
-              "Tom Fox"
-            ],
-            "reponse": "Nicholas Berg",
-            "anecdote": "Son assassinat était accompagné d'une déclaration le présentant comme une reponse aux tortures infligées à Abou Ghraib."
-          },
-          {
-            "id": 24,
-            "question": "Qui a prêté serment en tant que Premier ministre de l'Irak le 28 juin 2004 ?",
-            "propositions": [
-              "Ahmed Chalabi",
-              "Jalal Talabani",
-              "Massoud Barzani",
-              "Iyad Allaou"
-            ],
-            "reponse": "Iyad Allaou",
-            "anecdote": "Selon la résolution 1546 du Conseil de Sécurité, l'Irak recouvre une souveraineté pleine et entière."
-          },
-          {
-            "id": 25,
-            "question": "Qui a succédé à Pierre Gadonneix à la tête d'EDF le 25 novembre 2009 ?",
-            "propositions": [
-              "François Roussely",
-              "Gilles Ménage",
-              "Edmond Alphandéry",
-              "Henri Proglio"
-            ],
-            "reponse": "Henri Proglio",
-            "anecdote": "C'est une consécration pour celui qui, depuis 10 ans, dirige Veolia Environnement, où il a fait l'essentiel de sa carrière."
-          },
-          {
-            "id": 26,
-            "question": "Comment s'appelle l'ancien roi afghan, destitué en 1973 ?",
-            "propositions": [
-              "M. Zaher Shah",
-              "M. Daoud Khan",
-              "M. Sedi Khan",
-              "M. Nadir Shah"
-            ],
-            "reponse": "M. Zaher Shah",
-            "anecdote": "En exil en Italie depuis sa destitution, il lance le 21 septembre 2001 un appel pour une assemblée des chefs de tribus dans son pays."
-          },
-          {
-            "id": 27,
-            "question": "Quel français a été inculpé dans les attentats du 11 septembre ?",
-            "propositions": [
-              "Ahmed Ressam",
-              "Djamel Beghal",
-              "Nigel Hamer",
-              "Zacarias Moussaoui"
-            ],
-            "reponse": "Zacarias Moussaoui",
-            "anecdote": "L'homme âgé de 33 ans a été arrêté le 17 août 2001 pour séjour irrégulier dans le Minnesota où il suivait des cours de pilotage."
-          },
-          {
-            "id": 28,
-            "question": "Qui fut élu à la tête de la Banque mondiale le 31 mars 2005 ?",
-            "propositions": [
-              "Jim Yong Kim",
-              "Paul Wolfowitz",
-              "James Wolfensohn",
-              "Robert Zoellick"
-            ],
-            "reponse": "Paul Wolfowitz",
-            "anecdote": "N°2 du Pentagone, il est élu à l'unanimité, malgré les nombreuses réserves émises en Europe et dans les pays du tiers-monde."
-          },
-          {
-            "id": 29,
-            "question": "Quel militaire et président syrien est décédé le 10 juin 2000 à Damas ?",
-            "propositions": [
-              "Nazem Koudsi",
-              "Bachar el-Assad",
-              "Hafez El-Assad",
-              "Ahmed Khatib"
-            ],
-            "reponse": "Hafez El-Assad",
-            "anecdote": "Hafez el-Assad eut pour principale préoccupation l'unité du monde arabe dont il se voulait le leader."
-          },
-          {
-            "id": 30,
-            "question": "Qu'a déclenché Ariel Sharon en se rendant sur l'esplanade des Mosquées le 28 août 2000 ?",
-            "propositions": [
-              "Première Intifada",
-              "Seconde Intifada",
-              "Guerre de Gaza",
-              "Guerre du Kippour"
-            ],
-            "reponse": "Seconde Intifada",
-            "anecdote": "Ariel Sharon, alors chef du Likoud, voulait ainsi affirmer les droits imprescriptibles d'Israël sur ce lieu."
-          }
-        ]
-      }
-    }
-  ],
+        }
+    ],
   "géographie" : [
     {                                     
   "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
@@ -2682,9 +2681,9 @@
         "id": 4,
         "question": "Qui est le plus âgé des enfants de la famille Simpson ?",
         "propositions": [
-          "Bart",
           "Maggie",
           "Lisa",
+          "Bart",
           "Marge"
         ],
         "reponse": "Bart",
@@ -2692,15 +2691,15 @@
       },
       {
         "id": 5,
-        "question": "Quel animal est Capucin, le petit compagnon de Candy ?",
+        "question": "Dans le dessin animé 'Dragon Ball Z', quel est le nom du fils de Goku ?",
         "propositions": [
-          "Lapin",
-          "Hamster",
-          "Raton laveur",
-          "Chat"
+          "Trunks",
+          "Goten",
+          "Vegeta",
+          "Gohan"
         ],
-        "reponse": "Raton laveur",
-        "anecdote": "La jeune fille se retrouve à l'orphelinat tenu par Mademoiselle Pony, et Candy tombe amoureuse du prince des collines."
+        "reponse": "Gohan",
+        "anecdote": "Gohan est le fils aîné de Goku et Chi-Chi dans 'Dragon Ball Z'. Il joue un rôle crucial dans plusieurs arcs de l'histoire, montrant un potentiel immense dès son plus jeune âge."
       },
       {
         "id": 6,
@@ -2716,15 +2715,15 @@
       },
       {
         "id": 7,
-        "question": "Qui est rond comme un ballon et plus jaune qu'un citron ?",
+        "question": "Quel dessin animé suit les aventures d'une éponge de mer et de ses amis à Bikini Bottom ?",
         "propositions": [
-          "Pac-Man",
-          "Digger",
-          "Fruity",
-          "Pengo"
+            "Les Razmoket",
+            "Adventure Time",
+            "Les Supers Nanas", 
+            "Bob l'éponge"
         ],
-        "reponse": "Pac-Man",
-        "anecdote": "Ce héros a été l'une des premières vedettes de jeu vidéo à avoir son propre dessin animé, avant Super Mario Bros et Zelda."
+        "reponse": "Bob l'éponge",
+        "anecdote": "Créé par Stephen Hillenburg, Bob l'éponge est devenu un phénomène culturel mondial, connu pour son humour absurde et ses personnages colorés."
       },
       {
         "id": 8,
@@ -2766,28 +2765,28 @@
     "confirmé": [
       {
         "id": 11,
-        "question": "Grâce à quel objet Gigi arrive-t-elle à se transformer en jeune femme ?",
+        "question": "Comment s'appelle la base secrète d'Actarus et de ses amis dans la série 'Goldorak' ?",
         "propositions": [
-          "Parapluie",
-          "Chapeau",
-          "Ceinture",
-          "Pendentif"
+            "Le Centre des Forces Galactiques",
+            "Le Château des Ombres",
+            "La Base Sous-Marine",
+            "Le Centre de Recherches Spatiales"
         ],
-        "reponse": "Pendentif",
-        "anecdote": "Âgée de 12 ans, Gigi est une princesse envoyée sur Terre par ses parents pour redonner de l'espoir à certains humains."
+        "reponse": "Le Centre de Recherches Spatiales",
+        "anecdote": "Dans la série 'Goldorak', le Centre de Recherches Spatiales est dirigé par le Professeur Procyon. C'est là qu'Actarus cache Goldorak et prépare ses missions pour défendre la Terre contre les envahisseurs de Vega."
       },
       {
         "id": 12,
-        "question": "Qu'utilise le lutin Tofffsy pour savoir si on lui dit la vérité ?",
+        "question": "Dans le dessin animé 'Les Tortues Ninja', quel est le nom du rat qui est le maître et mentor des Tortues Ninja ?",
         "propositions": [
-          "Herbe musicale",
-          "Grimoire",
-          "Diamant bleu",
-          "Clé magique"
+            "Maître Yoshi",
+            "Maître Splinter",
+            "Maître Shifu",
+            "Maître Roshi"
         ],
-        "reponse": "Herbe musicale",
-        "anecdote": "Le petit lutin à la chevelure jaune a toujours d'ingénieuses idées pour aider ses amis qui vivent avec lui au château de la comtesse."
-      },
+        "reponse": "Maître Splinter",
+        "anecdote": "Maître Splinter, autrefois un humain nommé Hamato Yoshi, est le mentor sage et bienveillant des Tortues Ninja. Il leur enseigne l'art du ninjutsu et les guide dans leurs combats contre le mal."
+    } ,
       {
         "id": 13,
         "question": "Quel jeune héros de série télé âgé de 10 ans utilise l'Omnitrix ?",
@@ -2814,15 +2813,15 @@
       },
       {
         "id": 15,
-        "question": "Que pilotent Satanas et Diabolo pour attraper le messager Zéphyrin ?",
+        "question": "Dans le dessin animé 'Avatar: The Last Airbender', quel élément maîtrise Aang, le protagoniste principal ?",
         "propositions": [
-          "Fusée",
-          "Autobus",
-          "Biplan",
-          "Moto"
+          "Feu",
+          "Air",
+          "Eau",
+          "Terre"
         ],
-        "reponse": "Biplan",
-        "anecdote": "A la suite du succès des 'Fous du volant', Satanas et Diabolo ont en effet poursuivi leurs péripéties dans les airs."
+        "reponse": "Air",
+        "anecdote": "'Avatar: The Last Airbender', créé par Michael Dante DiMartino et Bryan Konietzko, suit les aventures d'Aang, l'Avatar capable de maîtriser les quatre éléments. Aang est spécifiquement un maître de l'élément Air, capable de manipuler l'air avec une grande habileté."
       },
       {
         "id": 16,
@@ -2838,39 +2837,39 @@
       },
       {
         "id": 17,
-        "question": "Quelle est la particularité vestimentaire de Yogi l'ours ?",
+        "question": "Dans le dessin animé 'Les Pierrafeu', quel est le métier de Fred Pierrafeu ?",
         "propositions": [
-          "Cravate et chapeau",
-          "Tee-shirt et tongs",
-          "Casquette et short",
-          "Cape et collants"
+            "Boulanger", 
+            "Constructeur",
+            "Chasseur de dinosaures",
+            "Mineur"
         ],
-        "reponse": "Cravate et chapeau",
-        "anecdote": "Évoluant dans le parc de Jellystone en compagnie de son ami Boubou, il est toujours en quête de nourriture."
+        "reponse": "Constructeur",
+        "anecdote": "Fred Pierrafeu est un ouvrier du bâtiment travaillant comme constructeur. Il est connu pour son tempérament enthousiaste et ses idées souvent farfelues."
       },
       {
         "id": 18,
-        "question": "Quel animal est Saturnin, héros de la série créée par Jean Tourane ?",
+        "question": "Dans le manga et anime 'One Piece', quel est le nom du pirate surnommé 'Le chirurgien de la mort' en raison de ses compétences médicales exceptionnelles ?",
         "propositions": [
-          "Un caneton",
-          "Un zèbre",
-          "Un éléphant",
-          "Un raton laveur"
+            "Portgas D. Ace",
+            "Edward Newgate (Barbe Blanche)",
+            "Marshall D. Teach (Barbe Noire)",
+            "Trafalgar D. Water Law"
         ],
-        "reponse": "Un caneton",
-        "anecdote": "Le petit volatile caractériel, dont le monde miniature est à l'identique celui des humains, a démarré sa carrière en 1965."
+        "reponse": "Trafalgar D. Water Law",
+        "anecdote": "'One Piece', créé par Eiichiro Oda, présente Trafalgar D. Water Law, un puissant pirate qui est également un médecin accompli. Son fruit du démon, l'Ope Ope no Mi, lui confère des pouvoirs chirurgicaux uniques."
       },
       {
         "id": 19,
-        "question": "Par quel procédé d'animation le clown Kiri a-t-il été créé ?",
+        "question": "Dans le manga et anime 'Naruto', quel est le nom de l'équipe dirigée par Asuma Sarutobi, composée de membres ayant des affinités élémentaires diverses ?",
         "propositions": [
-          "Papier carton",
-          "Mosaïques",
-          "Marionnettes",
-          "Plasticine"
+            "Équipe 8",
+            "Équipe 10",
+            "Équipe 5",
+            "Équipe 12"
         ],
-        "reponse": "Marionnettes",
-        "anecdote": "De ville en ville, sa roulotte entraîne ses compagnons Pip'lett, Laura, Ratibus et Bianca dans de nombreuses aventures."
+        "reponse": "Équipe 10",
+        "anecdote": "Dans 'Naruto', l'Équipe 10 est dirigée par Asuma Sarutobi et composée de Shikamaru Nara, Ino Yamanaka et Choji Akimichi. Chacun de ces membres possède des compétences uniques et complémentaires, notamment dans les affinités élémentaires comme le vent, le feu et le yin-yang."
       },
       {
         "id": 20,
@@ -2888,27 +2887,27 @@
     "expert": [
       {
         "id": 21,
-        "question": "Quelle est la chaîne jeunesse dont le slogan a été 'La télé qui remue toute la famille' ?",
+        "question": "Quelle chaîne jeunesse diffuse principalement des séries animées telles que 'Ben 10', 'Adventure Time' et 'Regular Show' ?",
         "propositions": [
-          "Gulli",
-          "Cstar",
-          "W9",
-          "HD1"
+            "Boomerang",
+            "Nickelodeon",
+             "Cartoon Network",
+            "Disney XD"
         ],
-        "reponse": "Gulli",
-        "anecdote": "Lors du lancement de la TNT en France, en 2005, le groupe Lagardère et France Televisions se sont associés."
+        "reponse": "Cartoon Network",
+        "anecdote": "Cartoon Network est une chaîne de télévision américaine spécialisée dans les dessins animés, connue pour son large éventail de programmes, y compris des séries originales comme 'Les Super Nanas' et 'Le Laboratoire de Dexter'."
       },
       {
         "id": 22,
-        "question": "Quels personnages sautillent en s'engouffrant dans leur poche ?",
+        "question": "Dans la série animée 'Cowboy Bebop', quel est le nom du mystérieux hacker qui rejoint l'équipage du vaisseau Bebop ?",
         "propositions": [
-          "Bisounours",
-          "Entrechats",
-          "Tifins",
-          "Popples"
+            "Radical Edward",
+            "Vicious",
+            "Vincent Volaju",
+            "Julia"
         ],
-        "reponse": "Popples",
-        "anecdote": "Ces boules de poils adorent s'amuser et possèdent une poche dans le dos qui leur permet de faire sortir des objets insolites."
+        "reponse": "Radical Edward",
+        "anecdote": "'Cowboy Bebop', créée par Shinichirō Watanabe, présente Radical Edward, une hackeuse prodige qui rejoint l'équipage du Bebop. Edward est connue pour ses compétences informatiques exceptionnelles et sa personnalité excentrique."
       },
       {
         "id": 23,
@@ -2924,75 +2923,75 @@
       },
       {
         "id": 24,
-        "question": "Qui est probablement le plus célèbre shérif de l'espace ?",
+        "question": "Dans le film d'animation 'Le Voyage de Chihiro' de Hayao Miyazaki, quel est le nom du mystérieux esprit-rivière qui aide Chihiro tout au long de son périple ?",
         "propositions": [
-          "Ulysse",
-          "Bioman",
-          "X-Or",
-          "Jiban"
+            "No-Face",
+            "Kamaji",
+            "Haku",
+            "Yubaba"
         ],
-        "reponse": "X-Or",
-        "anecdote": "Cette série japonaise diffusée en 1983 a pour héros Gordan qui se transforme en X-Or en demandant sa transmutation."
+        "reponse": "Haku",
+        "anecdote": "'Le Voyage de Chihiro', réalisé par Hayao Miyazaki en 2001, met en scène Haku, un esprit-rivière qui guide et protège Chihiro dans le monde des esprits. Haku joue un rôle crucial dans l'histoire, aidant Chihiro à retrouver son courage et à surmonter de nombreux obstacles."
       },
       {
         "id": 25,
-        "question": "Comment se nomme le renard et ennemi d'Aglaé et Sidonie ?",
+        "question": "Dans la série animée 'Rick and Morty', quel est le nom de la planète où vit la famille Smith dans l'univers parallèle de Rick ?",
         "propositions": [
-          "Agénor",
-          "Hugo",
-          "Croquetou",
-          "Saturnin"
+            "Planète C-137",
+            "Planète Squanchy",
+            "Planète Gazorpazorp",
+            "Planète Terre"
         ],
-        "reponse": "Croquetou",
-        "anecdote": "Dans la ferme, la truie Aglaé et l'oie Sidonie sont aidées par le coq Agénor pour démasquer Craquetou en moins de cinq minutes."
-      },
+        "reponse": "Planète Terre",
+        "anecdote": "'Rick and Morty', créée par Justin Roiland et Dan Harmon, se déroule principalement sur la Planète Terre où vit la famille Smith. Cependant, les aventures de Rick et Morty les amènent souvent à explorer d'autres dimensions et planètes."
+    },
       {
         "id": 26,
-        "question": "Quel animal était Monsieur Ed dans la série éponyme américaine destinée aux enfants ?",
+        "question": "Dans la série animée 'Gravity Falls', quel est le nom des jumeaux qui découvrent des secrets mystérieux dans la ville de Gravity Falls ?",
         "propositions": [
-          "Cheval",
-          "Ane",
-          "Lion",
-          "Hibou"
+          "Stanley et Stanford Pines",
+          "Dipper et Mabel Pines",
+          "Robbie et Wendy Corduroy",
+          "Gideon et Pacifica Northwest"
         ],
-        "reponse": "Cheval",
-        "anecdote": "Monsieur Ed, le cheval parlant qui appartient à l'architecte Wilbur Post, utilise ce don à foison en disant tout ce qu'il pense."
+        "reponse": "Dipper et Mabel Pines",
+        "anecdote": "'Gravity Falls' est une série animée créée par Alex Hirsch, diffusée de 2012 à 2016. Dipper et Mabel Pines sont les jumeaux protagonistes de l'histoire, qui découvrent des phénomènes étranges et des mystères surnaturels lors de leur séjour estival avec leur grand-oncle Stan."
       },
       {
         "id": 27,
-        "question": "Quel est le métier de Picolo, personnage créé pour Radio-Canada ?",
+        "question": "Dans la série animée 'Adventure Time', quel est le nom de l'antagoniste principal qui représente une force primordiale de destruction et de chaos dans le pays de Ooo ?",
         "propositions": [
-          "Peintre",
-          "Banquier",
-          "Plombier",
-          "Boulanger"
+            "Gunter",
+            "Le Lich",
+            "Le Roi des Glaces",
+            "Le Comte des Limbes"
         ],
-        "reponse": "Peintre",
-        "anecdote": "Créé par jean Image en 1963, Picolo parcourt les rues de Paris en compagnie de Picolette, son amoureuse."
+        "reponse": "Le Lich",
+        "anecdote": "'Adventure Time', créée par Pendleton Ward, présente le Lich comme l'antagoniste principal, une entité sinistre et puissante qui incarne la mort et la destruction. Le Lich est connu pour ses plans maléfiques visant à plonger Ooo dans le chaos."
       },
       {
         "id": 28,
-        "question": "Combien sont les héros des Petites Canailles apparues en 1962 ?",
+        "question": "Dans le dessin animé 'Les Mystérieuses Cités d'Or', quel est le nom du navigateur espagnol qui guide Esteban et ses amis à travers leurs aventures pour trouver les Cités d'Or ?",
         "propositions": [
-          "Cinq",
-          "Huit",
-          "Sept",
-          "Six"
+            "Capitaine Nemo",
+            "Capitaine Mendoza",
+            "Capitaine Haddock",
+            "Capitaine Barbe-Rouge"
         ],
-        "reponse": "Cinq",
-        "anecdote": "Ces sacrés garnements à la personnalité bien différente ont pour nom Alfafa, Buck, Darla, Porky et Spanky."
+        "reponse": "Capitaine Mendoza",
+        "anecdote": "'Les Mystérieuses Cités d'Or' est une série d'animation franco-japonaise des années 1980. Le Capitaine Mendoza est un personnage charismatique et parfois ambigu, qui joue un rôle crucial en guidant Esteban et ses amis à travers leurs explorations dangereuses."
       },
       {
         "id": 29,
-        "question": "Lequel de ces dessins animés n'a pas été produit par Hanna-Barbera ?",
+        "question": "Dans le dessin animé japonais 'Neon Genesis Evangelion', quel est le nom du principal robot géant piloté par Shinji Ikari pour combattre les Anges ?",
         "propositions": [
-          "Les Pierrafeu",
-          "Capitaine Caverne",
-          "Calimero",
-          "Scoubidou"
+          "EVA-00",
+          "EVA-01",
+          "EVA-02",
+          "EVA-03"
         ],
-        "reponse": "Calimero",
-        "anecdote": "La carrière de William Hanna et Joseph Barbera a démarré avec Tom et Jerry pour le cinéma et la MGM en 1940."
+        "reponse": "EVA-01",
+        "anecdote": "'Neon Genesis Evangelion' est un anime de science-fiction créé par Hideaki Anno en 1995. EVA-01, aussi connu sous le nom d'Evangelion Unit-01, est le principal robot géant piloté par Shinji Ikari dans sa lutte contre les Anges, des entités mystérieuses qui menacent l'humanité."
       },
       {
         "id": 30,
@@ -3103,15 +3102,15 @@
           },
           {
             "id": 8,
-            "question": "Quel célèbre compositeur autrichien est connu pour ses opéras comme 'Le Barbier de Séville' et 'La Cenerentola' ?",
+            "question": "Quel artiste américain est célèbre pour son influence dans le genre du hip-hop, avec des albums comme 'The Blueprint' et 'The Black Album' ?",
             "propositions": [
-              "Wolfgang Amadeus Mozart",
-              "Ludwig van Beethoven",
-              "Gioachino Rossini",
-              "Franz Schubert"
+              "Jay-Z",
+              "Eminem",
+              "Kanye West",
+              "Drake"
             ],
-            "reponse": "Gioachino Rossini",
-            "anecdote": "Rossini, maître de l'opéra italien, a écrit des œuvres joyeuses et virtuoses qui sont des incontournables du répertoire lyrique."
+            "reponse": "Jay-Z",
+            "anecdote": "Jay-Z, également connu sous le nom de Shawn Carter, est non seulement un rappeur acclamé mais aussi un entrepreneur à succès dans l'industrie du divertissement, ayant fondé Roc-A-Fella Records et co-fondé Rocawear."
           },
           {
             "id": 9,
@@ -3127,29 +3126,29 @@
           },
           {
             "id": 10,
-            "question": "Quel célèbre compositeur allemand est connu pour ses concertos pour violon et ses symphonies comme 'Symphonie n°5' et 'Symphonie n°6' ?",
+            "question": "Quel groupe britannique est célèbre pour ses albums 'The Dark Side of the Moon' et 'The Wall' ?",
             "propositions": [
-              "Johann Sebastian Bach",
-              "Ludwig van Beethoven",
-              "Wolfgang Amadeus Mozart",
-              "Johannes Brahms"
+              "The Beatles",
+              "Pink Floyd",
+              "Led Zeppelin",
+              "The Rolling Stones"
             ],
-            "reponse": "Ludwig van Beethoven",
-            "anecdote": "Beethoven a été une figure pivotale de la période de transition entre le classicisme et le romantisme, influençant profondément la musique occidentale."
+            "reponse": "Pink Floyd",
+            "anecdote": "Pink Floyd a été l'un des groupes de rock les plus novateurs et influents de tous les temps, explorant des thèmes profonds à travers leur musique et leurs performances scéniques spectaculaires."
           }
         ],
         "confirmé": [
           {
             "id": 11,
-            "question": "Quel compositeur autrichien est célèbre pour ses symphonies et ses concertos pour piano ?",
+            "question": "Quel artiste britannique est célèbre pour ses albums 'The Rise and Fall of Ziggy Stardust and the Spiders from Mars' et 'Hunky Dory' ?",
             "propositions": [
-              "Frédéric Chopin",
-              "Wolfgang Amadeus Mozart",
-              "Ludwig van Beethoven",
-              "Johann Sebastian Bach"
+              "David Bowie",
+              "Elton John",
+              "Mick Jagger",
+              "Roger Waters"
             ],
-            "reponse": "Wolfgang Amadeus Mozart",
-            "anecdote": "Mozart, prodige musical du 18e siècle, a composé plus de 600 œuvres, y compris 'Les Noces de Figaro' et 'La Flûte enchantée'."
+            "reponse": "David Bowie",
+            "anecdote": "David Bowie, une icône de la musique pop et rock, était connu pour sa créativité artistique, ses transformations scéniques et son influence culturelle durable."
           },
           {
             "id": 12,
@@ -3177,52 +3176,52 @@
           },
           {
             "id": 14,
-            "question": "Quel célèbre groupe britannique a lancé l'album 'The Dark Side of the Moon' en 1973 ?",
+            "question": "Quel artiste américain est célèbre pour son style unique mêlant le funk, le soul et le rock, avec des albums comme 'Purple Rain' et 'Sign o' the Times' ?",
             "propositions": [
-              "The Beatles",
-              "The Rolling Stones",
-              "Led Zeppelin",
-              "Pink Floyd"
+              "Michael Jackson",
+              "Stevie Wonder",
+              "Prince",
+              "James Brown"
             ],
-            "reponse": "Pink Floyd",
-            "anecdote": "'The Dark Side of the Moon' est l'un des albums les plus vendus de tous les temps, célèbre pour ses thèmes profonds et son concept innovant."
+            "reponse": "Prince",
+            "anecdote": "Prince, également connu sous le symbole 'Love Symbol #2', était non seulement un chanteur et musicien talentueux, mais aussi un innovateur musical et une figure emblématique de l'industrie musicale."
           },
           {
             "id": 15,
-            "question": "Quel est le nom du célèbre compositeur allemand connu pour ses concertos pour piano et ses symphonies ?",
+            "question": "Quel chanteur et compositeur anglais est célèbre pour ses chansons comme 'Imagine', 'Hey Jude' et 'Yesterday' ?",
             "propositions": [
-              "Ludwig van Beethoven",
-              "Johannes Brahms",
-              "Franz Liszt",
-              "Johann Sebastian Bach"
+              "Elton John",
+              "Paul McCartney",
+              "John Lennon",
+              "George Harrison"
             ],
-            "reponse": "Ludwig van Beethoven",
-            "anecdote": "Beethoven, figure majeure de la musique classique, a révolutionné le genre avec des œuvres comme 'Symphonie n°9' et 'Sonate au clair de lune'."
+            "reponse": "John Lennon",
+            "anecdote": "John Lennon, membre des Beatles et figure marquante du rock et de la musique pop, était également connu pour son engagement social et ses chansons emblématiques qui ont marqué une génération."
           },
           {
             "id": 16,
-            "question": "Quel célèbre musicien américain est connu pour son album 'Thriller', l'un des albums les plus vendus de tous les temps ?",
+            "question": "Quel artiste américain est célèbre pour son impact dans le rap et le hip-hop, avec des albums comme 'The Marshall Mathers LP' et 'The Eminem Show' ?",
             "propositions": [
-              "Stevie Wonder",
-              "Michael Jackson",
-              "Prince",
-              "Elvis Presley"
+              "Jay-Z",
+              "Kanye West",
+              "Eminem",
+              "Drake"
             ],
-            "reponse": "Michael Jackson",
-            "anecdote": "'Thriller' de Michael Jackson est sorti en 1982 et a redéfini les standards de la musique populaire avec des hits comme 'Billie Jean' et 'Beat It'."
+            "reponse": "Eminem",
+            "anecdote": "Eminem, connu pour ses paroles acérées et son style de rap technique, a dominé l'industrie musicale avec ses albums à succès et ses collaborations influentes."
           },
           {
             "id": 17,
-            "question": "Quel compositeur russe est connu pour ses ballets comme 'Le Lac des cygnes', 'La Belle au bois dormant' et 'Cascanueces' ?",
-            "propositions": [
-              "Sergei Rachmaninoff",
-              "Dmitri Chostakovitch",
-              "Igor Stravinsky",
-              "Piotr Ilitch Tchaïkovski"
-            ],
-            "reponse": "Piotr Ilitch Tchaïkovski",
-            "anecdote": "Tchaïkovski est l'un des compositeurs les plus aimés et influents de la musique classique, ayant écrit des œuvres qui ont marqué la culture mondiale."
-          },
+           "question": "Quelle artiste américaine est devenue célèbre dans les années 1980 en tant que pionnière du pop et du rock féminin, avec des albums comme 'Like a Virgin' et 'True Blue' ?",
+          "propositions": [
+            "Cyndi Lauper",
+            "Madonna",
+            "Whitney Houston",
+            "Tina Turner"
+          ],
+          "reponse": "Madonna",
+          "anecdote": "Madonna, icône de la musique pop, a non seulement redéfini les normes de la féminité dans la musique mais a également influencé des générations d'artistes avec son approche audacieuse et sa capacité à se réinventer."
+        },
           {
             "id": 18,
             "question": "Quel célèbre groupe de rock britannique est connu pour des chansons comme 'Stairway to Heaven' et 'Whole Lotta Love' ?",
@@ -3237,15 +3236,15 @@
           },
           {
             "id": 19,
-            "question": "Quel célèbre compositeur allemand est connu pour ses concertos pour piano, ses symphonies et ses sonates pour piano ?",
+            "question": "Quel concept musical désigne un effet sonore produit par la répétition rapide d'une note ou d'un groupe de notes sur un instrument à cordes, en particulier la guitare électrique ?",
             "propositions": [
-              "Johann Sebastian Bach",
-              "Ludwig van Beethoven",
-              "Wolfgang Amadeus Mozart",
-              "Johannes Brahms"
+              "Vibrato",
+              "Tremolo",
+              "Glissando",
+              "Arpège"
             ],
-            "reponse": "Ludwig van Beethoven",
-            "anecdote": "Beethoven, compositeur allemand du 18e siècle, a redéfini la musique avec des œuvres telles que la 'Symphonie n°9' et les sonates pour piano."
+            "reponse": "Tremolo",
+            "anecdote": "Le tremolo est une technique souvent utilisée pour créer des effets dynamiques et texturés dans la musique, en modulant la fréquence ou l'intensité des notes jouées."
           },
           {
             "id": 20,
@@ -3323,52 +3322,52 @@
           },
           {
             "id": 26,
-            "question": "Quel compositeur autrichien est connu pour ses opéras comme 'La Flûte enchantée' et 'Don Giovanni' ?",
+            "question": "Quel groupe sud-coréen est connu pour avoir popularisé la K-pop à l'échelle mondiale avec des hits comme 'Butter' et 'Dynamite' ?",
             "propositions": [
-              "Wolfgang Amadeus Mozart",
-              "Ludwig van Beethoven",
-              "Johann Sebastian Bach",
-              "Franz Schubert"
+              "EXO",
+              "BTS",
+              "BLACKPINK",
+              "TWICE"
             ],
-            "reponse": "Wolfgang Amadeus Mozart",
-            "anecdote": "Mozart, prodige musical du 18e siècle, a révolutionné l'opéra avec ses œuvres emblématiques pleines de mélodies sublimes et de drame."
+            "reponse": "BTS",
+            "anecdote": "BTS, abréviation de Bangtan Sonyeondan, a révolutionné l'industrie musicale avec son mélange unique de pop, de hip-hop et de R&B, tout en devenant des ambassadeurs mondiaux de la culture sud-coréenne."
           },
           {
             "id": 27,
-            "question": "Quel est le nom du célèbre guitariste mexicain connu pour sa virtuosité dans le rock instrumental ?",
+            "question": "Quel pays a remporté le Concours Eurovision de la Chanson en 2019 avec la chanson 'Arcade' interprétée par Duncan Laurence ?",
             "propositions": [
-              "Santana",
-              "Carlos Gardel",
-              "Carlos Santana",
-              "Joaquín Rodrigo"
+              "Suède",
+              "Norvège",
+              "Pays-Bas",
+              "France"
             ],
-            "reponse": "Carlos Santana",
-            "anecdote": "Carlos Santana a marqué l'histoire du rock avec son style unique mêlant rock, blues, et rythmes latins, notamment avec l'album 'Supernatural'."
+            "reponse": "Pays-Bas",
+            "anecdote": "Duncan Laurence, représentant des Pays-Bas à l'Eurovision 2019, a remporté le concours avec sa chanson 'Arcade', devenant ainsi le premier pays à gagner après 44 ans d'attente depuis leur dernière victoire."
           },
           {
             "id": 28,
-            "question": "Quel est le nom du célèbre compositeur russe connu pour son ballet 'Le Lac des cygnes' ?",
+            "question": "Quel compositeur du 20e siècle est connu pour avoir introduit le concept de musique aléatoire et indéterminée, où certains éléments musicaux sont laissés au hasard ou à l'improvisation ?",
             "propositions": [
-              "Piotr Ilitch Tchaïkovski",
-              "Sergei Rachmaninoff",
-              "Dmitri Chostakovitch",
-              "Igor Stravinsky"
+              "John Cage",
+              "Igor Stravinsky",
+              "Arnold Schoenberg",
+              "Pierre Boulez"
             ],
-            "reponse": "Piotr Ilitch Tchaïkovski",
-            "anecdote": "Tchaïkovski a créé des œuvres immortelles telles que 'Le Lac des cygnes', 'La Belle au bois dormant' et 'Cascanueces'."
+            "reponse": "John Cage",
+            "anecdote": "John Cage a été un pionnier de la musique expérimentale et conceptuelle, explorant de nouvelles façons de créer et de percevoir la musique à travers des œuvres telles que '4'33''', où le musicien ne joue aucun son intentionnellement."
           },
           {
             "id": 29,
-            "question": "Quel célèbre compositeur autrichien est connu pour ses symphonies et ses concertos pour piano ?",
-            "propositions": [
-              "Wolfgang Amadeus Mozart",
-              "Ludwig van Beethoven",
-              "Johann Sebastian Bach",
-              "Franz Schubert"
-            ],
-            "reponse": "Wolfgang Amadeus Mozart",
-            "anecdote": "Mozart, prodige musical du 18e siècle, a révolutionné la musique classique avec ses compositions variées et innovantes."
-          },
+           "question": "Quel terme musical désigne une technique vocale où un chanteur prolonge et orne une seule syllabe ou une note avec plusieurs variations de tonalité ?",
+          "propositions": [
+            "Falsetto",
+            "Scat",
+            "Melisma",
+            "Polyphonie"
+          ],
+          "reponse": "Melisma",
+          "anecdote": "Le melisma est une technique vocale couramment utilisée dans le chant classique et dans divers genres musicaux pour ajouter de la virtuosité et de l'expression à une interprétation vocale."
+        },
           {
             "id": 30,
             "question": "Quel célèbre compositeur allemand a créé des œuvres comme 'La Passion selon Saint Matthieu' et 'Les Variations Goldberg' ?",

@@ -225,7 +225,7 @@
   cursor: pointer;
   overflow: hidden;
 }
-.notification {
+.notification, .notificationReset {
   position: fixed;
   top: 25px;
   left: 50%;
