@@ -47,17 +47,25 @@ const Game = () => {
         const user = auth.currentUser;
         if (user) {
             setUserId(user.uid);
+    
+            // Vérifiez et initialisez le score à zéro pour un nouvel utilisateur
             const savedProgress = JSON.parse(localStorage.getItem(`quizProgress_${user.uid}`));
             if (savedProgress) {
                 setCurrentQuestionIndex(savedProgress.currentQuestionIndex || 0);
                 setScore(savedProgress.score || 0);
                 setExpertUnlocked(savedProgress.expertUnlocked || false);
+            } else {
+                setCurrentQuestionIndex(0);
+                setScore(0);
+                setExpertUnlocked(false); // Assurez-vous que le niveau Expert est défini à false pour les nouveaux utilisateurs
             }
-
-             // Vérifiez si le niveau Expert est déjà débloqué dans le localStorage
+    
+            // Vérifiez si le niveau Expert est déjà débloqué dans le localStorage
             const expertUnlockedInLocalStorage = JSON.parse(localStorage.getItem(`expertUnlocked_${user.uid}`));
             if (expertUnlockedInLocalStorage) {
                 setExpertUnlocked(true);
+            } else {
+                setExpertUnlocked(false); // Assurez-vous que le niveau Expert est défini à false pour les nouveaux utilisateurs
             }
         }
     }, []);
