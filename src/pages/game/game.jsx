@@ -47,7 +47,6 @@ const Game = () => {
         const user = auth.currentUser;
         if (user) {
             setUserId(user.uid);
-
             const savedProgress = JSON.parse(localStorage.getItem(`quizProgress_${user.uid}`));
             if (savedProgress) {
                 setCurrentQuestionIndex(savedProgress.currentQuestionIndex || 0);
@@ -114,7 +113,6 @@ const Game = () => {
         if (difficulty === "Expert" && !expertUnlocked) {
             return;
         }
-
         setSelectedDifficulty(difficulty);
         setShowDifficultyPopup(false);
         setShowQuestionPopup(true);
