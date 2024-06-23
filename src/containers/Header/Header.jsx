@@ -62,8 +62,8 @@ const Header = () => {
     <header className={clsx(headerClass, { [style['dark-mode']]: darkMode })}>
       <div className={style.topBar}>
         <div className={style.logo}>
-          <Link to="/"><img src={logo} alt="mushy" className={style.mushy} /></Link>
-          <h1 className={style.title}><Link to="/">QuizGrove</Link></h1>
+          <Link to="https://cepegra-labs.be/webdesign/fed2023/ilayda/QuizGrove/"><img src={logo} alt="mushy" className={style.mushy} /></Link>
+          <h1 className={style.title}><Link to="https://cepegra-labs.be/webdesign/fed2023/ilayda/QuizGrove/">QuizGrove</Link></h1>
           <small className={style.slogan}>Fais éclore ton savoir</small>
         </div>
         <div className={clsx(style['right-topBar'], { [style.active]: burgerActive })}>
